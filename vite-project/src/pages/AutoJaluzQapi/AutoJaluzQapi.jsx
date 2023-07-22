@@ -1,6 +1,6 @@
 import React from 'react'
 import { NavLink, Outlet } from "react-router-dom"
-function AutoSeksiyonalQapi() {
+function AutoJaluzQapi() {
   return (
     <>
       <div className="help-layout">
@@ -9,8 +9,8 @@ function AutoSeksiyonalQapi() {
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque quas debitis quibusdam deserunt repellat hic molestias ipsum commodi aut odit!</p>
 
         <nav>
-          <NavLink to="autoqaraj">autoqaraj</NavLink>
-          <NavLink to="autosenaye">autosenaye</NavLink>
+          <NavLink to="autojaluz">autojaluz</NavLink>
+          <NavLink to="autojaluzdarvaza">autojaluzdarvaza</NavLink>
         </nav>
 
         <Outlet />
@@ -20,4 +20,4 @@ function AutoSeksiyonalQapi() {
   )
 }
 
-export default AutoSeksiyonalQapi
+export default AutoJaluzQapi

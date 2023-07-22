@@ -2,7 +2,7 @@ import React from 'react'
 
 function PanoramaSistem() {
   return (
-    <div>PanoramaSistem</div>
+    <div>PanoramaSistem sehifesi</div>
   )
 }
 

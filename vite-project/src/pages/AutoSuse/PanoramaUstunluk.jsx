@@ -2,7 +2,7 @@ import React from 'react'
 
 function PanoramaUstunluk() {
   return (
-    <div>PanoramaUstunluk</div>
+    <div>PanoramaUstunluk sehifesi </div>
   )
 }
 
