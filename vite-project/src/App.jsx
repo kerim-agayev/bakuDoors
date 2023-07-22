@@ -5,6 +5,9 @@ import Footer from './components/footer/Footer'
 import About from './pages/mainPages/about/About'
 import Contact from './pages/mainPages/contact/Contact'
 import Questions from './pages/mainPages/questions/Questions'
+import AutoSeksiyonalQapi from './pages/AutoSeksiyonalQapi/AutoSeksiyonalQapi'
+import AutoQaraj from './pages/AutoSeksiyonalQapi/AutoQaraj'
+import AutoSenaye from './pages/AutoSeksiyonalQapi/AutoSenaye'
 import './App.css'
 
 function App() {
@@ -19,6 +22,14 @@ function App() {
             <Route path='/about' element={<About />} />
             <Route path='/contact' element={<Contact />} />
             <Route path='/questions' element={<Questions />} />
+
+
+            <Route  path='/autoseksiyonalqapi' element={< AutoSeksiyonalQapi/>} >
+            <Route path='autoqaraj' element={<AutoQaraj />} />
+            <Route path='autosenaye' element={<AutoSenaye />} />
+            </Route>
+
+
           </Routes>
           <Footer/>
         </BrowserRouter>
