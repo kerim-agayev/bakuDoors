@@ -1,0 +1,13 @@
+/* saunabesetka.jsx */
+.margin-x{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.tdeco{
+    text-decoration: none;
+}
+.active {
+    color: black !important;
+    background-color: red !important;
+  }
+

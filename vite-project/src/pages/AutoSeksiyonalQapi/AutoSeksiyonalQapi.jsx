@@ -3,18 +3,41 @@ import { NavLink, Outlet } from "react-router-dom"
 function AutoSeksiyonalQapi() {
   return (
     <>
-      <div className="help-layout">
+         <div className="margin-x">
+        <div className="container">
 
-        <h2>krm</h2>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque quas debitis quibusdam deserunt repellat hic molestias ipsum commodi aut odit!</p>
 
-        <nav>
-          <NavLink to="autoqaraj">autoqaraj</NavLink>
-          <NavLink to="autosenaye">autosenaye</NavLink>
-        </nav>
 
-        <Outlet />
+          <div className="row">
+            <div className="col-sm-6 mb-3 mb-sm-0">
+              <div className="card">
+                <div className="card-body">
+                  <h5 className="card-title">Avtomatik Qaraj Qapilari</h5>
 
+                  <NavLink to='autoqaraj' className="tdeco btn btn-primary hover">Qaraj</NavLink>
+                </div>
+              </div>
+            </div>
+            <div className="col-sm-6">
+              <div className="card">
+                <div className="card-body">
+                  <h5 className="card-title">Avtomatik Senaye Qapilari</h5>
+
+                  <NavLink to='autosenaye' className="tdeco  btn btn-primary hover">Senaye</NavLink>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+
+
+
+
+          <Outlet />
+
+        </div>
       </div>
     </>
   )
