@@ -1,5 +1,5 @@
 import React from 'react'
-import  Pavillion from '/pavillion.jpg'
+import  Pavillion from '../../assets/pavillion.jpg'
 import { motion } from 'framer-motion'
 function Besetka() {
   return (

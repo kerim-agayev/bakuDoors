@@ -1,5 +1,5 @@
 import React from 'react'
-import Pergole from '/pergole.jpg'
+import Pergole from '../../assets/pergole.jpg'
 import { motion } from 'framer-motion'
 function PergoleTent() {
   return (

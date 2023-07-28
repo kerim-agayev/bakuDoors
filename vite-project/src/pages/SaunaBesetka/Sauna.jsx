@@ -1,6 +1,6 @@
 import React from 'react'
 import Data from "../../datas/Data.json";
-import Saunalar from '/saunalar.jpg'
+import Saunalar from '../../assets/saunalar.jpg'
 import { motion } from 'framer-motion'
 import ProductTitle from '../mainPages/about/ProductTitle';
 function Sauna() {

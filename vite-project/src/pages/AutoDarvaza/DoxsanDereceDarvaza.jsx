@@ -1,6 +1,6 @@
 import React from 'react'
 import Data from "../../datas/Data.json";
-import DoxsanAcilanDarvaza from '/doxsanacilandarvaza.jpg'
+import DoxsanAcilanDarvaza from '../../assets/doxsanacilandarvaza.jpg'
 import { motion } from 'framer-motion'
 import ProductTitle from '../mainPages/about/ProductTitle';
 function DoxsanDereceDarvaza() {

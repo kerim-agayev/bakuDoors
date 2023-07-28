@@ -1,5 +1,5 @@
 import React from 'react'
-import AutoDonerPhoto from '/autodoner.jpg'
+import AutoDonerPhoto from '../../assets/autodoner.jpg'
 import Data from "../../datas/Data.json";
 import { motion } from 'framer-motion'
 import ProductTitle from '../mainPages/about/ProductTitle';

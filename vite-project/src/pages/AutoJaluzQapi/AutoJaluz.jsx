@@ -1,5 +1,5 @@
 import React from 'react'
-import JaluzSistemleri from '/jaluzsistemleri.jpg'
+import JaluzSistemleri from '../../assets/jaluzsistemleri.jpg'
 import Data from "../../datas/Data.json";
 import { motion } from 'framer-motion'
 function AutoJaluz() {

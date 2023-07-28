@@ -1,5 +1,5 @@
 import React from 'react'
-import AutoDarvazalar from '/autodarvazalar.jpg'
+import AutoDarvazalar from '../../assets/autodarvazalar.jpg'
 import { motion } from 'framer-motion'
 function XAcilanDarvaza() {
   return (

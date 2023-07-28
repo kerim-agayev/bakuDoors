@@ -1,7 +1,7 @@
 import React from 'react'
 
-import AutoFotosel1 from '/autofotosel1.jpg'
-import YarimDairevi from '/yarimdairevi.png'
+
+import YarimDairevi from '../../assets/yarimdairevi.png'
 import { motion } from 'framer-motion'
 function AutoYarimDaireviQapi() {
   return (

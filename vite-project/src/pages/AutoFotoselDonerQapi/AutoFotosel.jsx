@@ -1,6 +1,6 @@
 import React from 'react'
-import AutoFotoselEsas from '/autofotoselesas.jpg'
-import AutoFotosel1 from '/autofotosel1.jpg'
+import AutoFotoselEsas from '../../assets/autofotoselesas.jpg'
+import AutoFotosel1 from '../../assets/autofotosel1.jpg'
 import Data from "../../datas/Data.json";
 
 import { motion } from 'framer-motion'

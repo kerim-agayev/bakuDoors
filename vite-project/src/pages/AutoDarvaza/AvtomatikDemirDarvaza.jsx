@@ -1,6 +1,6 @@
 import React from 'react'
 import Data from "../../datas/Data.json";
-import DemirDarvaza from '/demirdarvaza.jpg'
+import DemirDarvaza from '../../assets/demirdarvaza.jpg'
 import { motion } from 'framer-motion'
 import ProductTitle from '../mainPages/about/ProductTitle';
 function AvtomatikDemirDarvaza() {

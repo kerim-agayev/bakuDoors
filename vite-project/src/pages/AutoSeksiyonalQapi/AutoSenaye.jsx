@@ -1,8 +1,8 @@
 import React from 'react'
-import SenayeQapilariUst from '/senayeqapilariust.gif'
-import SenayeQapilariAlt1 from '/senayeqapilarialt1.jpg'
-import SenayeQapilariAlt2 from '/senayeqapilarialt2.jpg'
-import BakuDoorSseksional from '/bakudoorsseksional.jpg'
+import SenayeQapilariUst from '../../assets/senayeqapilariust.gif'
+import SenayeQapilariAlt1 from '../../assets/senayeqapilarialt1.jpg'
+import SenayeQapilariAlt2 from '../../assets/senayeqapilarialt2.jpg'
+import BakuDoorSseksional from '../../assets/bakudoorsseksional.jpg'
 import { motion } from 'framer-motion'
 import ProductTitle from '../mainPages/about/ProductTitle';
 import Data from "../../datas/Data.json";

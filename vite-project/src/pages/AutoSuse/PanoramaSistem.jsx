@@ -1,5 +1,5 @@
 import React from 'react'
-import CamBalkon from '/cambalkon.jpg'
+import CamBalkon from '../../assets/cambalkon.jpg'
 import { motion } from 'framer-motion'
 function PanoramaSistem() {
   return (

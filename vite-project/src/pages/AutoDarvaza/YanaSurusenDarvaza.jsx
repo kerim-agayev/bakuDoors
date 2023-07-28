@@ -1,5 +1,5 @@
 import React from 'react'
-import YanaSurusenQapi from '/yanasurusenqapi.jpg'
+import YanaSurusenQapi from '../../assets/yanasurusenqapi.jpg'
 import Data from "../../datas/Data.json";
 import { motion } from 'framer-motion'
 import ProductTitle from '../mainPages/about/ProductTitle';
