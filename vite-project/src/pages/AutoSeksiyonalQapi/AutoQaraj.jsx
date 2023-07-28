@@ -1,9 +1,6 @@
 import React, { useEffect, useRef } from 'react'
 import BakudoorSeksional from '/bakudoorsseksional.jpg'
-import MotorSistemi1 from '/motorsistemi1.jpg'
-import MotorSistemi2 from '/motorsistemi2.jpg'
-import MexanikiHisseler from '/mexanikihisseler.jpg'
-import SendvicPanel from '/sendvicpanel.jpg'
+
 import Data from "../../datas/Data.json";
 import ProductTitle from '../mainPages/about/ProductTitle';
 import { motion, useInView, useAnimation, useIsPresent } from 'framer-motion'
@@ -59,7 +56,7 @@ function AutoQaraj() {
 
 
   }
-  const { autoqarajqapi } = Data
+  const { autoqarajqapi, autoqarajdata } = Data
 
   return (
     <>
@@ -96,7 +93,7 @@ function AutoQaraj() {
             <div>
 
               <div>
-                <div className="container">
+                <div className="container d-none d-md-block">
                   <div className="row">
                     <motion.div
                       initial={{ opacity: 0, translateX: -300 }}
@@ -115,8 +112,11 @@ function AutoQaraj() {
 
 
 
-                <div className="row">
-                  <motion.div ref={ref} className="col-6 mb-5"
+                <div className="d-none d-md-block row all-map-container-qarajdata">
+{
+
+  autoqarajdata.map((data)=>(
+    <motion.div key={data.id} ref={ref} className="col-4 col-lg-3 shadow mb-3 rounded"
                     variants={
                       {
                         hidden: { opacity: 0, translateX: -100 },
@@ -128,83 +128,19 @@ function AutoQaraj() {
                     transition={{ duration: 3 }}
 
                   >
-                    <div className="card" style={{ width: '18rem', height: '31rem' }}>
-                      <img src={MotorSistemi1} className="card-img-top" alt="..." />
-                      <div className="card-body">
-                        <h6>Motor sistemi</h6>
-                        <p className="card-text">Avropanın brend şirkətlərinin istehsalı olan avtomatik qapı motorları ( 2 il zəmanət verilir) 1200N gücə malikdir,elektron idarəetmə paneli avtomatik qapı motorunun idarəedilməsini tənzimləyir.
-
-                          Avtomatik qapıların motorları uzaqdan idarə oluna bilən motorlardır. Bunun üçün pultun üzərində  olan düyməni sixmaq lazımdır.</p>
+                    <div className="card  p-md-2 all-map-card" >
+                      <img src={data.imgUrl} className="card-img-top objectFit all-map-img" alt="..." />
+                      <div className="card-body ">
+                        <h6 className='title'>{data.title}</h6>
+                        <p className="card-text d-none d-md-block">{data.text}</p>
                       </div>
                     </div>
                   </motion.div>
+  ))
+}
+              
 
-                  <motion.div ref={ref} className="col-6 mb-5"
-                    variants={
-                      {
-                        hidden: { opacity: 0, translateX: -100 },
-                        visible: { opacity: 1, translateX: 0 }
-                      }
-                    }
-                    initial='hidden'
-                    animate={maincontrols}
-                    transition={{ duration: 3 }}
-
-
-                  >
-                    <div className="card" style={{ width: '18rem', height: '31rem' }}>
-                      <img src={MotorSistemi2} className="card-img-top" alt="..." />
-                      <div className="card-body">
-                        <h6>Motor sistemi</h6>
-                        <p className="card-text">Avtomatik qapıların mortorları təhlükəsizlik sisteminin təmin etmək üçün quraşdırılan radarlarla birbaşa əlaqədə fəaliyyət göstərir. İstənilən maneə radarların qarşısını kəsdikdə motor avtomatik olaraq qapının hərəkətini saxlayır.</p>
-                      </div>
-                    </div>
-                  </motion.div>
-                  <motion.div ref={ref} className="col-6 mb-5"
-                    variants={
-                      {
-                        hidden: { opacity: 0, translateX: -100 },
-                        visible: { opacity: 1, translateX: 0 }
-                      }
-                    }
-                    initial='hidden'
-                    animate={maincontrols}
-                    transition={{ duration: 3 }}
-
-
-                  >
-                    <div className="card" style={{ width: '18rem', height: '31rem' }}>
-                      <img src={SendvicPanel} className="card-img-top" alt="..." />
-                      <div className="card-body">
-                        <h6>Sendvic panel</h6>
-                        <p className="card-text">Avtomatik qapılar əsasən sendvic paneldən hazırlanır. Sendvic panel hər iki üzü paslanmaz qalvaniz metal , içi isə sıxılmış penaplastdır.
-
-                          Sendvic panellər isti və soyuğa davamlıdır. Poluetran izolasiyalı sendvic panel 45 mm qalınlığındadır.</p>
-                      </div>
-                    </div>
-                  </motion.div>
-                  <motion.div ref={ref} className="col-6 mb-5 "
-                    variants={
-                      {
-                        hidden: { opacity: 0, translateX: -100 },
-                        visible: { opacity: 1, translateX: 0 }
-                      }
-                    }
-                    initial='hidden'
-                    animate={maincontrols}
-                    transition={{ duration: 3 }}
-
-
-
-                  >
-                    <div className="card" style={{ width: '18rem', height: '31rem' }}>
-                      <img src={MexanikiHisseler} className="card-img-top" alt="..." />
-                      <div className="card-body">
-                        <h6>Mexanik hissələr</h6>
-                        <p className="card-text">Avtomatik qapıların mexanik hissələri paslanmaz qalvaniz metaldan hazırlanmışdır. Mexanik hissələr müxtəlif parçalardan ibarətdir.  Yay, petlə , təkər , profildən  ibarət hissələr əsasən paslanmır. Buda avtomatik qapıların səssiz və maneəsiz işləməsinə şərait yaradır.</p>
-                      </div>
-                    </div>
-                  </motion.div>
+                 
                 </div>
 
 

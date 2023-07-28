@@ -1,5 +1,5 @@
 import React from 'react'
-import SenayeQapilariUst from '/public/senayeqapilariust.gif'
+import SenayeQapilariUst from '/senayeqapilariust.gif'
 import SenayeQapilariAlt1 from '/senayeqapilarialt1.jpg'
 import SenayeQapilariAlt2 from '/senayeqapilarialt2.jpg'
 import BakuDoorSseksional from '/bakudoorsseksional.jpg'
@@ -33,10 +33,10 @@ function AutoSenaye() {
   return (
     <>
     
-    <div className='container mt-5' >
+    <div className='container mt-md-5' >
       <div className='row'>
         <div className='col-12'>
-          <motion.div className="card shadow" style={{ width: '18rem' }}
+          <motion.div className="card shadow m-auto-all" style={{ width: '18rem' }}
             initial={{ opacity: 0, scale: 0.8 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 1 }}
@@ -50,7 +50,7 @@ function AutoSenaye() {
           </motion.div>
 
 
-          <motion.div class="card shadow-lg mt-5 mb-5"
+          <motion.div class="card shadow-lg mt-5 mb-5 all-card m-auto-all"
             initial={{ opacity: 0, scale: 0.8 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 1 }}
@@ -68,7 +68,7 @@ function AutoSenaye() {
 
         </div>
 
-        <motion.div className="col-4 mb-5"
+        <motion.div className="col-md-4 mb-5"
           initial={{ opacity: 0, sclae: 0.5, translateX:-100 }}
           animate={{ opacity: 1, scale: 1, translateX:0 }}
           transition={{ duration: 1 }}
@@ -81,7 +81,7 @@ function AutoSenaye() {
         </motion.div>
 
 
-        <motion.div className="col-4 mb-5"
+        <motion.div className="col-md-4 mb-5"
          initial={{ opacity: 0, sclae: 0.5, translateX:-100 }}
          animate={{ opacity: 1, scale: 1, translateX:0 }}
           transition={{ duration: 1 }}
@@ -93,7 +93,7 @@ function AutoSenaye() {
 
         </motion.div>
 
-        <motion.div className="col-4 mb-5"
+        <motion.div className="col-md-4 mb-5"
            initial={{ opacity: 0, sclae: 0.5, translateX:-100 }}
            animate={{ opacity: 1, scale: 1, translateX:0 }}
           transition={{ duration: 1 }}
@@ -115,6 +115,7 @@ function AutoSenaye() {
         initial={{ opacity: 0, translateX: -300 }}
         animate={{ opacity: 1, translateX: 0 }}
         transition={{ duration: 1 }}
+        className='all-ourworks mt-5'
       >
 
         <ProductTitle title=' ŞİRKƏTİMİZİN GÖRDÜYÜ İŞLƏR' />
@@ -130,17 +131,17 @@ function AutoSenaye() {
 
 
       >
-        <div className="row">
+        <div className="row all-map-container-senaye">
 
 
           {
             autosenayeqapi.map((senaye) => (
-              <motion.div key={senaye.id} className="col-3 shadow mb-3 rounded"
+              <motion.div key={senaye.id} className="col-4 col-lg-3 shadow mb-3 rounded"
                 variants={item}
 
               >
-                <div className="card  p-2" style={{ width: '19rem', height: '20rem' }}>
-                  <img src={senaye.imgUrl} className="card-img-top objectFit" alt="..." />
+                <div className="card  p-md-2 all-map-card-senaye" >
+                  <img src={senaye.imgUrl} className="card-img-top objectFit all-map-img-senaye" alt="..." />
 
                 </div>
 

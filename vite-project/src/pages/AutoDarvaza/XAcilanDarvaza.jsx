@@ -3,10 +3,10 @@ import AutoDarvazalar from '/autodarvazalar.jpg'
 import { motion } from 'framer-motion'
 function XAcilanDarvaza() {
   return (
-    <div className='container mt-5' >
+    <div className='container mt-md-5' >
       <div className='row'>
         <div className='col-8'>
-          <motion.div className="card shadow" style={{ width: '18rem' }}
+          <motion.div className="card shadow m-auto-all" style={{ width: '18rem' }}
             initial={{ opacity: 0, scale: 0.8 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 1 }}
@@ -21,7 +21,7 @@ function XAcilanDarvaza() {
 
 
 
-          <motion.div className="card mt-5 mb-5 shadow-lg"
+          <motion.div className="card mt-5 mb-5 shadow-lg all-card m-auto-all"
             initial={{ opacity: 0, scale: 0.8 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 1 }}

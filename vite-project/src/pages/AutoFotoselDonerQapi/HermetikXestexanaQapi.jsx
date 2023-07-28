@@ -3,20 +3,10 @@ import AutoFotoselEsas from '/autofotoselesas.jpg'
 import { motion } from 'framer-motion'
 function HermetikXestexanaQapi() {
   return (
-    <div className='container mt-5' >
+    <div className='container mt-md-5' >
       <div className='row'>
-
-
-        {/* <div className='col-4'></div> */}
-
-
-
-
-
-
-
         <div className='col-8'>
-          <motion.div className="card shadow" style={{ width: '18rem' }}
+          <motion.div className="card shadow m-auto-all" style={{ width: '18rem' }}
             initial={{ opacity: 0, scale: 0.8 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 1 }}
@@ -28,7 +18,7 @@ function HermetikXestexanaQapi() {
               <h6 className="card-text">HERMETİK XƏSTƏXANA QAPILARI</h6>
             </div>
           </motion.div>
-          <motion.div class="card mt-5 shadow-lg"
+          <motion.div class="card mt-5 shadow-lg all-card m-auto-all"
             initial={{ opacity: 0, scale: 0.8 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 1 }}

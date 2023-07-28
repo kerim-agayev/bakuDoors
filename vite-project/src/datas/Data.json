@@ -1266,5 +1266,31 @@
         "id": 99,
         "imgUrl": "../../../src/assets/demirDarvazalar/demirDarvazalar99.jpg"
       }
+    ],
+    "autoqarajdata":[
+      {
+        "id": 1,
+        "title":"Motor sistemi",
+        "imgUrl": "../../../src/assets/autoQarajData/autoqarajdata.jpg",
+        "text":"Avropanın brend şirkətlərinin istehsalı olan avtomatik qapı motorları ( 2 il zəmanət verilir) 1200N gücə malikdir,elektron idarəetmə paneli avtomatik qapı motorunun idarəedilməsini tənzimləyir.Avtomatik qapıların motorları uzaqdan idarə oluna bilən motorlardır. Bunun üçün pultun üzərində  olan düyməni sixmaq lazımdır."
+      },
+      {
+        "id": 2,
+        "title":"Motor sistemi",
+        "imgUrl": "../../../src/assets/autoQarajData/autoqarajdata2.jpg",
+        "text":"Avtomatik qapıların mortorları təhlükəsizlik sisteminin təmin etmək üçün quraşdırılan radarlarla birbaşa əlaqədə fəaliyyət göstərir. İstənilən maneə radarların qarşısını kəsdikdə motor avtomatik olaraq qapının hərəkətini saxlayır."
+      },
+      {
+        "id": 3,
+        "title":"Sendvic panel",
+        "imgUrl": "../../../src/assets/autoQarajData/autoqarajdata3.jpg",
+        "text":"Avtomatik qapılar əsasən sendvic paneldən hazırlanır. Sendvic panel hər iki üzü paslanmaz qalvaniz metal , içi isə sıxılmış penaplastdır.Sendvic panellər isti və soyuğa davamlıdır. Poluetran izolasiyalı sendvic panel 45 mm qalınlığındadır."
+      },
+      {
+        "id": 4,
+        "title":"Mexanik hissələr",
+        "imgUrl": "../../../src/assets/autoQarajData/autoqarajdata4.jpg",
+        "text":"Avtomatik qapıların mexanik hissələri paslanmaz qalvaniz metaldan hazırlanmışdır. Mexanik hissələr müxtəlif parçalardan ibarətdir.  Yay, petlə , təkər , profildən  ibarət hissələr əsasən paslanmır. Buda avtomatik qapıların səssiz və maneəsiz işləməsinə şərait yaradır."
+      }
     ]
   }

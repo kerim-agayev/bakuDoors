@@ -34,10 +34,10 @@ function AutoFotosel() {
 
     <>
     
-    <div className='container mt-5' >
+    <div className='container mt-md-5 ' >
       <div className='row'>
         <div className='col-8'>
-          <motion.div className="card shadow" style={{ width: '18rem' }}
+          <motion.div className="card shadow m-auto-all" style={{ width: '18rem' }}
                  initial={{ opacity: 0, scale: 0.8 }}
                  animate={{ opacity: 1, scale: 1 }}
                  transition={{ duration: 1 }}
@@ -47,7 +47,7 @@ function AutoFotosel() {
               <h6 className="card-text">AVTOMATİK FOTOSEL QAPILAR</h6>
             </div>
           </motion.div>
-          <motion.div class="card mt-5 mb-5 shadow-lg"
+          <motion.div class="card mt-5 mb-5 shadow-lg all-card m-auto-all"
                  initial={{ opacity: 0, scale: 0.8 }}
                  animate={{ opacity: 1, scale: 1 }}
                  transition={{ duration: 1 }}
@@ -67,7 +67,7 @@ function AutoFotosel() {
 
 
 
-        <div className='col-8'>
+        <div className='col-8  d-none d-md-block'>
           <motion.div className="card shadow-lg mb-5" style={{ width: '50rem' }}
                  initial={{ opacity: 0, scale: 0.8 }}
                  animate={{ opacity: 1, scale: 1 }}
@@ -87,7 +87,7 @@ function AutoFotosel() {
       
       
       >
-        <div className="col-6 mt-5 shadow-lg">
+        <div className="col-md-6 mt-5 shadow-lg">
           <ul className="list-group">
             <li className="list-group-item">Maksimum qanad tutumu; 1 qanad ən çox 140 kq - 500-dən 2.800 mm.'ye qədər. 2 qanad ən çox hər biri 80 kq - 500-dən 1400 mm.'ye qədər.</li>
             <li className="list-group-item">Maksimum itələmə qüvvəsi: 150 N Açılma / Kapanma Sürəti: 15 - 55 cm./sn. arası nizamlana bilər.</li>
@@ -112,10 +112,13 @@ function AutoFotosel() {
 
 
     </div>
+
+
     <motion.div
         initial={{ opacity: 0, translateX: -300 }}
         animate={{ opacity: 1, translateX: 0 }}
         transition={{ duration: 1 }}
+        className='all-ourworks mt-5'
       >
 
         <ProductTitle title=' ŞİRKƏTİMİZİN GÖRDÜYÜ İŞLƏR' />
@@ -130,17 +133,17 @@ function AutoFotosel() {
 
 
       >
-        <div className="row">
+        <div className="row all-map-container-fotosel">
 
 
           {
             fotosel.map((foto) => (
-              <motion.div key={foto.id} className="col-3 shadow mb-3 rounded"
+              <motion.div key={foto.id} className="col-4 col-lg-3 shadow mb-3 rounded"
                 variants={item}
 
               >
-                <div className="card  p-2" style={{ width: '19rem', height: '20rem' }}>
-                  <img src={foto.imgUrl} className="card-img-top objectFit" alt="..." />
+                <div className="card  p-md-2 all-map-card" >
+                  <img src={foto.imgUrl} className="card-img-top objectFit all-map-img" alt="..." />
 
                 </div>
 

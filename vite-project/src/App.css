@@ -180,7 +180,7 @@ font-weight: 900;
 
 @media only screen and (max-width: 776px) {
   .sidebar {
-height: 40vh !important;
+height: 70vh !important;
 width: 100% !important;
 margin-bottom: 5px !important;
 
@@ -648,5 +648,347 @@ height:20rem;
     
      margin: auto;
      
+    }
+  }
+ /* all pages responsive
+8. autoqarajdata.jsx */
+
+.all-map-card-qarajdata{
+  width:19rem;
+  height:20rem;
+  }
+  .all-map-img-qarajdata{
+  
+    width: 18rem;
+    height: 18rem;
+  }
+  @media only screen and (max-width: 768px) {
+    .all-card-qarajdata{
+     width: 20rem !important; 
+    }
+    .all-ourworks-qarajdata{
+      width:20rem !important;
+      font-size: 1rem !important;
+    
+    }
+  
+    .all-map-container-qarajdata{
+      width:20rem !important;
+      height:12rem;
+    
+    }
+    .all-map-card-qarajdata{
+      width:6rem !important;;
+      height:7rem;
+   
+      }
+    .all-map-img-qarajdata{
+  
+      width: 5rem !important;
+      height: 5rem;
+    }
+    .m-auto-all-qarajdata{
+    
+     margin: auto;
+     
+    }
+    .title{
+      font-size: 8px;
+    }
+  }
+
+  
+
+   /* all pages responsive
+9. autosenaye.jsx */
+
+.all-map-card-senaye{
+  width:19rem;
+  height:20rem;
+  }
+  .all-map-img-senaye{
+  
+    width: 18rem;
+    height: 18rem;
+  }
+  @media only screen and (max-width: 768px) {
+    .all-card-senaye{
+     width: 20rem !important; 
+    }
+    .all-ourworks-senaye{
+      width:20rem !important;
+      font-size: 1rem !important;
+    
+    }
+  
+    .all-map-container-senaye{
+      width:20rem !important;
+      height:50rem;
+    
+    }
+    .all-map-card-senaye{
+      width:6rem !important;;
+      height:7rem;
+   
+      }
+    .all-map-img-senaye{
+  
+      width: 5rem !important;
+      height: 5rem;
+    }
+    .m-auto-all-senaye{
+    
+     margin: auto;
+     
+    }
+    .title{
+      font-size: 8px;
+    }
+  }
+
+  
+
+  
+   /* all pages responsive
+10. autosdonerqapi.jsx */
+
+.all-map-card-doner-qapi{
+  width:19rem;
+  height:20rem;
+  }
+  .all-map-img-doner-qapi{
+  
+    width: 18rem;
+    height: 18rem;
+  }
+  @media only screen and (max-width: 768px) {
+    .all-card-doner-qapi{
+     width: 20rem !important; 
+    }
+    .all-ourworks-doner-qapi{
+      width:20rem !important;
+      font-size: 1rem !important;
+    
+    }
+  
+    .all-map-container-doner-qapi{
+      width:20rem !important;
+      height:12rem;
+    
+    }
+    .all-map-card-doner-qapi{
+      width:6rem !important;;
+      height:7rem;
+   
+      }
+    .all-map-img-doner-qapi{
+  
+      width: 5rem !important;
+      height: 5rem;
+    }
+    .m-auto-all-doner-qapi{
+    
+     margin: auto;
+     
+    }
+    .title{
+      font-size: 8px;
+    }
+  }
+
+
+  /* all pages responsive
+11. autofotosel.jsx */
+
+.all-map-card-doner-fotosel{
+  width:19rem;
+  height:20rem;
+  }
+  .all-map-img-doner-fotosel{
+  
+    width: 18rem;
+    height: 18rem;
+  }
+  @media only screen and (max-width: 768px) {
+    .all-card-doner-fotosel{
+     width: 20rem !important; 
+    }
+    .all-ourworks-doner-fotosel{
+      width:20rem !important;
+      font-size: 1rem !important;
+    
+    }
+  
+    .all-map-container-doner-fotosel{
+      width:20rem !important;
+      height:12rem;
+    
+    }
+    .all-map-card-doner-fotosel{
+      width:6rem !important;;
+      height:7rem;
+   
+      }
+    .all-map-img-doner-fotosel{
+  
+      width: 5rem !important;
+      height: 5rem;
+    }
+    .m-auto-all-doner-fotosel{
+    
+     margin: auto;
+     
+    }
+    .title{
+      font-size: 8px;
+    }
+  }
+
+
+  
+  /* all pages responsive
+12. yanasurusen.jsx */
+
+.all-map-card-yanasurusen{
+  width:19rem;
+  height:20rem;
+  }
+  .all-map-img-yanasurusen{
+  
+    width: 18rem;
+    height: 18rem;
+  }
+  @media only screen and (max-width: 768px) {
+    .all-card-yanasurusen{
+     width: 20rem !important; 
+    }
+    .all-ourworks-yanasurusen{
+      width:20rem !important;
+      font-size: 1rem !important;
+    
+    }
+  
+    .all-map-container-yanasurusen{
+      width:20rem !important;
+      height:12rem;
+    
+    }
+    .all-map-card-yanasurusen{
+      width:6rem !important;;
+      height:7rem;
+   
+      }
+    .all-map-img-yanasurusen{
+  
+      width: 5rem !important;
+      height: 5rem;
+    }
+    .m-auto-all-yanasurusen{
+    
+     margin: auto;
+     
+    }
+    .title{
+      font-size: 8px;
+    }
+  }
+
+
+
+
+  
+  /* all pages responsive
+13.avtomatikdemirdarvaza.jsx */
+
+.all-map-card-demir{
+  width:19rem;
+  height:20rem;
+  }
+  .all-map-img-demir{
+  
+    width: 18rem;
+    height: 18rem;
+  }
+  @media only screen and (max-width: 768px) {
+    .all-card-demir{
+     width: 20rem !important; 
+    }
+    .all-ourworks-demir{
+      width:20rem !important;
+      font-size: 1rem !important;
+    
+    }
+  
+    .all-map-container-demir{
+      width:20rem !important;
+      height:200rem;
+    
+    }
+    .all-map-card-demir{
+      width:6rem !important;;
+      height:7rem;
+   
+      }
+    .all-map-img-demir{
+  
+      width: 5rem !important;
+      height: 5rem;
+    }
+    .m-auto-all-demir{
+    
+     margin: auto;
+     
+    }
+    .title{
+      font-size: 8px;
+    }
+  }
+
+
+   
+  /* all pages responsive
+14.doxsan.jsx */
+
+.all-map-card-doxsan{
+  width:19rem;
+  height:20rem;
+  }
+  .all-map-img-doxsan{
+  
+    width: 18rem;
+    height: 18rem;
+  }
+  @media only screen and (max-width: 768px) {
+    .all-card-doxsan{
+     width: 20rem !important; 
+    }
+    .all-ourworks-doxsan{
+      width:20rem !important;
+      font-size: 1rem !important;
+    
+    }
+  
+    .all-map-container-doxsan{
+      width:20rem !important;
+      height:30rem;
+    
+    }
+    .all-map-card-doxsan{
+      width:6rem !important;;
+      height:7rem;
+   
+      }
+    .all-map-img-doxsan{
+  
+      width: 5rem !important;
+      height: 5rem;
+    }
+    .m-auto-all-doxsan{
+    
+     margin: auto;
+     
+    }
+    .title{
+      font-size: 8px;
     }
   }
