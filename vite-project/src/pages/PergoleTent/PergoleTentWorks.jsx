@@ -34,6 +34,7 @@ function PergoleTentWorks() {
             initial={{ opacity: 0, translateX: -300 }}
             animate={{ opacity: 1, translateX: 0 }}
             transition={{ duration: 1 }}
+            className='all-ourworks mt-5'
           >
 
             <ProductTitle title=' ŞİRKƏTİMİZİN GÖRDÜYÜ İŞLƏR' />
@@ -49,17 +50,17 @@ function PergoleTentWorks() {
 
 
       >
-        <div className="row">
+        <div className="row all-map-container-pergole">
 
 
           {
             pergole.map((perg) => (
-              <motion.div key={perg.id} className="col-3 shadow mb-3 rounded"
+              <motion.div key={perg.id} className="col-4 col-lg-3 shadow mb-3 rounded"
                 variants={item}
 
               >
-                <div className="card  p-2" style={{ width: '19rem', height: '20rem' }}>
-                  <img src={perg.imgUrl} className="card-img-top objectFit" alt="..." />
+                <div className="card  p-md-2 all-map-card-pergole" >
+                  <img src={perg.imgUrl} className="card-img-top objectFit all-map-img-pergole" alt="..." />
 
                 </div>
 

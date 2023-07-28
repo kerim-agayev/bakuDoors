@@ -6,7 +6,7 @@ import MexanikiHisseler from '/mexanikihisseler.jpg'
 import SendvicPanel from '/sendvicpanel.jpg'
 import Data from "../../datas/Data.json";
 import ProductTitle from '../mainPages/about/ProductTitle';
-import { motion, useInView, useAnimation,useIsPresent } from 'framer-motion'
+import { motion, useInView, useAnimation, useIsPresent } from 'framer-motion'
 
 
 
@@ -17,24 +17,24 @@ function AutoQaraj() {
   const isinview = useInView(ref)
   const isinview2 = useInView(ref2)
   const isinview3 = useInView(ref3)
-const maincontrols = useAnimation()
-const maincontrols2 = useAnimation()
-const maincontrols3 = useAnimation()
+  const maincontrols = useAnimation()
+  const maincontrols2 = useAnimation()
+  const maincontrols3 = useAnimation()
 
-useEffect(()=>{
+  useEffect(() => {
 
-console.log(isinview);
-if(isinview ){
-maincontrols.start('visible')
+    console.log(isinview);
+    if (isinview) {
+      maincontrols.start('visible')
 
-}
-if (isinview2) {
-  maincontrols2.start('visible')
-}
-if (isinview3) {
-  maincontrols3.start('visible')
-}
-},[isinview, isinview2, isinview3])
+    }
+    if (isinview2) {
+      maincontrols2.start('visible')
+    }
+    if (isinview3) {
+      maincontrols3.start('visible')
+    }
+  }, [isinview, isinview2, isinview3])
 
 
   const container = {
@@ -64,14 +64,14 @@ if (isinview3) {
   return (
     <>
 
-      <div className='container mt-5' >
+      <div className='container mt-md-5' >
         <div className='row'>
           <div className='col-8'>
-            <motion.div className="card shadow" style={{ width: '18rem' }}
-                initial={{ opacity: 0, scale: 0.8 }}
-                animate={{ opacity: 1, scale: 1 }}
-                transition={{ duration: 1 }}
-            
+            <motion.div className="card shadow m-auto-all" style={{ width: '18rem' }}
+              initial={{ opacity: 0, scale: 0.8 }}
+              animate={{ opacity: 1, scale: 1 }}
+              transition={{ duration: 1 }}
+
             >
               <img src={BakudoorSeksional} className="card-img-top" alt="..." />
               <div className="card-body">
@@ -80,11 +80,11 @@ if (isinview3) {
             </motion.div>
 
 
-            <motion.div class="card shadow-lg mt-5 mb-5"
-                initial={{ opacity: 0, scale: 0.8 }}
-                animate={{ opacity: 1, scale: 1 }}
-                transition={{ duration: 1 }}
-            
+            <motion.div class="card shadow-lg mt-5 mb-5 all-card m-auto-all"
+              initial={{ opacity: 0, scale: 0.8 }}
+              animate={{ opacity: 1, scale: 1 }}
+              transition={{ duration: 1 }}
+
             >
               <div class="card-body">
                 <p> 20-ci əsrin son dörddə biri  texnologiyanın inkişafı baxımından dünya tarixində görünməmiş bir sürətə  səhnə olmuşdur.. Hətta bundan 10 il əvvəlki texnologiya ilə günümüzdəki texnologiya arasındakı fərq  xəyal edilə bilməyəcək ölçülərə çatmışdır.</p>
@@ -96,12 +96,14 @@ if (isinview3) {
             <div>
 
               <div>
-              <div className="container">
+                <div className="container">
                   <div className="row">
                     <motion.div
                       initial={{ opacity: 0, translateX: -300 }}
                       animate={{ opacity: 1, translateX: 0 }}
                       transition={{ duration: 1 }}
+                      className='all-ourworks mt-5'
+
                     >
 
                       <ProductTitle title=' Avtomatik qapılar 3 əsas hissədən ibarətdir:' />
@@ -110,19 +112,21 @@ if (isinview3) {
 
                   </div>
                 </div>
-          
 
 
-                <div  className="row">
-                  <motion.div ref={ref}   className="col-6 mb-5"
-                variants={
-                 { hidden:{ opacity:0, translateX:-100 },
-                  visible:{opacity:1, translateX:0 }}
-                }
-                initial='hidden'
+
+                <div className="row">
+                  <motion.div ref={ref} className="col-6 mb-5"
+                    variants={
+                      {
+                        hidden: { opacity: 0, translateX: -100 },
+                        visible: { opacity: 1, translateX: 0 }
+                      }
+                    }
+                    initial='hidden'
                     animate={maincontrols}
-                    transition={{ duration: 3}}
-                 
+                    transition={{ duration: 3 }}
+
                   >
                     <div className="card" style={{ width: '18rem', height: '31rem' }}>
                       <img src={MotorSistemi1} className="card-img-top" alt="..." />
@@ -135,16 +139,18 @@ if (isinview3) {
                     </div>
                   </motion.div>
 
-                  <motion.div  ref={ref}className="col-6 mb-5"
+                  <motion.div ref={ref} className="col-6 mb-5"
                     variants={
-                      { hidden:{ opacity:0, translateX:-100 },
-                       visible:{opacity:1, translateX:0 }}
-                     }
-                     initial='hidden'
+                      {
+                        hidden: { opacity: 0, translateX: -100 },
+                        visible: { opacity: 1, translateX: 0 }
+                      }
+                    }
+                    initial='hidden'
                     animate={maincontrols}
-                    transition={{ duration: 3}}
-                  
-                
+                    transition={{ duration: 3 }}
+
+
                   >
                     <div className="card" style={{ width: '18rem', height: '31rem' }}>
                       <img src={MotorSistemi2} className="card-img-top" alt="..." />
@@ -155,50 +161,54 @@ if (isinview3) {
                     </div>
                   </motion.div>
                   <motion.div ref={ref} className="col-6 mb-5"
-                   variants={
-                    { hidden:{ opacity:0, translateX:-100 },
-                     visible:{opacity:1, translateX:0 }}
-                   }
-                   initial='hidden'
+                    variants={
+                      {
+                        hidden: { opacity: 0, translateX: -100 },
+                        visible: { opacity: 1, translateX: 0 }
+                      }
+                    }
+                    initial='hidden'
                     animate={maincontrols}
                     transition={{ duration: 3 }}
-                  
-                  
-                  >
-                  <div className="card" style={{ width: '18rem' , height: '31rem' }}>
-                    <img src={SendvicPanel} className="card-img-top" alt="..." />
-                    <div className="card-body">
-                      <h6>Sendvic panel</h6>
-                      <p className="card-text">Avtomatik qapılar əsasən sendvic paneldən hazırlanır. Sendvic panel hər iki üzü paslanmaz qalvaniz metal , içi isə sıxılmış penaplastdır.
 
-                        Sendvic panellər isti və soyuğa davamlıdır. Poluetran izolasiyalı sendvic panel 45 mm qalınlığındadır.</p>
+
+                  >
+                    <div className="card" style={{ width: '18rem', height: '31rem' }}>
+                      <img src={SendvicPanel} className="card-img-top" alt="..." />
+                      <div className="card-body">
+                        <h6>Sendvic panel</h6>
+                        <p className="card-text">Avtomatik qapılar əsasən sendvic paneldən hazırlanır. Sendvic panel hər iki üzü paslanmaz qalvaniz metal , içi isə sıxılmış penaplastdır.
+
+                          Sendvic panellər isti və soyuğa davamlıdır. Poluetran izolasiyalı sendvic panel 45 mm qalınlığındadır.</p>
+                      </div>
                     </div>
-                  </div>
-                </motion.div>
-                <motion.div ref={ref} className="col-6 mb-5 "
-                  variants={
-                    { hidden:{ opacity:0, translateX:-100 },
-                     visible:{opacity:1, translateX:0 }}
-                   }
-                   initial='hidden'
-                  animate={maincontrols}
-                  transition={{ duration: 3 }}
-                
-                
-                
-                >
-                  <div className="card" style={{ width: '18rem' , height: '31rem' }}>
-                    <img src={MexanikiHisseler} className="card-img-top" alt="..." />
-                    <div className="card-body">
-                      <h6>Mexanik hissələr</h6>
-                      <p className="card-text">Avtomatik qapıların mexanik hissələri paslanmaz qalvaniz metaldan hazırlanmışdır. Mexanik hissələr müxtəlif parçalardan ibarətdir.  Yay, petlə , təkər , profildən  ibarət hissələr əsasən paslanmır. Buda avtomatik qapıların səssiz və maneəsiz işləməsinə şərait yaradır.</p>
+                  </motion.div>
+                  <motion.div ref={ref} className="col-6 mb-5 "
+                    variants={
+                      {
+                        hidden: { opacity: 0, translateX: -100 },
+                        visible: { opacity: 1, translateX: 0 }
+                      }
+                    }
+                    initial='hidden'
+                    animate={maincontrols}
+                    transition={{ duration: 3 }}
+
+
+
+                  >
+                    <div className="card" style={{ width: '18rem', height: '31rem' }}>
+                      <img src={MexanikiHisseler} className="card-img-top" alt="..." />
+                      <div className="card-body">
+                        <h6>Mexanik hissələr</h6>
+                        <p className="card-text">Avtomatik qapıların mexanik hissələri paslanmaz qalvaniz metaldan hazırlanmışdır. Mexanik hissələr müxtəlif parçalardan ibarətdir.  Yay, petlə , təkər , profildən  ibarət hissələr əsasən paslanmır. Buda avtomatik qapıların səssiz və maneəsiz işləməsinə şərait yaradır.</p>
+                      </div>
                     </div>
-                  </div>
-                </motion.div>
+                  </motion.div>
                 </div>
 
 
-   
+
               </div>
 
             </div>
@@ -223,13 +233,16 @@ if (isinview3) {
       <div ref={ref2} className="container">
         <div className="row">
           <motion.div
-          variants={{
-            hidden:{opacity: 0, translateX: -300},
-            visible:{opacity: 1, translateX: 0 }
-          }}
+            variants={{
+              hidden: { opacity: 0, translateX: -300 },
+              visible: { opacity: 1, translateX: 0 }
+
+            }}
             initial='hidden'
             animate={maincontrols2}
             transition={{ duration: 1 }}
+            className='all-ourworks mt-5 '
+
           >
 
             <ProductTitle title=' ŞİRKƏTİMİZİN GÖRDÜYÜ İŞLƏR' />
@@ -252,17 +265,17 @@ if (isinview3) {
 
 
       >
-        <div className="row">
+        <div className="row all-map-container-qaraj">
 
 
           {
             autoqarajqapi.map((auto) => (
-              <motion.div ref={ref3} key={auto.id} className="col-3 shadow mb-3 rounded"
+              <motion.div ref={ref3} key={auto.id} className="col-4 col-lg-3 shadow mb-3 rounded "
                 variants={item}
 
               >
-                <div className="card  p-2" style={{ width: '19rem', height: '20rem' }}>
-                  <img src={auto.imgUrl} className="card-img-top objectFit" alt="..." />
+                <div className="card  p-md-2 all-map-card-qaraj" >
+                  <img src={auto.imgUrl} className="card-img-top objectFit all-map-img-qaraj" alt="..." />
 
                 </div>
 

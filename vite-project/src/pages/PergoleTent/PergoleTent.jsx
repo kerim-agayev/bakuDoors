@@ -3,10 +3,10 @@ import Pergole from '/pergole.jpg'
 import { motion } from 'framer-motion'
 function PergoleTent() {
   return (
-    <div className='container mt-5' >
+    <div className='container mt-md-5' >
       <div className='row'>
         <div className='col-8'>
-          <motion.div className="card shadow" style={{ width: '18rem' }}
+          <motion.div className="card shadow m-auto-all" style={{ width: '18rem' }}
              initial={{ opacity: 0, scale: 0.8 }}
              animate={{ opacity: 1, scale: 1 }}
              transition={{ duration: 1 }}
@@ -20,7 +20,7 @@ function PergoleTent() {
           </motion.div>
 
 
-          <motion.div className="card shadow-lg mt-5"
+          <motion.div className="card shadow-lg mt-5 all-card m-auto-all"
              initial={{ opacity: 0, scale: 0.8 }}
              animate={{ opacity: 1, scale: 1 }}
              transition={{ duration: 1 }}
