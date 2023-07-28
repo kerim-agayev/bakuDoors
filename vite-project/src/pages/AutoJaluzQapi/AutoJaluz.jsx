@@ -47,12 +47,12 @@ function AutoJaluz() {
                 <h6 className="card-text">AVTOMATİK JALÜZ QAPILAR</h6>
               </div>
             </motion.div>
-            <motion.div class="card mt-5 shadow-lg all-card m-auto-all"
+            <motion.div className="card mt-5 shadow-lg all-card m-auto-all"
               initial={{ opacity: 0, scale: 0.8 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ duration: 1 }}
             >
-              <div class="card-body">
+              <div className="card-body">
                 <p>Jaluz Qapılar – Avtomatik jaluz qapılar müasir dövürdə darvaza və qaraj qapılarında quraşdırıla bilər. Avtomatik jaluz qapılar sürətli açılıb bağlanması ilə hərəkəti tənzim edir. </p>
                 <p> Avtomatik jaluz qapılar motor sistemi və pərdələrdən ibarətdir.  Motor sisteminə  motor, motorun borusu və idarəetmə paneli daxildir.</p>
                 <p>Bu sistem xüsusi hazırlanmış soyuğa, yağışa və şaxtaya davamlı alüminium qutunun içərisində quraşdırılır. Alüminium pədələr bükülərək bu qutunun içərisində rulonlanır.</p>

@@ -49,12 +49,12 @@ function Sauna() {
 
 
 
-            <motion.div class="card mt-5 shadow-lg  all-card m-auto-all"
+            <motion.div className="card mt-5 shadow-lg  all-card m-auto-all"
               initial={{ opacity: 0, scale: 0.8 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ duration: 1 }}
             >
-              <div class="card-body">
+              <div className="card-body">
                 <p>Saunaya vaxtaşırı getmək həyat tonusunu qoruyub saxlamağın çox səmərəli üsuludur. Sauna yorğunluğu götürür, dərinin elastikliyini qoruyur, artıq çəkini atmağa kömək edir, emosional bərpa üçün gözəl vasitə kimi çıxış edir. saunanın yüksək hərarəti maddələr mübadiləsini sürətləndirir, dəriyə müsbət təsir göstərir, xəstəliktörədici bakteriyaları və göbələkləri məhv edir. Saunada tərlədikdə toksin və şlaklar da orqanizmdən xaric olur. </p>
                 <p>Saunalar ilk növbədə havasının nəmliyi ilə fərqlənir. Saunada havanın temperaturu 5-15% rütubətlilik də 70-90 0C təşkil edir. </p>
               </div>

@@ -28,7 +28,7 @@ function XAcilanDarvaza() {
           
           
           >
-            <div class="card-body">
+            <div className="card-body">
               <h3 className='mt-5'>Baku DOORS – Avtomatik qapılar şirkəti avtomatik darvazalarının 4 növünü təqdim edir.</h3>
               <p className="card-text">Mövcud darvazaların avtomatlaşdırılması – </p>
               <p className="card-text">Sendvic paneldən 90 dərəcə açılan avtomatik darvazalar.</p>

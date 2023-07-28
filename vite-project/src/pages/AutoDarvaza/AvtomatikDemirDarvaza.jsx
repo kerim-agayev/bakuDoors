@@ -45,12 +45,12 @@ function AvtomatikDemirDarvaza() {
                 <h6 className="card-text">DƏMİR DARVAZALAR</h6>
               </div>
             </motion.div> 
-            <motion.div class="card mt-5 shadow-lg all-card m-auto-all"
+            <motion.div className="card mt-5 shadow-lg all-card m-auto-all"
               initial={{ opacity: 0, scale: 0.8 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ duration: 1 }}
             >
-              <div class="card-body">
+              <div className="card-body">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit pariatur molestiae quae obcaecati, numquam tempore qui deserunt nesciunt aliquid quas quasi laudantium corrupti, odio earum dolorem magnam exercitationem quaerat sunt! </p>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, cum! </p>
               </div>

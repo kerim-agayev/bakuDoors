@@ -53,27 +53,27 @@ function SidebarMain({ text, link }) {
         <Sidebar className='sidebar' style={{ height: '100vh' }} collapsed={collapsed}>
           <Menu>
             <MenuItem component={<Link to={aLink} />} className='mt-5 text'>
-              <button type="button" class="btn btn-primary btn-lg">
+              <button type="button" className="btn btn-primary btn-lg">
                 {a}
               </button>
             </MenuItem>
             <hr />
             <MenuItem component={<Link to={bLink} />} className='mt-5 text'>
-              <button type="button" class="btn btn-primary btn-lg">
+              <button type="button" className="btn btn-primary btn-lg">
                 {b}
               </button>
             </MenuItem>
             <hr />
             {c && (
               <MenuItem component={<Link to={cLink} />} className='mt-5 text'>
-                <button type="button" class="btn btn-primary btn-lg">
+                <button type="button" className="btn btn-primary btn-lg">
                   {c}
                 </button>
               </MenuItem>
             )}
             {d && (
               <MenuItem component={<Link to={dLink} />} className='mt-5 text'>
-                <button type="button" class="btn btn-primary btn-lg">
+                <button type="button" className="btn btn-primary btn-lg">
                   {d}
                 </button>
               </MenuItem>

@@ -50,13 +50,13 @@ function AutoSenaye() {
           </motion.div>
 
 
-          <motion.div class="card shadow-lg mt-5 mb-5 all-card m-auto-all"
+          <motion.div className="card shadow-lg mt-5 mb-5 all-card m-auto-all"
             initial={{ opacity: 0, scale: 0.8 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 1 }}
 
           >
-            <div class="card-body">
+            <div className="card-body">
               <p>
                 Avtomatik qapıların  özəlliklərindən biri də istənilən şəraitə və mühitə uyğun quraşdırıla bilməsidir. Buna misal olaraq normal, vertikal və yarımvertikal avtomatik qapılardır.</p>
               <p className="card-text">Vertikal və yarımvertikal qapılar əsasən sənaye tipli obyektlərdə quraşdırılır. Sənaye qapıların quraşdırılma yerindən asılı olaraq müxtəlif cür quraşdırmaq olar. Ümumiyyətlə sənaye tipli avtomatik qapıların motorları 3 Faza olmalıdır ki, qapının hərəkətinə çətinlik yaratmasın. Sənaye avtomatik qapılar soyuğa və şaxtaya davamlıdır. Quraşdırılan sənaye obyektinin izolasiyasını təmin edir.</p>

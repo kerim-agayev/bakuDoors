@@ -45,12 +45,12 @@ function DoxsanDereceDarvaza() {
                 <h6 className="card-text">AVTOMATİK 90 DƏRƏCƏ AÇILAN DARVAZALAR</h6>
               </div>
             </motion.div>
-            <motion.div class="card mt-5 shadow-lg all-card m-auto-all"
+            <motion.div className="card mt-5 shadow-lg all-card m-auto-all"
               initial={{ opacity: 0, scale: 0.8 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ duration: 1 }}
             >
-              <div class="card-body">
+              <div className="card-body">
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit fugit et, consequatur tempore illo dolorem corrupti obcaecati atque a, consectetur voluptatem earum. Omnis consequuntur consequatur culpa necessitatibus porro voluptas assumenda! </p>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis, nihil. </p>
               </div>

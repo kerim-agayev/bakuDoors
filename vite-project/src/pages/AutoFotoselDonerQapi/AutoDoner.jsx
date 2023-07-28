@@ -52,14 +52,14 @@ function AutoDoner() {
 
 
 
-          <motion.div class="card mt-5 mb-5 shadow-lg all-card m-auto-all"
+          <motion.div className="card mt-5 mb-5 shadow-lg all-card m-auto-all"
              initial={{ opacity: 0, scale: 0.8 }}
              animate={{ opacity: 1, scale: 1 }}
              transition={{ duration: 1 }}
           
           
           >
-            <div class="card-body">
+            <div className="card-body">
             <p>Avtomatik fırlanan qapılar bina içindəki temperatur  səviyyəsini  sabit saxlamaq üçün ən ideal avadanlıqdır. Giriş  və çıxışlardakı  insan axımını yüksək  səviyyədə  idarə edir. Dizayn baxımından ticari obyektlərdə  yadda qalan  bir görüntü  yaradır. </p>
 
             </div>

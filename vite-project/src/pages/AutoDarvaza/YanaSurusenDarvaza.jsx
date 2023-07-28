@@ -47,13 +47,13 @@ function YanaSurusenDarvaza() {
             </div>
           </motion.div>
 
-          <motion.div class="card mt-5 shadow-lg all-card m-auto-all"
+          <motion.div className="card mt-5 shadow-lg all-card m-auto-all"
              initial={{ opacity: 0, scale: 0.8 }}
              animate={{ opacity: 1, scale: 1 }}
              transition={{ duration: 1 }}
           
           >
-            <div class="card-body">
+            <div className="card-body">
               <ul className="list-group">
                 <li className="list-group-item">Avtomatik darvaza qapılarının elektron hissələri ən son texnologiya ilə istehsal olunur(İTALİYA İSTEHSALI).</li>
                 <li className="list-group-item">  Avtomatik darvaza qapıları pultla heç bir çətinlik olmadan idarə olunur.</li>

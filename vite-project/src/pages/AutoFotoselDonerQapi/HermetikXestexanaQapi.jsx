@@ -18,14 +18,14 @@ function HermetikXestexanaQapi() {
               <h6 className="card-text">HERMETİK XƏSTƏXANA QAPILARI</h6>
             </div>
           </motion.div>
-          <motion.div class="card mt-5 shadow-lg all-card m-auto-all"
+          <motion.div className="card mt-5 shadow-lg all-card m-auto-all"
             initial={{ opacity: 0, scale: 0.8 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 1 }}
           
           
           >
-            <div class="card-body">
+            <div className="card-body">
               <h3> Xəstəxana Qapıları </h3>
               <p>Xəstəxanalarda əməliyyat, reanimasiya,xüsusi xidmət sahələrində,
 

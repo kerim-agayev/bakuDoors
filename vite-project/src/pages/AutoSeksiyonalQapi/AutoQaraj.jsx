@@ -77,13 +77,13 @@ function AutoQaraj() {
             </motion.div>
 
 
-            <motion.div class="card shadow-lg mt-5 mb-5 all-card m-auto-all"
+            <motion.div className="card shadow-lg mt-5 mb-5 all-card m-auto-all"
               initial={{ opacity: 0, scale: 0.8 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ duration: 1 }}
 
             >
-              <div class="card-body">
+              <div className="card-body">
                 <p> 20-ci əsrin son dörddə biri  texnologiyanın inkişafı baxımından dünya tarixində görünməmiş bir sürətə  səhnə olmuşdur.. Hətta bundan 10 il əvvəlki texnologiya ilə günümüzdəki texnologiya arasındakı fərq  xəyal edilə bilməyəcək ölçülərə çatmışdır.</p>
                 <p> Texnologiya sahəsindəki yeniliklər insanların həyatlarında çox böyük bir rahatlıq və asanlıq təmin  edəcək. İnsanlar evlərində, işlərində, məktəblərində bu inkişaflar sayəsində çox böyük asanlıqlar  yaşayacaq, rahat, əyləncəli və zövqlü mühitlərə qovuşacaqlar. Robotlar bir çox işdə insan gücünün yerini  alacaq. İnsanlar yerlərindən qalxmadan robotlar sayəsində, avtomatik əməliyyatlarla icra edə biləcəklər.</p>
                 <p> Texnolgiyanın belə sürətlə inkişafı təbii ki qapılardan da yan keçməmişdir. Artıq insanlar sadəcə  düyməyə sıxmaqla istənilən qapını aça və ya bağlaya bilər. Avtomatik qapılar müasir dövrün dəbdə olan  sitemləridir.  Yağışlı, qarlı hava şəraitində və yaxud evə yorğun qayıdarkən avtomabilinizdən düşərək qapını açmağa ehtiyac yoxdur. </p>

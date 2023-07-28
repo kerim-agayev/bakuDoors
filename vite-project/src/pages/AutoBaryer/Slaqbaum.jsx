@@ -48,14 +48,14 @@ function Slaqbaum() {
 
 
 
-          <motion.div class="card shadow-lg mt-5 m-auto-all-slaqbaum all-card-slaqbaum"
+          <motion.div className="card shadow-lg mt-5 m-auto-all-slaqbaum all-card-slaqbaum"
             initial={{ opacity: 0, scale: 0.8 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 1 }}
           
           
           >
-            <div class="card-body ">
+            <div className="card-body ">
               <p>  Yeni əl işimizdən.</p>
               <p>--- işimiz keyfiyyətimizdir</p>
               <p>Əlaqə: 050 400 3355 - 055 633 2888 - 070 633 2888</p>

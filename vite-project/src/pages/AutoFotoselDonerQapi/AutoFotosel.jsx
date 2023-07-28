@@ -47,13 +47,13 @@ function AutoFotosel() {
               <h6 className="card-text">AVTOMATİK FOTOSEL QAPILAR</h6>
             </div>
           </motion.div>
-          <motion.div class="card mt-5 mb-5 shadow-lg all-card m-auto-all"
+          <motion.div className="card mt-5 mb-5 shadow-lg all-card m-auto-all"
                  initial={{ opacity: 0, scale: 0.8 }}
                  animate={{ opacity: 1, scale: 1 }}
                  transition={{ duration: 1 }}
           
           >
-            <div class="card-body">
+            <div className="card-body">
               <p>Avtomatik fotosel qapılar - Qapı boşluğu üzərinə asılan bir ray üzərində sürüşərək hərəkət edən tək və ya cüt istiqamətə açılan qanadlardan ibarət sürüşən qapını avtomatik hala gətirilməsi sistemidir. Sistemin adı avtomatik sürüşən qapı olmaqla birlikdə, qapıya yaxınlaşan kəslərin qəbul edilməsini təmin edən infrared və ya mikrodalğalı radarlar xalq arasında fotosel olaraq bilindiyindən, fotoselli qapı adı dəyişməz bir şəkildə söz xəzinəmizə yerləşmiş vəziyyətdədir.</p>
               <p>Fotosel qapılar motor sistemi, alüminium profillər və şüşədən ibarətdir.</p>
             </div>

@@ -18,7 +18,7 @@ function About() {
           <div className="col-12 text-center">
             <ProductTitle title="Haqqımızda" />
           </div>
-          <ul class="ulAbout col-12 mx-2 bg-primary text-white rounded p-3">
+          <ul className="ulAbout col-12 mx-2 bg-primary text-white rounded p-3">
           <li className="liAbout"><h5> Hörmətli Müştəri.</h5></li>
             <li className="liAbout"><h5>Dəyərli və qiymətli vaxtınızı bizə sərf etdiyiniz üçün öncədən Sizə dərin minnətdarlığımızı bildiririk.</h5></li>
 

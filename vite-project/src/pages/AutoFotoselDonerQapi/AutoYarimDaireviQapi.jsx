@@ -21,14 +21,14 @@ function AutoYarimDaireviQapi() {
             </div>
           </motion.div>
 
-          <motion.div class="card shadow-lg mt-5 mb-5 all-card m-auto-all"
+          <motion.div className="card shadow-lg mt-5 mb-5 all-card m-auto-all"
               initial={{ opacity: 0, scale: 0.8 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ duration: 1 }}
           
           
           >
-            <div class="card-body">
+            <div className="card-body">
             <p>YARIM DAİRƏVİ FOTOSEL QAPILAR- Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima atque accusamus, ullam sit optio in nostrum voluptatibus eum enim nulla quisquam, facilis amet quibusdam consequuntur dolores, expedita numquam laudantium saepe.</p>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, corrupti?.</p>
             </div>
