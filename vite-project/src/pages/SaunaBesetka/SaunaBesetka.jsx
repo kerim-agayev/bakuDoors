@@ -1,12 +1,28 @@
 import React from 'react'
 import { NavLink, Outlet } from "react-router-dom"
-import Sidebar from '../../components/sidebar/Sidebar'
+
+import SidebarMain from '../../components/sidebar/SidebarMain'
 
 
 function SaunaBesetka() {
+  const a = "Sauna Tikintisi"
+  const b = "Besetka Tikintisi"
+const aLink = 'sauna'
+const bLink = 'besetka'
+
+
+  const text = {
+    a: a,
+    b: b,
+  };
+  const link = {
+    aLink: aLink,
+    bLink: bLink,
+  };
+
   return (
     <>
-      <div className="margin-x">
+      {/* <div className="margin-x">
         <div className="container">
 
 
@@ -41,7 +57,13 @@ function SaunaBesetka() {
           <Outlet />
 
         </div>
-      </div>
+      </div> */}
+    <div className="content-container"> {/* Wrap both SidebarMain and Outlet */}
+      <SidebarMain text={text} link = {link} />
+      <main>
+        <Outlet />
+      </main>
+    </div>
 
     </>
   )

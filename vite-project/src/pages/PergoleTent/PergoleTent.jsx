@@ -1,30 +1,37 @@
 import React from 'react'
-import Pergole from '../../../public/pergole.jpg'
+import Pergole from '/pergole.jpg'
+import { motion } from 'framer-motion'
 function PergoleTent() {
   return (
     <div className='container mt-5' >
       <div className='row'>
-
-
-      {/* <div className='col-4'></div> */}
-
-
-
-
-
-
-
         <div className='col-8'>
-          <div class="card" style={{width: '18rem'}}>
-            <img src={Pergole} class="card-img-top" alt="..."/>
-              <div class="card-body">
-                <h6 class="card-text">PERGOLE VƏ TENT SİSTEMLƏRİ</h6>
-              </div>
-          </div>
-          <div>
-        
-           <p>Pergola Sistemlərimiz  müxtəlif seriyaları ilə xarici məkanların genişləndirilməsinə imkan yaradır və il boyu istifadə edə biləcəyiniz relsli tent sistemidir. İncə quruluş və müasir dizayna sahib açılıb-bağlanan tavan sistemi günəş şüasından, yağışdan və qardan qoruyur.</p>
-          </div>
+          <motion.div className="card shadow" style={{ width: '18rem' }}
+             initial={{ opacity: 0, scale: 0.8 }}
+             animate={{ opacity: 1, scale: 1 }}
+             transition={{ duration: 1 }}
+          
+          
+          >
+            <img src={Pergole} className="card-img-top" alt="..." />
+            <div className="card-body">
+              <h6 className="card-text">PERGOLE VƏ TENT SİSTEMLƏRİ</h6>
+            </div>
+          </motion.div>
+
+
+          <motion.div className="card shadow-lg mt-5"
+             initial={{ opacity: 0, scale: 0.8 }}
+             animate={{ opacity: 1, scale: 1 }}
+             transition={{ duration: 1 }}
+          
+          
+          >
+            <div className="card-body">
+              <p>Pergola Sistemlərimiz  müxtəlif seriyaları ilə xarici məkanların genişləndirilməsinə imkan yaradır və il boyu istifadə edə biləcəyiniz relsli tent sistemidir. İncə quruluş və müasir dizayna sahib açılıb-bağlanan tavan sistemi günəş şüasından, yağışdan və qardan qoruyur.</p>
+            </div>
+          </motion.div>
+
         </div>
 
 

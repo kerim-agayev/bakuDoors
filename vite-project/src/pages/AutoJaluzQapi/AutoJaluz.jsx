@@ -1,107 +1,116 @@
 import React from 'react'
-import JaluzSistemleri from '../../../public/jaluzsistemleri.jpg'
-import JaluzQapi1 from '../../../public/jaluzqapi1.jpg'
-import JaluzQapi2 from '../../../public/jaluzqapi2.jpg'
-import JaluzQurgu from '../../../public/jaluzqurgu.jpg'
-import JaluzAvadanliq1 from '../../../public/jaluzavadanliq1.jpg'
-import JaluzAvadanliq2 from '../../../public/jaluzavadanliq2.jpg'
-import JaluzAvadanliq3 from '../../../public/jaluzavadanliq3.jpg'
+import JaluzSistemleri from '/jaluzsistemleri.jpg'
+import Data from "../../datas/Data.json";
+import { motion } from 'framer-motion'
 function AutoJaluz() {
+  const container = {
+    visible: {
+      transition: {
+        //delayChildren: 0.3,
+        staggerChildren: 0.2
+      }
+    }
+
+  }
+  const item = {
+
+    visible: {
+      opacity: 1,
+      translateY: 0
+    },
+    hidden: {
+      opacity: 0,
+      translateY: 20
+    }
+
+
+  }
+  const { autojaluzqapidetay } = Data
+  
   return (
+
+    <>
+    
     <div className='container mt-5' >
       <div className='row'>
+      <div className='container mt-5' >
+        <div className='row'>
 
-
-        {/* <div className='col-4'></div> */}
-
-
-
-
-
-
-
-        <div className='col-6 mb-5'>
-          <div class="card" style={{ width: '18rem' , height:'22rem'}}>
-            <img src={JaluzSistemleri} class="card-img-top" alt="..." />
-            <div class="card-body">
-              <h6 class="card-text">Jaluz Qapılar – Avtomatik jaluz qapılar müasir dövürdə darvaza və qaraj qapılarında quraşdırıla bilər. Avtomatik jaluz qapılar sürətli açılıb bağlanması ilə hərəkəti tənzim edir.</h6>
-            </div>
+          <div className='col-8'>
+            <motion.div className="card shadow" style={{ width: '18rem' }}
+              initial={{ opacity: 0, scale: 0.8 }}
+              animate={{ opacity: 1, scale: 1 }}
+              transition={{ duration: 1 }}
+            >
+              <img src={JaluzSistemleri} className="card-img-top" alt="..." />
+              <div className="card-body">
+                <h6 className="card-text">AVTOMATİK JALÜZ QAPILAR</h6>
+              </div>
+            </motion.div>
+            <motion.div class="card mt-5 shadow-lg"
+              initial={{ opacity: 0, scale: 0.8 }}
+              animate={{ opacity: 1, scale: 1 }}
+              transition={{ duration: 1 }}
+            >
+              <div class="card-body">
+                <p>Jaluz Qapılar – Avtomatik jaluz qapılar müasir dövürdə darvaza və qaraj qapılarında quraşdırıla bilər. Avtomatik jaluz qapılar sürətli açılıb bağlanması ilə hərəkəti tənzim edir. </p>
+                <p> Avtomatik jaluz qapılar motor sistemi və pərdələrdən ibarətdir.  Motor sisteminə  motor, motorun borusu və idarəetmə paneli daxildir.</p>
+                <p>Bu sistem xüsusi hazırlanmış soyuğa, yağışa və şaxtaya davamlı alüminium qutunun içərisində quraşdırılır. Alüminium pədələr bükülərək bu qutunun içərisində rulonlanır.</p>
+                <p>Avtomatik jaluz qapıların pərdələri hər iki üzü alüminium, içərisi isə sıxılmış dolqudur. Bu da avtomatik jaluz qapılar quraşdırılan mühütün havasını tənzimləyir. </p>
+              </div>
+            </motion.div>
           </div>
-          <div>
 
 
-          </div>
-        </div>
-        <div className='col-6 mb-5'>
 
-          <div class="card" style={{ width: '18rem' , height:'22rem'}}>
-            <img src={JaluzQurgu} class="card-img-top" alt="..." />
-            <div class="card-body">
-              <h6 class="card-text"> Avtomatik jaluz qapılar motor sistemi və pərdələrdən ibarətdir.  Motor sisteminə  motor, motorun borusu və idarəetmə paneli daxildir.</h6>
-            </div>
-          </div>
-        </div>
-
-
-        <div className='col-6 mb-5'>
-          <div class="card" style={{ width: '18rem' , height:'22rem'}}>
-            <img src={JaluzQapi1} class="card-img-top" alt="..." />
-            <div class="card-body">
-              <h6 class="card-text">Bu sistem xüsusi hazırlanmış soyuğa, yağışa və şaxtaya davamlı alüminium qutunun içərisində quraşdırılır. Alüminium pədələr bükülərək bu qutunun içərisində rulonlanır.</h6>
-            </div>
-          </div>
-          <div>
-
-
-          </div>
-        </div>
-        <div className='col-6 mb-5'>
-
-          <div class="card" style={{ width: '18rem' , height:'22rem'}}>
-            <img src={JaluzQapi2} class="card-img-top" alt="..." />
-            <div class="card-body">
-              <h6 class="card-text">  Avtomatik jaluz qapıların pərdələri hər iki üzü alüminium, içərisi isə sıxılmış dolqudur. Bu da avtomatik jaluz qapılar quraşdırılan mühütün havasını tənzimləyir. </h6>
-            </div>
-          </div>
         </div>
 
 
-        <div className='col-4 mb-5'>
-          <div class="card" style={{ width: '18rem' , height:'22rem'}}>
-            <img src={JaluzAvadanliq1} class="card-img-top" alt="..." />
-            <div class="card-body">
-            
-            </div>
-          </div>
-          <div>
 
-
-          </div>
-        </div>
-        <div className='col-4 mb-5'>
-
-          <div class="card" style={{ width: '18rem' , height:'22rem'}}>
-            <img src={JaluzAvadanliq2} class="card-img-top" alt="..." />
-            <div class="card-body">
-             
-            </div>
-          </div>
-        </div>
-        <div className='col-4 mb-5'>
-
-          <div class="card" style={{ width: '18rem' , height:'22rem'}}>
-            <img src={JaluzAvadanliq3} class="card-img-top" alt="..." />
-            <div class="card-body">
-             
-            </div>
-          </div>
-        </div>
+      </div>
+      
 
       </div>
 
 
 
     </div>
+    <motion.div className="container mt-5"
+        initial='hidden'
+        animate='visible'
+        variants={container}
+
+
+      >
+        <div className="row">
+
+
+          {
+            autojaluzqapidetay.map((auto) => (
+              <motion.div key={auto.id} className="col-3 shadow mb-3 rounded"
+                variants={item}
+
+              >
+                <div className="card  p-2" style={{ width: '19rem', height: '20rem' }}>
+                  <img src={auto.imgUrl} className="card-img-top objectFit" alt="..." />
+
+                </div>
+
+              </motion.div>
+            ))
+
+
+          }
+
+
+
+        </div>
+      </motion.div>
+    </>
+  
+
+
+
   )
 }
 

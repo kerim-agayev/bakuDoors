@@ -1,30 +1,36 @@
 import React from 'react'
-import Saunalar from '../../../public/saunalar.jpg'
+import  Pavillion from '/pavillion.jpg'
+import { motion } from 'framer-motion'
 function Besetka() {
   return (
-    <div className='containe mt-5' >
+    <div className='container mt-md-5' >
       <div className='row'>
-
-
-      {/* <div className='col-4'></div> */}
-
-
-
-
-
-
-
         <div className='col-8'>
-          <div class="card" style={{width: '18rem'}}>
-            <img src={Saunalar} class="card-img-top" alt="..."/>
-              <div class="card-body">
-                <h6 class="card-text">Besetka Tikintisi</h6>
-              </div>
-          </div>
-          <div>
-            <p>Saunaya vaxtaşırı getmək həyat tonusunu qoruyub saxlamağın çox səmərəli üsuludur. Sauna yorğunluğu götürür, dərinin elastikliyini qoruyur, artıq çəkini atmağa kömək edir, emosional bərpa üçün gözəl vasitə kimi çıxış edir. saunanın yüksək hərarəti maddələr mübadiləsini sürətləndirir, dəriyə müsbət təsir göstərir, xəstəliktörədici bakteriyaları və göbələkləri məhv edir. Saunada tərlədikdə toksin və şlaklar da orqanizmdən xaric olur. </p>
-            <p>Saunalar ilk növbədə havasının nəmliyi ilə fərqlənir. Saunada havanın temperaturu 5-15% rütubətlilik də 70-90 0C təşkil edir. </p>
-          </div>
+          <motion.div className="card shadow m-auto-all" style={{ width: '18rem' }}
+              initial={{ opacity: 0, scale: 0.8 }}
+              animate={{ opacity: 1, scale: 1 }}
+              transition={{ duration: 1 }}
+          >
+            <img src={Pavillion} className="card-img-top" alt="..." />
+            <div className="card-body">
+              <h6 className="card-text">Besetka Tikintisi</h6>
+            </div>
+          </motion.div>
+
+          <motion.div class="card mt-5 shadow-lg all-card m-auto-all"
+              initial={{ opacity: 0, scale: 0.8 }}
+              animate={{ opacity: 1, scale: 1 }}
+              transition={{ duration: 1 }}
+          >
+            <div class="card-body">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam repellendus quidem ullam cum et, enim culpa laudantium possimus optio iste, delectus consequatur dolorum placeat vitae itaque quam dolorem esse nostrum eius recusandae. Ipsum, aliquid. Adipisci, qui saepe doloribus dolor possimus voluptas quibusdam voluptatibus consequatur a blanditiis molestias. Mollitia, perspiciatis molestiae? </p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem pariatur vel cumque maxime unde id assumenda natus perspiciatis dolores tempore. </p>
+            </div>
+          </motion.div>
+
+
+
+      
         </div>
 
 

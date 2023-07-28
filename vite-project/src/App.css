@@ -1,4 +1,6 @@
+
 /* saunabesetka.jsx */
+
 .margin-x{
     margin-top: 20px;
     margin-bottom: 20px;
@@ -11,3 +13,417 @@
     background-color: red !important;
   }
 
+/* about.jsx */
+
+  .liAbout{
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+  }
+  .ulAbout{
+    list-style: none;
+    padding: 0;
+  }
+
+
+/* ProductTitle.jsx */
+
+
+  .fontFamily{
+    font-family: 'Roboto', sans-serif;
+  }
+
+  .fUpperCase{
+    text-transform: uppercase;
+  }
+
+  .fS{
+    font-size: 2.5rem;
+    font-weight: 500;
+  border-bottom: 3px;
+  border-color: #007bff;
+  border-bottom-style: double;
+  }
+
+
+
+
+
+/* questions.jsx */
+  .hoverCursor{
+    cursor:pointer;
+  }
+  
+
+
+
+/* footer.jsx */
+.mB{
+  margin-top: 50px;
+}
+  .fT {
+    position: relative;
+  }
+  
+  .fT::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0%;
+    height: 2px;
+    background-color: #000;
+    transition: width 0.3s ease;
+  }
+  
+  .fT:hover::after {
+    width: 100%;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* navbar.jsx */
+
+.navbar-dark .navbar-nav a.nav-link {
+  color: #ffffff;
+  font-size: 1.1em;
+}
+.dropdown-menu {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  border: none;
+  border-radius: 0;
+  padding: 0.7em;
+}
+@media only screen and (min-width: 992px) {
+  .dropdown:hover .dropdown-menu {
+    display: flex;
+  }
+  .dropdown-menu.show {
+    display: flex;
+  }
+}
+.dropdown-menu ul {
+  list-style: none;
+  padding: 0;
+}
+.dropdown-menu li .dropdown-item {
+  color: gray;
+  font-size: 1em;
+  padding: 0.5em 1em;
+}
+.dropdown-menu li .dropdown-item:hover {
+  background-color: #f1f1f1;
+}
+/* .dropdown-menu li:first-child a {
+  font-weight: bold;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  color: #516beb;
+} */
+.dropdown-menu li:first-child a:hover {
+  background-color: #f1f1f1;
+}
+@media only screen and (max-width: 992px) {
+  .dropdown-menu.show {
+    flex-wrap: wrap;
+    max-height: 350px;
+    overflow-y: scroll;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1140px) {
+  .dropdown:hover .dropdown-menu {
+    width: 40vw;
+    flex-wrap: wrap;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+sidebar.jsx */
+
+@media only screen and (max-width: 776px) {
+  .text {
+   font-size: 9px;
+font-weight: 900;
+  }
+}
+
+
+
+@media only screen and (max-width: 776px) {
+  .sidebar {
+height: 40vh !important;
+width: 100% !important;
+margin-bottom: 5px !important;
+
+  }
+}
+
+
+.sideBarNav{
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+/* Add CSS styles to position the sidebar and the content */
+.content-container {
+  display: flex; /* Use flexbox to align the sidebar and content */
+  flex-wrap: wrap; /* Allow content to wrap to the next line on smaller screens */
+}
+
+.sidebar {
+  flex: 0 0 200px; /* Set the width of the sidebar as needed */
+}
+
+main {
+  flex: 1; /* Allow the content to take up the remaining space */
+  padding: 20px; /* Optional: Add padding to the content area */
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .content-container {
+    flex-direction: column; /* Stack components vertically on smaller screens */
+  }
+
+  .sidebar {
+    flex: 1 1 100%; /* Make the sidebar take the full width on smaller screens */
+  }
+
+  main {
+    flex: 1 1 100%; /* Make the content take the full width on smaller screens */
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* whatsapicons.jsx */
+.whatsapp-icon {
+  position: fixed;
+  bottom: 5rem;
+  right: 1.2rem;
+  background-color: #25d366;
+  border-radius: 50%;
+  padding: 1rem;
+  z-index: 999;
+}
+
+.whatsapp-icon:hover {
+  background-color: #128c7e;
+}
+
+@media only screen and (max-width: 768px) {
+  .whatsapp-icon {
+    padding: 0.5rem;
+    bottom: 5rem;
+    right: 1.2rem;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+/* smoothSliderButton.jsx */
+
+.smooth-slider-button-container {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  padding: 1rem;
+  z-index: 9999;
+}
+
+.smooth-slider-button {
+  display: none;
+}
+
+.smooth-slider-button--visible {
+  display: block;
+}
+
+@media only screen and (max-width: 768px) {
+  .smooth-slider-button {
+    display: block;
+    position: fixed;
+    bottom: 1rem;
+    right: 1.2rem;
+    z-index: 999;
+  }
+}
+
+
+
+
+
+
+
+
+
+/* saunaBesetka */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* all pages responsive
+1. sauna.jsx */
+.objectFit{
+  object-fit: cover;
+ 
+}
+
+.all-map-card{
+width:19rem;
+height:20rem;
+}
+.all-map-img{
+
+  width: 18rem;
+  height: 18rem;
+}
+@media only screen and (max-width: 768px) {
+  .all-card{
+   width: 20rem !important; 
+  }
+  .all-ourworks{
+    width:20rem !important;
+    font-size: 1rem !important;
+  
+  }
+
+  .all-map-container{
+    width:20rem !important;
+    height:25rem;
+  
+  }
+  .all-map-card{
+    width:6rem !important;;
+    height:7rem;
+ 
+    }
+  .all-map-img{
+
+    width: 5rem !important;
+    height: 5rem;
+  }
+  .m-auto-all{
+  
+   margin: auto;
+   
+  }
+}
+
+
+
+/* all pages responsive
+2. besetka.jsx */
+
+.all-map-card-slaqbaum{
+  width:19rem;
+  height:20rem;
+  }
+  .all-map-img-slaqbaum{
+  
+    width: 18rem;
+    height: 18rem;
+  }
+  @media only screen and (max-width: 768px) {
+    .all-card-slaqbaum{
+     width: 20rem !important; 
+    }
+    .all-ourworks-slaqbaum{
+      width:20rem !important;
+      font-size: 1rem !important;
+    
+    }
+  
+    .all-map-container-slaqbaum{
+      width:20rem !important;
+      height:12rem;
+    
+    }
+    .all-map-card-slaqbaum{
+      width:6rem !important;;
+      height:6rem;
+   
+      }
+    .all-map-img-slaqbaum{
+  
+      width: 5rem !important;
+      height: 5rem;
+    }
+    .m-auto-all-slaqbaum{
+    
+     margin: auto;
+     
+    }
+  }

@@ -1,9 +1,29 @@
 import React from 'react'
 import { NavLink, Outlet } from "react-router-dom"
+import SidebarMain from '../../components/sidebar/SidebarMain'
 function ServisQurasdirma() {
+
+  const a = "Qapilarin Servisi ve Qurasdirilmasi"
+  const b = "Slaqbaumlarin Servisi ve Qurasdirilmasi"
+const aLink = 'qapiservisqurasdirma'
+const bLink = 'slaqbaumservisqurasdirma'
+
+
+  const text = {
+    a: a,
+    b: b,
+  };
+  const link = {
+    aLink: aLink,
+    bLink: bLink,
+  };
+
+
+
+
   return (
     <>
-     <div className="margin-x">
+     {/* <div className="margin-x">
         <div className="container">
 
 
@@ -38,7 +58,13 @@ function ServisQurasdirma() {
           <Outlet />
 
         </div>
-      </div>
+      </div> */}
+      <div className="content-container"> {/* Wrap both SidebarMain and Outlet */}
+      <SidebarMain text={text} link = {link} />
+      <main>
+        <Outlet />
+      </main>
+    </div>
   </>
   )
 }

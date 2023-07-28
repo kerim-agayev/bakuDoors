@@ -1,22 +1,41 @@
 import React from 'react'
 import { NavLink, Outlet } from "react-router-dom"
+import SidebarMain from '../../components/sidebar/SidebarMain'
 function AutoDarvaza() {
+
+
+  const a = "AVTOMATİK 90 DƏRƏCƏ AÇILAN DARVAZALAR"
+  const b = "YANA SÜRÜŞƏRƏK AÇILAN DARVAZALAR"
+  const c = "AVTOMATİK DARVAZALAR"
+  const d = "DƏMİR DARVAZALAR"
+const aLink = 'doxsanderecedarvaza'
+const bLink = 'yanasurusendarvaza'
+const cLink = 'xacilandarvaza'
+const dLink = 'avtomatikdemirdarvaza'
+
+  const text = {
+    a: a,
+    b: b,
+    c:c,
+    d:d
+  };
+  const link = {
+    aLink: aLink,
+    bLink: bLink,
+    cLink:cLink,
+    dLink:dLink
+  };
+
+
   return (
     <>
-    <div className="help-layout">
 
-      <h2>krm</h2>
-      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque quas debitis quibusdam deserunt repellat hic molestias ipsum commodi aut odit!</p>
 
-      <nav>
-        <NavLink to="avtomatikdemirdarvaza">AvtomatikDemirDarvaza</NavLink>
-        <NavLink to="doxsanderecedarvaza">DoxsanDereceDarvaza</NavLink>
-        <NavLink to="xacilandarvaza ">XAcilanDarvaza </NavLink>
-        <NavLink to="yanasurusendarvaza">YanaSurusenDarvaza</NavLink>
-      </nav>
-
-      <Outlet />
-
+    <div className="content-container"> {/* Wrap both SidebarMain and Outlet */}
+      <SidebarMain text={text} link = {link} />
+      <main>
+        <Outlet />
+      </main>
     </div>
   </>
   )
