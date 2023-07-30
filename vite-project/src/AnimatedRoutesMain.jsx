@@ -39,6 +39,7 @@ import {  Routes, Route, useLocation} from 'react-router-dom'
 import {AnimatePresence} from 'framer-motion'
 import PergoleTentBar from './pages/PergoleTent/PergoleTentBar'
 import PergoleTentWorks from './pages/PergoleTent/PergoleTentWorks'
+import Navbar2 from './components/navbar/Navbar2'
 
 function AnimatedRoutesMain() {
  
@@ -48,7 +49,7 @@ function AnimatedRoutesMain() {
 <AnimatePresence>
 
 <Routes location={location} key={location.pathname}>
-   <Route path='/' element={<Navbar />}  >
+   <Route path='/' element={<Navbar2 />}  >
       <Route index element={<Home />} />
       <Route path="about" element={<About />} />
       <Route path='contact' element={<Contact />} />

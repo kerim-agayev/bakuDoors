@@ -12,7 +12,7 @@ import FlexiForce from '../assets/brend/flexiforce.png'
 import Geze from '../assets/brend/geze.jpg'
 import Somfy from '../assets/brend/Somfy.png'
 import Winsa from '../assets/brend/winsa.png'
-import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
+import { IoIosArrowForward } from "react-icons/io";
 
 
 
@@ -26,8 +26,8 @@ function SliderComp() {
 
     return (
       <button
-        className="position-absolute bottom-0 start-50 translate-middle-x bg-primary d-flex rounded-circle  align-items-center justify-content-center width-100 height-100  text-white"
-        // position-absolute bottom-0 start-50 translate-middle-x bg-primary d-flex align-items-center justify-content-center width-100 height-100 rounded-circle text-white
+       className="d-none  d-md-block position-absolute bottom-0 start-50 translate-middle-x bg-primary d-flex rounded-circle align-items-center justify-content-center width-100 height-100 text-white"
+        
 
         onClick={onClick}
       >
@@ -63,66 +63,66 @@ function SliderComp() {
         <Slider {...settings}>
           <div>
             <h3>
-       <img src={Bond} alt="" style={{width:'18rem',height:'18rem'}}/>
+       <img className='mx-auto' src={Bond} alt="" style={{width:'18rem',height:'18rem'}}/>
             </h3>
           </div>
           <div>
             <h3>
-         <img src={Beninca} alt=""style={{width:'18rem',height:'18rem'}} />
+         <img className='mx-auto' src={Beninca} alt=""style={{width:'18rem',height:'18rem'}} />
             </h3>
           </div>
           <div>
             <h3>
-          <img src={Came} alt=""style={{width:'18rem',height:'18rem'}} />
+          <img className='mx-auto' src={Came} alt=""style={{width:'18rem',height:'18rem'}} />
             </h3>
           </div>
           <div>
             <h3>
-      <img src={Cab} alt=""style={{width:'18rem',height:'18rem'}} />
+      <img className='mx-auto' src={Cab} alt=""style={{width:'18rem',height:'18rem'}} />
             </h3>
           </div>
           <div>
             <h3>
-        <img src={Ditec} alt=""style={{width:'18rem',height:'18rem'}} />
+        <img className='mx-auto' src={Ditec} alt=""style={{width:'18rem',height:'18rem'}} />
             </h3>
           </div>
           <div>
             <h3>
             
-                    <img src={Dorma} alt=""style={{width:'18rem',height:'18rem'}} />
+                    <img className='mx-auto' src={Dorma} alt=""style={{width:'18rem',height:'18rem'}} />
             </h3>
           </div>
           <div>
             <h3>
-      <img src={Doco} alt=""style={{width:'18rem',height:'18rem'}} />
+      <img className='mx-auto' src={Doco} alt=""style={{width:'18rem',height:'18rem'}} />
             </h3>
           </div>
           <div>
             <h3>
-          <img src={FacLogo} alt="" style={{width:'18rem',height:'18rem'}}/>
+          <img className='mx-auto' src={FacLogo} alt="" style={{width:'18rem',height:'18rem'}}/>
             </h3>
           </div>
           <div>
             <h3>
-          <img src={FlexiForce} alt=""style={{width:'18rem',height:'18rem'}} />
+          <img className='mx-auto' src={FlexiForce} alt=""style={{width:'18rem',height:'18rem'}} />
             </h3>
           </div>
           <div>
             <h3>
           
-              <img src={Geze} alt=""style={{width:'18rem',height:'18rem'}} />
+              <img className='mx-auto' src={Geze} alt=""style={{width:'18rem',height:'18rem'}} />
             </h3>
           </div>
           <div>
             <h3>
              
-              <img src={Somfy} alt="" style={{width:'18rem',height:'18rem'}}/>
+              <img className='mx-auto' src={Somfy} alt="" style={{width:'18rem',height:'18rem'}}/>
             </h3>
           </div>
           <div>
             <h3>
             
-              <img src={Winsa} alt="" style={{width:'18rem',height:'18rem'}}/>
+              <img className='mx-auto' src={Winsa} alt="" style={{width:'18rem',height:'18rem'}}/>
             </h3>
           </div>
         </Slider>

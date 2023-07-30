@@ -4,7 +4,7 @@ import SidebarMain from '../../components/sidebar/SidebarMain'
 function AutoDarvaza() {
 
 
-  const a = "AVTOMATİK 90 DƏRƏCƏ AÇILAN DARVAZALAR"
+  const a = "90 DƏRƏCƏ AÇILAN DARVAZALAR"
   const b = "YANA SÜRÜŞƏRƏK AÇILAN DARVAZALAR"
   const c = "AVTOMATİK DARVAZALAR"
   const d = "DƏMİR DARVAZALAR"

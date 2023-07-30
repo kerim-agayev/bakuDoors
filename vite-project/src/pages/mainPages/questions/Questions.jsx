@@ -41,7 +41,7 @@ function Questions() {
 
   return (
     <>
-    <motion.div className="motion"
+    <motion.div className="motion vh"
    initial={{opacity:0 , scale:0.5}}
    animate={{opacity:1, scale:1}}
 
@@ -51,7 +51,7 @@ function Questions() {
     <div>
         <ProductTitle title="  Çox Verilən Suallar" />
       </div>
-      <div className="container bg-primary text-white rounded p-3">
+      <div className="container bg-primary text-white rounded p-3 ">
         {questions.map((q, index) => (
           <div key={index} className="my-4">
             <h4

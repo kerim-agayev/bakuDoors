@@ -43,7 +43,7 @@ function Contact() {
             setTo("");
             setMessage("");
           }, 2000);
-          console.log(result.text);
+        
         },
         (error) => {
           console.log(error.text);

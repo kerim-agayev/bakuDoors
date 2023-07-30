@@ -3,10 +3,10 @@ import  Pavillion from '../../assets/pavillion.jpg'
 import { motion } from 'framer-motion'
 function Besetka() {
   return (
-    <div className='container mt-md-5' >
+    <div className='container mt-5' >
       <div className='row'>
-        <div className='col-8'>
-          <motion.div className="card shadow m-auto-all" style={{ width: '18rem' }}
+        <div className='col-12'>
+          <motion.div className="card shadow m-auto-all " style={{ width: '18rem' }}
               initial={{ opacity: 0, scale: 0.8 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ duration: 1 }}

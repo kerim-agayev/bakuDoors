@@ -1,9 +1,30 @@
-import React from 'react'
 import Data from "../../datas/Data.json";
 import Saunalar from '../../assets/saunalar.jpg'
-import { motion } from 'framer-motion'
+// import Saunalar from '@/assets/saunalar.jpg'
+import { motion , useInView, useAnimation} from 'framer-motion'
 import ProductTitle from '../mainPages/about/ProductTitle';
+import React, { useEffect, useRef } from 'react'
+
+
 function Sauna() {
+  const ref = useRef(null)
+  const ref2 = useRef(null)
+  const isinview = useInView(ref)
+  // const isinview2 = useInView(ref2)
+  const maincontrols = useAnimation()
+  // const maincontrols2 = useAnimation()
+  useEffect(() => {
+
+
+    if (isinview) {
+      maincontrols.start('visible')
+
+    }
+   
+    
+  }, [isinview])
+
+
 
 
   const { saunaBesetka } = Data
@@ -32,10 +53,10 @@ function Sauna() {
   }
   return (
     <>
-      <div className='container mt-md-5 ' >
+      <div className='container mt-5 ' >
         <div className='row'>
 
-          <div className='col-8 '>
+          <div className='col-12 '>
             <motion.div className="card shadow m-auto-all" style={{ width: '18rem' }}
               initial={{ opacity: 0, scale: 0.8 }}
               animate={{ opacity: 1, scale: 1 }}
@@ -76,7 +97,8 @@ function Sauna() {
         initial={{ opacity: 0, translateX: -300 }}
         animate={{ opacity: 1, translateX: 0 }}
         transition={{ duration: 1 }}
-        className='all-ourworks mt-5'
+        className='all-ourworks mt-5 m-auto'
+        
       >
 
         <ProductTitle  title=' ŞİRKƏTİMİZİN GÖRDÜYÜ İŞLƏR' />
@@ -84,24 +106,24 @@ function Sauna() {
 
 
 
-      <motion.div className="container mt-5 "
+      <motion.div ref={ref} className="container mt-5 "
         initial='hidden'
-        animate='visible'
+        animate={maincontrols}
         variants={container}
 
 
       >
-        <div className="row all-map-container" >
+        <div className="row  m-auto" >
 
 
           {
             saunaBesetka.map((sauna) => (
-              <motion.div key={sauna.id} className="col-4 col-lg-3 shadow mb-3 rounded "
+              <motion.div ref={ref} key={sauna.id} className="col-4 col-xl-3  shadow mb-3 rounded "
                 variants={item}
 
               >
-                <div className="card  p-md-2 all-map-card" >
-                  <img src={sauna.imgUrl} className="card-img-top objectFit all-map-img" alt="..." />
+                <div className="card  p-md-2 " >
+                  <img src={sauna.imgUrl} className="card-img-top objectFit responsiveImg" alt="..." />
 
                 </div>
 

@@ -1,23 +1,38 @@
-import { NavLink, Outlet } from "react-router-dom"
+import { NavLink, Outlet , Link } from "react-router-dom"
+import Logo from '../../assets/logo.png'
 
-
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { AiOutlineInstagram } from "react-icons/ai";
 import { BsFacebook } from "react-icons/bs";
 
 
 
 
-
 function Footer() {
+  useEffect(() => {
+ 
+    const handleScroll = () => {
+      const scrollY = window.scrollY; 
+    
+      setFooterMarginTop(scrollY >= 350 ? 200 : 350);
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    // Unmount olduğunda event listener'ı legv edririk
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+  const [footerMarginTop, setFooterMarginTop] = useState(350); 
   return (
     <>
-      <footer className="footer-04 mt-5 p-2 mx-2 mB">
+      <footer className="footer-04  p-2 mx-2 mt-100" style={{ marginTop: `${footerMarginTop}px`}}>
         <div className="container-fluid bg-success rounded-2 p-3 text-white">
           <div className="row">
             <div className="col-md-6 col-lg-3 mb-md-0 mb-4">
               <h2 className="footer-heading">
-                <NavLink to="/" className="logo text-decoration-none text-white">
+                <Link to="/" className="logo text-decoration-none text-white">
                   {/* <Image
                     className=" rounded cover  "
                     src="/images/kmplast10.PNG"
@@ -25,7 +40,8 @@ function Footer() {
                     width={200}
                     height={120}
                   /> */}
-                </NavLink>
+                  <img src={Logo} alt=""  style={{width:'12.5rem', height:'7.5rem'}}/>
+                </Link>
               </h2>
             </div>
             <div className="col-md-6 col-lg-3 mb-md-0 mb-4">
@@ -37,7 +53,7 @@ function Footer() {
                   <NavLink
 
                     to="autoseksiyonalqapi"
-                    className="fT py-1 d-block text-decoration-none text-white"
+                    className="fT py-1 d-block text-decoration-none text-white rounded rounded"
                   >
                     AVTOMATİK Seksiyonal QAPILAR
                   </NavLink>
@@ -46,7 +62,7 @@ function Footer() {
                   <NavLink
 
                     to="autojaluzqapi"
-                    className="fT py-1 d-block fT text-decoration-none text-white"
+                    className="fT py-1 d-block fT text-decoration-none text-white rounded"
                   >
                     AVTOMATİK JALÜZ QAPILAR
 
@@ -56,7 +72,7 @@ function Footer() {
                   <NavLink
 
                     to="autofotoseldonerqapi"
-                    className="fT py-1 d-block text-decoration-none text-white"
+                    className="fT py-1 d-block text-decoration-none text-white rounded"
                   >
                     AVTOMATİK FOTOSEL ve Doner QAPILAR
                   </NavLink>
@@ -65,7 +81,7 @@ function Footer() {
                   <NavLink
 
                     to="autodarvaza"
-                    className="fT py-1 d-block text-decoration-none text-white"
+                    className="fT py-1 d-block text-decoration-none text-white rounded"
                   >
                     AVTOMATİK DARVAZALAR
                   </NavLink>
@@ -74,7 +90,7 @@ function Footer() {
                   <NavLink
 
                     to="pergoletent"
-                    className="fT py-1 d-block text-decoration-none text-white"
+                    className="fT py-1 d-block text-decoration-none text-white rounded"
                   >
                     PERGOLE VƏ TENT SİSTEMLƏRİ
                   </NavLink>
@@ -84,7 +100,7 @@ function Footer() {
                   <NavLink
 
                     to="servisqurasdirma"
-                    className="fT py-1 d-block text-decoration-none text-white"
+                    className="fT py-1 d-block text-decoration-none text-white rounded"
                   >
                     Servis/ Qurasdirma
                   </NavLink>
@@ -93,7 +109,7 @@ function Footer() {
                   <NavLink
 
                     to="saunabesetka"
-                    className="fT py-1 d-block text-decoration-none text-white"
+                    className="fT py-1 d-block text-decoration-none text-white rounded"
                   >
                     Sauna/ Besetka
                   </NavLink>
@@ -102,7 +118,7 @@ function Footer() {
                   <NavLink
 
                     to="autobaryer"
-                    className="fT py-1 d-block text-decoration-none text-white"
+                    className="fT py-1 d-block text-decoration-none text-white rounded"
                   >
                     Avtomatik Baryer Sistemleri
                   </NavLink>
@@ -111,7 +127,7 @@ function Footer() {
                   <NavLink
 
                     to="autosuse"
-                    className="fT py-1 d-block text-decoration-none text-white"
+                    className="fT py-1 d-block text-decoration-none text-white rounded"
                   >
                     Avtomatik Suse Sistemleri
                   </NavLink>
@@ -125,7 +141,7 @@ function Footer() {
                   <NavLink
 
                     to="/"
-                    className="fT py-1 d-block text-decoration-none text-white"
+                    className="fT py-1 d-block text-decoration-none text-white rounded"
                   >
                     Ana Səhifə
                   </NavLink>
@@ -134,7 +150,7 @@ function Footer() {
                   <NavLink
 
                     to="contact"
-                    className="fT py-1 d-block text-decoration-none text-white"
+                    className="fT py-1 d-block text-decoration-none text-white rounded"
                   >
                     Əlaqə
                   </NavLink>
@@ -143,7 +159,7 @@ function Footer() {
                   <NavLink
 
                     to="questions"
-                    className="fT py-1 d-block text-decoration-none text-white"
+                    className="fT py-1 d-block text-decoration-none text-white rounded"
                   >
                     Çox verilən suallar
                   </NavLink>
@@ -152,7 +168,7 @@ function Footer() {
                   <NavLink
 
                     to="about"
-                    className="fT py-1 d-block text-decoration-none text-white"
+                    className="fT py-1 d-block text-decoration-none text-white rounded"
                   >
                     Şirkət haqqında
                   </NavLink>

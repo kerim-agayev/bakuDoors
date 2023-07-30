@@ -78,14 +78,14 @@ function Home() {
 
           {
             photoLinks.map((photo) => (
-              <motion.div key={photo.id} className="col-12 text-center col-md-4"
+              <motion.div key={photo.id} className="col-12 text-center col-md-6 col-lg-4"
               variants={item}
            
               
               >
                 <Card className="my-3 border border-primary rounded-5 p-3 ">
 
-                  <img src={photo.title} alt="" style={{ width: '18rem', height: '18rem' }} />
+                  <img className="m-auto homeCards" src={photo.title} alt="" style={{ width: '18rem', height: '18rem' }} />
 
                   <Card.Body className="">
                     <Card.Title>{photo.text}</Card.Title>
@@ -106,7 +106,7 @@ function Home() {
 
         </div>
       </motion.div>
-      <SliderComp />
+      {/* <SliderComp /> */}
     </>
   );
 }

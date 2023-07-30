@@ -1,89 +1,100 @@
-
 /* saunabesetka.jsx */
 
-.margin-x{
-    margin-top: 20px;
-    margin-bottom: 20px;
+.margin-x {
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
-.tdeco{
-    text-decoration: none;
+
+.tdeco {
+  text-decoration: none;
 }
+
 .active {
-    color: black !important;
-    background-color: red !important;
-  }
+  color: black !important;
+  background-color: red !important;
+}
 
 /* about.jsx */
 
-  .liAbout{
-    padding: 10px;
-    margin: 10px 0;
-    background-color: #007bff;
-    color: #fff;
-    border-radius: 5px;
-  }
-  .ulAbout{
-    list-style: none;
-    padding: 0;
-  }
+.liAbout {
+  padding: 10px;
+  margin: 10px 0;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.ulAbout {
+  list-style: none;
+  padding: 0;
+}
 
 
 /* ProductTitle.jsx */
 
 
-  .fontFamily{
-    font-family: 'Roboto', sans-serif;
-  }
+.fontFamily {
+  font-family: 'Roboto', sans-serif;
+}
 
-  .fUpperCase{
-    text-transform: uppercase;
-  }
+.fUpperCase {
+  text-transform: uppercase;
+}
 
-  .fS{
-    font-size: 2.5rem;
-    font-weight: 500;
+.fS {
+  font-size: 2.5rem;
+  font-weight: 500;
   border-bottom: 3px;
   border-color: #007bff;
   border-bottom-style: double;
-  }
+}
 
 
 
 
 
 /* questions.jsx */
-  .hoverCursor{
-    cursor:pointer;
+.hoverCursor {
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 992px) {
+  .vh{
+    height: 80vh;
+  }
   }
   
-
 
 
 /* footer.jsx */
-.mB{
+.mB {
   margin-top: 50px;
 }
-  .fT {
-    position: relative;
-  }
-  
-  .fT::after {
-    content: "";
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    width: 0%;
-    height: 2px;
-    background-color: #000;
-    transition: width 0.3s ease;
-  }
-  
-  .fT:hover::after {
-    width: 100%;
-  }
 
+.fT {
+  position: relative;
+}
 
+.fT::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0%;
+  height: 2px;
+  background-color: #000;
+  transition: width 0.3s ease;
+}
 
+.fT:hover::after {
+  width: 100%;
+}
+/* @media only screen and (max-width: 992px) {
+.mt-100{
+  margin-top: 350px !important;
+}
+
+} */
 
 
 
@@ -100,32 +111,42 @@
   color: #ffffff;
   font-size: 1.1em;
 }
+
 .dropdown-menu {
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
   border: none;
   border-radius: 0;
   padding: 0.7em;
+  left: -10rem;
+  top: 40px;
 }
+
 @media only screen and (min-width: 992px) {
   .dropdown:hover .dropdown-menu {
     display: flex;
   }
+
   .dropdown-menu.show {
     display: flex;
+
   }
 }
+
 .dropdown-menu ul {
   list-style: none;
   padding: 0;
 }
+
 .dropdown-menu li .dropdown-item {
   color: gray;
-  font-size: 1em;
+  font-size: 0.8em;
   padding: 0.5em 1em;
 }
+
 .dropdown-menu li .dropdown-item:hover {
   background-color: #f1f1f1;
 }
+
 /* .dropdown-menu li:first-child a {
   font-weight: bold;
   font-size: 1.2em;
@@ -135,6 +156,7 @@
 .dropdown-menu li:first-child a:hover {
   background-color: #f1f1f1;
 }
+
 @media only screen and (max-width: 992px) {
   .dropdown-menu.show {
     flex-wrap: wrap;
@@ -142,10 +164,12 @@
     overflow-y: scroll;
   }
 }
+
 @media only screen and (min-width: 992px) and (max-width: 1140px) {
   .dropdown:hover .dropdown-menu {
     width: 40vw;
     flex-wrap: wrap;
+
   }
 }
 
@@ -171,24 +195,42 @@ sidebar.jsx */
 
 @media only screen and (max-width: 776px) {
   .text {
-   font-size: 9px;
-font-weight: 900;
+    font-size: 8px !important;
+    font-weight: 600;
   }
 }
 
+.fontSize {
+  font-size: 0.6rem !important;
+  font-weight: 600 !important;
+  width: 100%;
 
+}
 
 @media only screen and (max-width: 776px) {
   .sidebar {
-height: 70vh !important;
-width: 100% !important;
-margin-bottom: 5px !important;
+    height: 35vh !important;
+    width: 100% !important;
+    margin-bottom: 5px !important;
 
   }
+
+
+
+}
+@media only screen and (max-width: 776px) {
+  .sidebarC {
+    height: 70vh !important;
+    width: 100% !important;
+    margin-bottom: 5px !important;
+
+  }
+
+
+
 }
 
-
-.sideBarNav{
+.sideBarNav {
   text-decoration: none;
 }
 
@@ -200,31 +242,50 @@ margin-bottom: 5px !important;
 
 /* Add CSS styles to position the sidebar and the content */
 .content-container {
-  display: flex; /* Use flexbox to align the sidebar and content */
-  flex-wrap: wrap; /* Allow content to wrap to the next line on smaller screens */
+  display: flex;
+  /* Use flexbox to align the sidebar and content */
+  flex-wrap: wrap;
+  /* Allow content to wrap to the next line on smaller screens */
 }
 
 .sidebar {
-  flex: 0 0 200px; /* Set the width of the sidebar as needed */
+  flex: 0 0 200px;
+  /* Set the width of the sidebar as needed */
 }
-
+.sidebarC {
+  flex: 0 0 200px;
+  /* Set the width of the sidebar as needed */
+}
 main {
-  flex: 1; /* Allow the content to take up the remaining space */
-  padding: 20px; /* Optional: Add padding to the content area */
+  flex: 1;
+  /* Allow the content to take up the remaining space */
+  padding: 20px;
 }
 
 /* Media query for smaller screens */
 @media (max-width: 768px) {
+  main {
+    flex: 1;
+    /* Allow the content to take up the remaining space */
+    padding: 0.6rem;
+  }
+
   .content-container {
-    flex-direction: column; /* Stack components vertically on smaller screens */
+    flex-direction: column;
+    /* Stack components vertically on smaller screens */
   }
 
   .sidebar {
-    flex: 1 1 100%; /* Make the sidebar take the full width on smaller screens */
+    flex: 1 1 100%;
+    /* Make the sidebar take the full width on smaller screens */
   }
-
+  .sidebarC {
+    flex: 1 1 100%;
+    /* Make the sidebar take the full width on smaller screens */
+  }
   main {
-    flex: 1 1 100%; /* Make the content take the full width on smaller screens */
+    flex: 1 1 100%;
+    /* Make the content take the full width on smaller screens */
   }
 }
 
@@ -336,659 +397,388 @@ main {
 
 /* all pages responsive
 1. sauna.jsx */
-.objectFit{
+.objectFit {
   object-fit: cover;
- 
+
 }
 
-.all-map-card{
-width:19rem;
-height:20rem;
+.all-map-card {
+  width: 19rem;
+  height: 20rem;
 }
-.all-map-img{
+
+.all-map-img {
 
   width: 18rem;
   height: 18rem;
 }
+
 @media only screen and (max-width: 768px) {
-  .all-card{
-   width: 20rem !important; 
+  .all-card {
+    width: 20rem !important;
   }
-  .all-ourworks{
-    width:20rem !important;
+
+  .all-ourworks {
+    width: 20rem !important;
     font-size: 1rem !important;
-  
+
   }
 
-  .all-map-container{
-    width:20rem !important;
-    height:25rem;
-  
+
+  .m-auto-all {
+
+    margin: auto !important;
+
   }
-  .all-map-card{
-    width:6rem !important;;
+}
+
+/* @media only screen and (max-width: 768px) {
+  .responsiveImg{
+    width: 5rem;
+    height:5rem;
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+  .responsiveImg{
+    width: 7rem;
     height:7rem;
- 
-    }
-  .all-map-img{
-
-    width: 5rem !important;
-    height: 5rem;
   }
-  .m-auto-all{
-  
-   margin: auto;
-   
+}
+@media only screen and (min-width: 993px) and (max-width: 1200px) {
+  .responsiveImg{
+    width: 10rem;
+    height:10rem;
+  }
+}
+
+@media only screen and (min-width: 1201px) {
+  .responsiveImg{
+    width: 18rem;
+    height:18rem;
+  }
+}
+ */
+
+
+ .responsiveImg {
+  width: 18rem;
+  height: 18rem;
+}
+
+@media only screen and (max-width: 1200px) {
+  .responsiveImg {
+    width: 10rem;
+    height: 10rem;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .responsiveImg {
+    width: 7rem;
+    height: 7rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .responsiveImg {
+    width: 5rem;
+    height: 5rem;
   }
 }
 
 
 
-/* all pages responsive
-2. besetka.jsx */
-
-.all-map-card-slaqbaum{
-  width:19rem;
-  height:20rem;
-  }
-  .all-map-img-slaqbaum{
-  
-    width: 18rem;
-    height: 18rem;
-  }
-  @media only screen and (max-width: 768px) {
-    .all-card-slaqbaum{
-     width: 20rem !important; 
-    }
-    .all-ourworks-slaqbaum{
-      width:20rem !important;
-      font-size: 1rem !important;
-    
-    }
-  
-    .all-map-container-slaqbaum{
-      width:20rem !important;
-      height:12rem;
-    
-    }
-    .all-map-card-slaqbaum{
-      width:6rem !important;;
-      height:6rem;
-   
-      }
-    .all-map-img-slaqbaum{
-  
-      width: 5rem !important;
-      height: 5rem;
-    }
-    .m-auto-all-slaqbaum{
-    
-     margin: auto;
-     
-    }
-  }
 
 
+.responsiveImgseenaye {
+  width: 18rem;
+  height: 18rem;
+}
 
-  
-/* all pages responsive
-3. panorama.jsx */
-.all-map-card-panorama{
-  width:19rem;
-  height:20rem;
+@media only screen and (max-width: 1200px) {
+  .responsiveImgseenaye {
+    width: 10rem;
+    height: 10rem;
   }
-  .all-map-img-panorama{
-  
-    width: 18rem;
-    height: 18rem;
-  }
-  @media only screen and (max-width: 768px) {
-    .all-card-panorama{
-     width: 20rem !important; 
-    }
-    .all-ourworks-panorama{
-      width:20rem !important;
-      font-size: 1rem !important;
-    
-    }
-  
-    .all-map-container-panorama{
-      width:20rem !important;
-      height:57rem;
-    
-    }
-    .all-map-card-panorama{
-      width:6rem !important;;
-      height:7rem;
-   
-      }
-    .all-map-img-panorama{
-  
-      width: 5rem !important;
-      height: 5rem;
-    }
-    .m-auto-all-panorama{
-    
-     margin: auto;
-     
-    }
-  }
-  
+}
 
-  /* all pages responsive
-4.pergole.jsx */
-.all-map-card-pergole{
-  width:19rem;
-  height:20rem;
+@media only screen and (max-width: 992px) {
+  .responsiveImgseenaye {
+    width: 7rem;
+    height: 7rem;
   }
-  .all-map-img-pergole{
-  
-    width: 18rem;
-    height: 18rem;
-  }
-  @media only screen and (max-width: 768px) {
-    .all-card-pergole{
-     width: 20rem !important; 
-    }
-    .all-ourworks-pergole{
-      width:20rem !important;
-      font-size: 1rem !important;
-    
-    }
-  
-    .all-map-container-pergole{
-      width:20rem !important;
-      height:21rem;
-    
-    }
-    .all-map-card-pergole{
-      width:6rem !important;;
-      height:7rem;
-   
-      }
-    .all-map-img-pergole{
-  
-      width: 5rem !important;
-      height: 5rem;
-    }
-    .m-auto-all-pergole{
-    
-     margin: auto;
-     
-    }
-  }
-  
+}
 
-
-    /* all pages responsive
-5. jaluz1.jsx */
-.all-map-card-jaluz1{
-  width:19rem;
-  height:20rem;
+@media only screen and (max-width: 768px) {
+  .responsiveImgseenaye {
+    width: 3rem;
+    height: 3rem;
   }
-  .all-map-img-jaluz1{
-  
-    width: 18rem;
-    height: 18rem;
-  }
-  @media only screen and (max-width: 768px) {
-    .all-card-jaluz1{
-     width: 20rem !important; 
-    }
-    .all-ourworks-jaluz1{
-      width:20rem !important;
-      font-size: 1rem !important;
-    
-    }
-  
-    .all-map-container-jaluz1{
-      width:20rem !important;
-      height:12rem;
-    
-    }
-    .all-map-card-jaluz1{
-      width:6rem !important;;
-      height:7rem;
-   
-      }
-    .all-map-img-jaluz1{
-  
-      width: 5rem !important;
-      height: 5rem;
-    }
-    .m-auto-all-jaluz1{
-    
-     margin: auto;
-     
-    }
-  }
-   /* all pages responsive
-6. jaluz2.jsx */
-.all-map-card-jaluz2{
-  width:19rem;
-  height:20rem;
-  }
-  .all-map-img-jaluz2{
-  
-    width: 18rem;
-    height: 18rem;
-  }
-  @media only screen and (max-width: 768px) {
-    .all-card-jaluz2{
-     width: 20rem !important; 
-    }
-    .all-ourworks-jaluz2{
-      width:20rem !important;
-      font-size: 1rem !important;
-    
-    }
-  
-    .all-map-container-jaluz2{
-      width:20rem !important;
-      height:27rem;
-    
-    }
-    .all-map-card-jaluz2{
-      width:6rem !important;;
-      height:7rem;
-   
-      }
-    .all-map-img-jaluz2{
-  
-      width: 5rem !important;
-      height: 5rem;
-    }
-    .m-auto-all-jaluz2{
-    
-     margin: auto;
-     
-    }
-  }
+}
 
 
 
 
-  /* all pages responsive
-7. autuqaraj.jsx */
-.all-map-card-qaraj{
-  width:19rem;
-  height:20rem;
-  }
-  .all-map-img-qaraj{
-  
-    width: 18rem;
-    height: 18rem;
-  }
-  @media only screen and (max-width: 768px) {
-    .all-card-qaraj{
-     width: 20rem !important; 
-    }
-    .all-ourworks-qaraj{
-      width:20rem !important;
-      font-size: 1rem !important;
-    
-    }
-  
-    .all-map-container-qaraj{
-      width:20rem !important;
-      height:100rem;
-    
-    }
-    .all-map-card-qaraj{
-      width:6rem !important;;
-      height:7rem;
-   
-      }
-    .all-map-img-qaraj{
-  
-      width: 5rem !important;
-      height: 5rem;
-    }
-    .m-auto-all-qaraj{
-    
-     margin: auto;
-     
-    }
-  }
- /* all pages responsive
-8. autoqarajdata.jsx */
-
-.all-map-card-qarajdata{
-  width:19rem;
-  height:20rem;
-  }
-  .all-map-img-qarajdata{
-  
-    width: 18rem;
-    height: 18rem;
-  }
-  @media only screen and (max-width: 768px) {
-    .all-card-qarajdata{
-     width: 20rem !important; 
-    }
-    .all-ourworks-qarajdata{
-      width:20rem !important;
-      font-size: 1rem !important;
-    
-    }
-  
-    .all-map-container-qarajdata{
-      width:20rem !important;
-      height:12rem;
-    
-    }
-    .all-map-card-qarajdata{
-      width:6rem !important;;
-      height:7rem;
-   
-      }
-    .all-map-img-qarajdata{
-  
-      width: 5rem !important;
-      height: 5rem;
-    }
-    .m-auto-all-qarajdata{
-    
-     margin: auto;
-     
-    }
-    .title{
-      font-size: 8px;
-    }
-  }
-
-  
-
-   /* all pages responsive
-9. autosenaye.jsx */
-
-.all-map-card-senaye{
-  width:19rem;
-  height:20rem;
-  }
-  .all-map-img-senaye{
-  
-    width: 18rem;
-    height: 18rem;
-  }
-  @media only screen and (max-width: 768px) {
-    .all-card-senaye{
-     width: 20rem !important; 
-    }
-    .all-ourworks-senaye{
-      width:20rem !important;
-      font-size: 1rem !important;
-    
-    }
-  
-    .all-map-container-senaye{
-      width:20rem !important;
-      height:50rem;
-    
-    }
-    .all-map-card-senaye{
-      width:6rem !important;;
-      height:7rem;
-   
-      }
-    .all-map-img-senaye{
-  
-      width: 5rem !important;
-      height: 5rem;
-    }
-    .m-auto-all-senaye{
-    
-     margin: auto;
-     
-    }
-    .title{
-      font-size: 8px;
-    }
-  }
-
-  
-
-  
-   /* all pages responsive
-10. autosdonerqapi.jsx */
-
-.all-map-card-doner-qapi{
-  width:19rem;
-  height:20rem;
-  }
-  .all-map-img-doner-qapi{
-  
-    width: 18rem;
-    height: 18rem;
-  }
-  @media only screen and (max-width: 768px) {
-    .all-card-doner-qapi{
-     width: 20rem !important; 
-    }
-    .all-ourworks-doner-qapi{
-      width:20rem !important;
-      font-size: 1rem !important;
-    
-    }
-  
-    .all-map-container-doner-qapi{
-      width:20rem !important;
-      height:12rem;
-    
-    }
-    .all-map-card-doner-qapi{
-      width:6rem !important;;
-      height:7rem;
-   
-      }
-    .all-map-img-doner-qapi{
-  
-      width: 5rem !important;
-      height: 5rem;
-    }
-    .m-auto-all-doner-qapi{
-    
-     margin: auto;
-     
-    }
-    .title{
-      font-size: 8px;
-    }
-  }
-
-
-  /* all pages responsive
-11. autofotosel.jsx */
-
-.all-map-card-doner-fotosel{
-  width:19rem;
-  height:20rem;
-  }
-  .all-map-img-doner-fotosel{
-  
-    width: 18rem;
-    height: 18rem;
-  }
-  @media only screen and (max-width: 768px) {
-    .all-card-doner-fotosel{
-     width: 20rem !important; 
-    }
-    .all-ourworks-doner-fotosel{
-      width:20rem !important;
-      font-size: 1rem !important;
-    
-    }
-  
-    .all-map-container-doner-fotosel{
-      width:20rem !important;
-      height:12rem;
-    
-    }
-    .all-map-card-doner-fotosel{
-      width:6rem !important;;
-      height:7rem;
-   
-      }
-    .all-map-img-doner-fotosel{
-  
-      width: 5rem !important;
-      height: 5rem;
-    }
-    .m-auto-all-doner-fotosel{
-    
-     margin: auto;
-     
-    }
-    .title{
-      font-size: 8px;
-    }
-  }
-
-
-  
-  /* all pages responsive
-12. yanasurusen.jsx */
-
-.all-map-card-yanasurusen{
-  width:19rem;
-  height:20rem;
-  }
-  .all-map-img-yanasurusen{
-  
-    width: 18rem;
-    height: 18rem;
-  }
-  @media only screen and (max-width: 768px) {
-    .all-card-yanasurusen{
-     width: 20rem !important; 
-    }
-    .all-ourworks-yanasurusen{
-      width:20rem !important;
-      font-size: 1rem !important;
-    
-    }
-  
-    .all-map-container-yanasurusen{
-      width:20rem !important;
-      height:12rem;
-    
-    }
-    .all-map-card-yanasurusen{
-      width:6rem !important;;
-      height:7rem;
-   
-      }
-    .all-map-img-yanasurusen{
-  
-      width: 5rem !important;
-      height: 5rem;
-    }
-    .m-auto-all-yanasurusen{
-    
-     margin: auto;
-     
-    }
-    .title{
-      font-size: 8px;
-    }
-  }
 
 
 
 
-  
-  /* all pages responsive
-13.avtomatikdemirdarvaza.jsx */
-
-.all-map-card-demir{
-  width:19rem;
-  height:20rem;
-  }
-  .all-map-img-demir{
-  
-    width: 18rem;
-    height: 18rem;
-  }
-  @media only screen and (max-width: 768px) {
-    .all-card-demir{
-     width: 20rem !important; 
-    }
-    .all-ourworks-demir{
-      width:20rem !important;
-      font-size: 1rem !important;
-    
-    }
-  
-    .all-map-container-demir{
-      width:20rem !important;
-      height:200rem;
-    
-    }
-    .all-map-card-demir{
-      width:6rem !important;;
-      height:7rem;
-   
-      }
-    .all-map-img-demir{
-  
-      width: 5rem !important;
-      height: 5rem;
-    }
-    .m-auto-all-demir{
-    
-     margin: auto;
-     
-    }
-    .title{
-      font-size: 8px;
-    }
-  }
 
 
-   
-  /* all pages responsive
-14.doxsan.jsx */
 
-.all-map-card-doxsan{
-  width:19rem;
-  height:20rem;
+/* 
+  navbar2.jsx */
+.navbar {
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.18);
+}
+
+.navbar .navbar-brand img {
+  max-width: 100px;
+
+}
+
+/* .fSize{
+
+font-size: 10px !important;
+
+} */
+@media screen and (min-width: 960px) {
+
+  .navbar .navbar-brand img {
+    max-width: 160px;
+    min-width: 150px;
   }
-  .all-map-img-doxsan{
-  
-    width: 18rem;
-    height: 18rem;
+
+  /* .fSize{
+font-size: 20px !important;
+
+  } */
+
+
+}
+
+
+@media screen and (min-width: 1200px) {
+  .navbar {
+    letter-spacing: 0.05em;
   }
-  @media only screen and (max-width: 768px) {
-    .all-card-doxsan{
-     width: 20rem !important; 
-    }
-    .all-ourworks-doxsan{
-      width:20rem !important;
-      font-size: 1rem !important;
-    
-    }
-  
-    .all-map-container-doxsan{
-      width:20rem !important;
-      height:30rem;
-    
-    }
-    .all-map-card-doxsan{
-      width:6rem !important;;
-      height:7rem;
-   
-      }
-    .all-map-img-doxsan{
-  
-      width: 5rem !important;
-      height: 5rem;
-    }
-    .m-auto-all-doxsan{
-    
-     margin: auto;
-     
-    }
-    .title{
-      font-size: 8px;
-    }
+
+  .navbar-collapse .navbar-nav .nav-link {
+    padding: 0.2em 1em;
   }
+
+  .navbar .navbar-brand img {
+    max-width: 7em;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .navbar .navbar-brand img {
+    max-width: 6em;
+  }
+
+  .navbar-collapse {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-end;
+  }
+
+  .search-and-icons,
+  .contact-info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+  }
+
+  .search-and-icons {
+    width: 70%;
+  }
+
+  .navbar form {
+    flex: 1;
+  }
+}
+
+.navbar-collapse .navbar-nav .nav-link {
+  color: #000;
+}
+
+.contact-info p {
+  justify-content: center;
+  font-size: 0.8em;
+  padding-right: 1em;
+  color: #000;
+}
+
+.contact-info a {
+  color: #000;
+  text-decoration: underline;
+}
+
+.user-icons div {
+  padding-right: 1em;
+  font-size: 1.2em;
+  color: #000;
+}
+
+.navbar form input {
+  border-radius: 0;
+}
+
+.navbar form input[type="search"] {
+  height: 2em;
+  background: #fff url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='grey' class='bi bi-search' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'%3E%3C/path%3E%3C/svg%3E") no-repeat 95%;
+}
+
+.navbar form input[type="search"]:focus {
+  background: #fff;
+  box-shadow: none;
+}
+
+
+
+.navbar-sticky {
+  position: sticky !important;
+  top: 0;
+  z-index: 100;
+
+}
+
+
+
+@media only screen and (min-width: 768px) {
+  .widthNavbar {
+    height: 40px;
+    margin-top: 10px;
+
+  }
+
+  .mend {
+    margin-right: 50px;
+  }
+}
+
+.hover:hover {
+  color: white !important;
+  border-radius: 5px;
+  background-color: #007bff;
+
+}
+
+.hoverimportant:hover {
+  color: white !important;
+  border-radius: 5px !important;
+  background-color: #007bff !important;
+
+}
+
+.activeNavbar {
+  color: white !important;
+  border-radius: 5px !important;
+  background-color: red !important;
+}
+
+/* slidercomp */
+
+
+.buttonSlider {
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #0074d9;
+  display: flex;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  width: 10px;
+  height: 10px;
+  color: #fff;
+
+}
+
+
+.buttonSlider:hover {
+  background-color: #0056b3;
+}
+
+/* sidebarStyles.css */
+
+/* Customize the following colors to suit your design */
+:root {
+  --primary-color: #007bff;
+  /* Replace with your primary color */
+  --secondary-color: #ff4500;
+  /* Replace with your secondary color */
+}
+
+/* Sidebar container */
+.sidebar {
+  background: linear-gradient(180deg, var(--primary-color), var(--secondary-color));
+  color: #fff;
+  /* Text color on the sidebar */
+  /* width: 250px; */
+  border-radius: 15px;
+}
+
+/* Sidebar menu item styles */
+.sidebar .pro-sidebar-menu .pro-menu-item {
+  border-radius: 0;
+  /* Adjust this for rounded corners on menu items if needed */
+}
+
+/* Active menu item style */
+.sidebar .pro-sidebar-menu .pro-menu-item.active {
+  background-color: rgba(255, 255, 255, 0.1);
+  /* Adjust the opacity as needed */
+}
+
+
+
+/* 
+sidebarC */
+
+.sidebarC {
+  background: linear-gradient(180deg, var(--primary-color), var(--secondary-color));
+  color: #fff;
+  /* Text color on the sidebar */
+  /* width: 250px; */
+  border-radius: 15px;
+}
+
+/* Sidebar menu item styles */
+.sidebarC .pro-sidebar-menu .pro-menu-item {
+  border-radius: 0;
+  /* Adjust this for rounded corners on menu items if needed */
+}
+
+/* Active menu item style */
+.sidebarC .pro-sidebar-menu .pro-menu-item.active {
+  background-color: rgba(255, 255, 255, 0.1);
+  /* Adjust the opacity as needed */
+}
+
+
+
+
+/* homepage */
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+  .homeCards {
+    width: 14rem !important;
+    height: 14rem !important;
+  }
+}
+
+
+
+
+
+.flexc{
+  display: flex !important;
+  flex-wrap: wrap !important;
+}

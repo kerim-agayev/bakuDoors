@@ -1,8 +1,25 @@
-import React from 'react'
+import React, { useEffect, useRef } from 'react'
 import ProductTitle from '../mainPages/about/ProductTitle';
-import { motion } from 'framer-motion'
+import { motion , useInView, useAnimation} from 'framer-motion'
 import Data from "../../datas/Data.json";
 function PergoleTentWorks() {
+  const ref = useRef(null)
+
+  const isinview = useInView(ref)
+
+  const maincontrols = useAnimation()
+
+  useEffect(() => {
+
+ 
+    if (isinview) {
+      maincontrols.start('visible')
+
+    }
+   
+    
+  }, [isinview])
+
   const { pergole } = Data
   const container = {
     visible: {
@@ -34,7 +51,7 @@ function PergoleTentWorks() {
             initial={{ opacity: 0, translateX: -300 }}
             animate={{ opacity: 1, translateX: 0 }}
             transition={{ duration: 1 }}
-            className='all-ourworks mt-5'
+            className='all-ourworks mt-5 m-auto'
           >
 
             <ProductTitle title=' ŞİRKƏTİMİZİN GÖRDÜYÜ İŞLƏR' />
@@ -43,24 +60,24 @@ function PergoleTentWorks() {
 
         </div>
       </div>
-<motion.div className="container mt-5"
+<motion.div ref={ref} className="container mt-5"
         initial='hidden'
-        animate='visible'
+        animate={maincontrols}
         variants={container}
 
 
       >
-        <div className="row all-map-container-pergole">
+        <div className="row m-auto">
 
 
           {
             pergole.map((perg) => (
-              <motion.div key={perg.id} className="col-4 col-lg-3 shadow mb-3 rounded"
+              <motion.div ref={ref} key={perg.id} className="col-4 col-xl-3  shadow mb-3 rounded "
                 variants={item}
 
               >
-                <div className="card  p-md-2 all-map-card-pergole" >
-                  <img src={perg.imgUrl} className="card-img-top objectFit all-map-img-pergole" alt="..." />
+                <div className="card  p-md-2" >
+                  <img src={perg.imgUrl} className="card-img-top objectFit responsiveImg" alt="..." />
 
                 </div>
 

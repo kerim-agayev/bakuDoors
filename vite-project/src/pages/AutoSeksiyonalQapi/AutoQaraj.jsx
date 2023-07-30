@@ -3,7 +3,7 @@ import BakudoorSeksional from '../../assets/bakudoorsseksional.jpg'
 
 import Data from "../../datas/Data.json";
 import ProductTitle from '../mainPages/about/ProductTitle';
-import { motion, useInView, useAnimation, useIsPresent } from 'framer-motion'
+import { motion, useInView, useAnimation } from 'framer-motion'
 
 
 
@@ -20,7 +20,6 @@ function AutoQaraj() {
 
   useEffect(() => {
 
-    console.log(isinview);
     if (isinview) {
       maincontrols.start('visible')
 

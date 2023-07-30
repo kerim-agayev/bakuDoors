@@ -1,8 +1,25 @@
-import React from 'react'
+import React, { useEffect, useRef } from 'react'
 import JaluzSistemleri from '../../assets/jaluzsistemleri.jpg'
 import Data from "../../datas/Data.json";
-import { motion } from 'framer-motion'
+import { motion , useInView, useAnimation} from 'framer-motion'
 function AutoJaluz() {
+  const ref = useRef(null)
+
+  const isinview = useInView(ref)
+
+  const maincontrols = useAnimation()
+
+  useEffect(() => {
+
+ 
+    if (isinview) {
+      maincontrols.start('visible')
+
+    }
+   
+    
+  }, [isinview])
+
   const container = {
     visible: {
       transition: {
@@ -31,12 +48,11 @@ function AutoJaluz() {
 
     <>
     
-    <div className='container mt-md-5 ' >
-      <div className='row'>
+  
       <div className='container mt-5' >
         <div className='row'>
 
-          <div className='col-8'>
+          <div className='col-12'>
             <motion.div className="card shadow m-auto-all" style={{ width: '18rem' }}
               initial={{ opacity: 0, scale: 0.8 }}
               animate={{ opacity: 1, scale: 1 }}
@@ -70,29 +86,25 @@ function AutoJaluz() {
       </div>
       
 
-      </div>
-
-
-
-    </div>
-    <motion.div className="container mt-5"
+     
+    <motion.div ref={ref} className="container mt-5"
         initial='hidden'
-        animate='visible'
+        animate={maincontrols}
         variants={container}
 
 
       >
-        <div className="row all-map-container-jaluz1">
+        <div className="row m-auto">
 
 
           {
             autojaluzqapidetay.map((auto) => (
-              <motion.div key={auto.id} className="col-4 col-lg-3 shadow mb-3 rounded"
+              <motion.div ref={ref} key={auto.id} className="col-4 col-xl-3  shadow mb-3 rounded"
                 variants={item}
 
               >
-                <div className="card  p-md-2 all-map-card-jaluz1">
-                  <img src={auto.imgUrl} className="card-img-top objectFit all-map-img-jaluz1" alt="..." />
+                <div className="card  p-md-2 ">
+                  <img src={auto.imgUrl} className="card-img-top objectFit responsiveImg" alt="..." />
 
                 </div>
 
