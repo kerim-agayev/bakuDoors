@@ -1,13 +1,13 @@
 import React, { useEffect, useRef } from 'react'
 import BakudoorSeksional from '../../assets/bakudoorsseksional.jpg'
-
 import Data from "../../datas/Data.json";
 import ProductTitle from '../mainPages/about/ProductTitle';
 import { motion, useInView, useAnimation } from 'framer-motion'
-
+import { useTranslation } from 'react-i18next';
 
 
 function AutoQaraj() {
+  const {t} = useTranslation()
   const ref = useRef(null)
   const ref2 = useRef(null)
   const ref3 = useRef(null)
@@ -60,9 +60,9 @@ function AutoQaraj() {
   return (
     <>
 
-      <div className='container mt-md-5' >
+      <div className='container mt-5' >
         <div className='row'>
-          <div className='col-8'>
+          <div className='col-12'>
             <motion.div className="card shadow m-auto-all" style={{ width: '18rem' }}
               initial={{ opacity: 0, scale: 0.8 }}
               animate={{ opacity: 1, scale: 1 }}
@@ -71,7 +71,7 @@ function AutoQaraj() {
             >
               <img src={BakudoorSeksional} className="card-img-top" alt="..." />
               <div className="card-body">
-                <h6 className="card-text">Avtomatik Qaraj Qapilari</h6>
+                <h6 className="card-text">{t('garage')}</h6>
               </div>
             </motion.div>
 
@@ -83,22 +83,22 @@ function AutoQaraj() {
 
             >
               <div className="card-body">
-                <p> 20-ci əsrin son dörddə biri  texnologiyanın inkişafı baxımından dünya tarixində görünməmiş bir sürətə  səhnə olmuşdur.. Hətta bundan 10 il əvvəlki texnologiya ilə günümüzdəki texnologiya arasındakı fərq  xəyal edilə bilməyəcək ölçülərə çatmışdır.</p>
-                <p> Texnologiya sahəsindəki yeniliklər insanların həyatlarında çox böyük bir rahatlıq və asanlıq təmin  edəcək. İnsanlar evlərində, işlərində, məktəblərində bu inkişaflar sayəsində çox böyük asanlıqlar  yaşayacaq, rahat, əyləncəli və zövqlü mühitlərə qovuşacaqlar. Robotlar bir çox işdə insan gücünün yerini  alacaq. İnsanlar yerlərindən qalxmadan robotlar sayəsində, avtomatik əməliyyatlarla icra edə biləcəklər.</p>
-                <p> Texnolgiyanın belə sürətlə inkişafı təbii ki qapılardan da yan keçməmişdir. Artıq insanlar sadəcə  düyməyə sıxmaqla istənilən qapını aça və ya bağlaya bilər. Avtomatik qapılar müasir dövrün dəbdə olan  sitemləridir.  Yağışlı, qarlı hava şəraitində və yaxud evə yorğun qayıdarkən avtomabilinizdən düşərək qapını açmağa ehtiyac yoxdur. </p>
+                <p> {t('autoqaraj1')}</p>
+                <p> {t('autoqaraj2')}</p>
+                <p> {t('autoqaraj3')} </p>
               </div>
             </motion.div>
 
             <div>
 
               <div>
-                <div className="container d-none d-md-block">
+                <div className="container d-none ">
                   <div className="row">
                     <motion.div
                       initial={{ opacity: 0, translateX: -300 }}
                       animate={{ opacity: 1, translateX: 0 }}
                       transition={{ duration: 1 }}
-                      className='all-ourworks mt-5'
+                      className='all-ourworks mt-5 m-auto'
 
                     >
 
@@ -111,35 +111,36 @@ function AutoQaraj() {
 
 
 
-                <div className="d-none d-md-block row all-map-container-qarajdata">
-{
+                <div className=" row m-auto d-none ">
 
-  autoqarajdata.map((data)=>(
-    <motion.div key={data.id} ref={ref} className="col-4 col-lg-3 shadow mb-3 rounded"
-                    variants={
-                      {
-                        hidden: { opacity: 0, translateX: -100 },
-                        visible: { opacity: 1, translateX: 0 }
-                      }
-                    }
-                    initial='hidden'
-                    animate={maincontrols}
-                    transition={{ duration: 3 }}
+                  {
 
-                  >
-                    <div className="card  p-md-2 all-map-card" >
-                      <img src={data.imgUrl} className="card-img-top objectFit all-map-img" alt="..." />
-                      <div className="card-body ">
-                        <h6 className='title'>{data.title}</h6>
-                        <p className="card-text d-none d-md-block">{data.text}</p>
-                      </div>
-                    </div>
-                  </motion.div>
-  ))
-}
-              
+                    autoqarajdata.map((data) => (
+                      <motion.div key={data.id} ref={ref} className="col-4 col-xl-3  shadow mb-3 rounded"
+                        variants={
+                          {
+                            hidden: { opacity: 0, translateX: -100 },
+                            visible: { opacity: 1, translateX: 0 }
+                          }
+                        }
+                        initial='hidden'
+                        animate={maincontrols}
+                        transition={{ duration: 3 }}
 
-                 
+                      >
+                        <div className="card  p-md-2 " >
+                          <img src={data.imgUrl} className="card-img-top objectFit responsiveImg" alt="..." />
+                          <div className="card-body ">
+                            <h6 className='title responsiveTitle'>{data.title}</h6>
+                            <p className="card-text d-none d-md-block responsiveText">{data.text}</p>
+                          </div>
+                        </div>
+                      </motion.div>
+                    ))
+                  }
+
+
+
                 </div>
 
 
@@ -160,11 +161,6 @@ function AutoQaraj() {
 
 
 
-
-
-
-
-
       <div ref={ref2} className="container">
         <div className="row">
           <motion.div
@@ -176,11 +172,11 @@ function AutoQaraj() {
             initial='hidden'
             animate={maincontrols2}
             transition={{ duration: 1 }}
-            className='all-ourworks mt-5 '
+            className='all-ourworks mt-5 m-auto'
 
           >
 
-            <ProductTitle title=' ŞİRKƏTİMİZİN GÖRDÜYÜ İŞLƏR' />
+            <ProductTitle title={t('works2')} />
           </motion.div>
 
 
@@ -200,17 +196,17 @@ function AutoQaraj() {
 
 
       >
-        <div className="row all-map-container-qaraj">
+        <div className="row m-auto">
 
 
           {
             autoqarajqapi.map((auto) => (
-              <motion.div ref={ref3} key={auto.id} className="col-4 col-lg-3 shadow mb-3 rounded "
+              <motion.div ref={ref3} key={auto.id} className="col-4 col-xl-3  shadow mb-3 rounded "
                 variants={item}
 
               >
-                <div className="card  p-md-2 all-map-card-qaraj" >
-                  <img src={auto.imgUrl} className="card-img-top objectFit all-map-img-qaraj" alt="..." />
+                <div className="card  p-md-2 " >
+                  <img src={auto.imgUrl} className="card-img-top objectFit responsiveImg rounded" alt="..." />
 
                 </div>
 

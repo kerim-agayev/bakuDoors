@@ -6,7 +6,7 @@ const WhatsappIcon = () => {
     <>
  
        <a
-      href="https://wa.me/+994503868998"
+      href="https://wa.me/+994504003355"
       target="_blank"
       rel="noopener noreferrer"
       className="whatsapp-icon "

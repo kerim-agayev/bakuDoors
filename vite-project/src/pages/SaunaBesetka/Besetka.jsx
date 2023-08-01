@@ -1,7 +1,9 @@
 import React from 'react'
 import  Pavillion from '../../assets/pavillion.jpg'
 import { motion } from 'framer-motion'
+import { useTranslation } from 'react-i18next';
 function Besetka() {
+  const {t} = useTranslation()
   return (
     <div className='container mt-5' >
       <div className='row'>
@@ -13,7 +15,7 @@ function Besetka() {
           >
             <img src={Pavillion} className="card-img-top" alt="..." />
             <div className="card-body">
-              <h6 className="card-text">Besetka Tikintisi</h6>
+              <h6 className="card-text">{t('pavilion')}</h6>
             </div>
           </motion.div>
 

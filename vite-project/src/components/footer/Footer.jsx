@@ -1,14 +1,43 @@
+
 import { NavLink, Outlet , Link } from "react-router-dom"
 import Logo from '../../assets/logo.png'
-
-import React, { useEffect, useState } from "react";
+import { motion, useInView, useAnimation } from 'framer-motion'
+import React, { useEffect, useState , useRef} from "react";
 import { AiOutlineInstagram } from "react-icons/ai";
 import { BsFacebook } from "react-icons/bs";
+import { useTranslation } from 'react-i18next';
 
 
 
 
 function Footer() {
+  const {t} = useTranslation()
+  const ref = useRef(null)
+  const ref2 = useRef(null)
+  const ref3 = useRef(null)
+  const isinview = useInView(ref)
+  const isinview2 = useInView(ref2)
+  const isinview3 = useInView(ref3)
+  const maincontrols = useAnimation()
+  const maincontrols2 = useAnimation()
+  const maincontrols3 = useAnimation()
+
+  useEffect(() => {
+
+    if (isinview) {
+      maincontrols.start('visible')
+
+    }
+    if (isinview2) {
+      maincontrols2.start('visible')
+    }
+    if (isinview3) {
+      maincontrols3.start('visible')
+    }
+  }, [isinview, isinview2, isinview3])
+
+
+
   useEffect(() => {
  
     const handleScroll = () => {
@@ -33,19 +62,24 @@ function Footer() {
             <div className="col-md-6 col-lg-3 mb-md-0 mb-4">
               <h2 className="footer-heading">
                 <Link to="/" className="logo text-decoration-none text-white">
-                  {/* <Image
-                    className=" rounded cover  "
-                    src="/images/kmplast10.PNG"
-                    alt="Picture of the author"
-                    width={200}
-                    height={120}
-                  /> */}
+                
                   <img src={Logo} alt=""  style={{width:'12.5rem', height:'7.5rem'}}/>
                 </Link>
               </h2>
             </div>
-            <div className="col-md-6 col-lg-3 mb-md-0 mb-4">
-              <h2 className="footer-heading">Mehsullar</h2>
+            <motion.div ref={ref} className="col-md-6 col-lg-3 mb-md-0 mb-4"
+              variants={{
+                hidden: { opacity: 0, translateX: -300 },
+                visible: { opacity: 1, translateX: 0 }
+  
+              }}
+              initial='hidden'
+              animate={maincontrols}
+              transition={{ duration: 1 }}
+            
+            
+            >
+              <h2 className="footer-heading">  {t('products')}</h2>
               <ul className="list-unstyled">
                 <li>
 
@@ -55,7 +89,7 @@ function Footer() {
                     to="autoseksiyonalqapi"
                     className="fT py-1 d-block text-decoration-none text-white rounded rounded"
                   >
-                    AVTOMATİK Seksiyonal QAPILAR
+                   {t('a')}
                   </NavLink>
                 </li>
                 <li>
@@ -64,7 +98,7 @@ function Footer() {
                     to="autojaluzqapi"
                     className="fT py-1 d-block fT text-decoration-none text-white rounded"
                   >
-                    AVTOMATİK JALÜZ QAPILAR
+                  {t('b')}
 
                   </NavLink>
                 </li>
@@ -74,7 +108,7 @@ function Footer() {
                     to="autofotoseldonerqapi"
                     className="fT py-1 d-block text-decoration-none text-white rounded"
                   >
-                    AVTOMATİK FOTOSEL ve Doner QAPILAR
+                {t('i')}
                   </NavLink>
                 </li>
                 <li>
@@ -83,7 +117,7 @@ function Footer() {
                     to="autodarvaza"
                     className="fT py-1 d-block text-decoration-none text-white rounded"
                   >
-                    AVTOMATİK DARVAZALAR
+                {t('d')}
                   </NavLink>
                 </li>
                 <li>
@@ -92,17 +126,16 @@ function Footer() {
                     to="pergoletent"
                     className="fT py-1 d-block text-decoration-none text-white rounded"
                   >
-                    PERGOLE VƏ TENT SİSTEMLƏRİ
+                   {t('e')}
                   </NavLink>
                 </li>
-
                 <li>
                   <NavLink
 
                     to="servisqurasdirma"
                     className="fT py-1 d-block text-decoration-none text-white rounded"
                   >
-                    Servis/ Qurasdirma
+                 {t('c')}
                   </NavLink>
                 </li>
                 <li>
@@ -111,7 +144,7 @@ function Footer() {
                     to="saunabesetka"
                     className="fT py-1 d-block text-decoration-none text-white rounded"
                   >
-                    Sauna/ Besetka
+                   {t('h')}
                   </NavLink>
                 </li>
                 <li>
@@ -120,7 +153,7 @@ function Footer() {
                     to="autobaryer"
                     className="fT py-1 d-block text-decoration-none text-white rounded"
                   >
-                    Avtomatik Baryer Sistemleri
+                   {t('g')}
                   </NavLink>
                 </li>
                 <li>
@@ -129,13 +162,31 @@ function Footer() {
                     to="autosuse"
                     className="fT py-1 d-block text-decoration-none text-white rounded"
                   >
-                    Avtomatik Suse Sistemleri
+                   {t('f')}
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink
+
+                    to="yuklemerampasi"
+                    className="fT py-1 d-block text-decoration-none text-white rounded"
+                  >
+                {t('j')}
                   </NavLink>
                 </li>
               </ul>
-            </div>
-            <div className="col-md-6 col-lg-3 mb-md-0 mb-4">
-              <h2 className="footer-heading">Səhifələr</h2>
+            </motion.div>
+            <motion.div ref={ref2} className="col-md-6 col-lg-3 mb-md-0 mb-4"
+              variants={{
+                hidden: { opacity: 0, translateX: -300 },
+                visible: { opacity: 1, translateX: 0 }
+  
+              }}
+              initial='hidden'
+              animate={maincontrols2}
+              transition={{ duration: 1 }}
+            >
+              <h2 className="footer-heading">{t('pages')}</h2>
               <ul className="list-unstyled">
                 <li>
                   <NavLink
@@ -143,7 +194,7 @@ function Footer() {
                     to="/"
                     className="fT py-1 d-block text-decoration-none text-white rounded"
                   >
-                    Ana Səhifə
+                  {t('home')}
                   </NavLink>
                 </li>
                 <li>
@@ -152,7 +203,7 @@ function Footer() {
                     to="contact"
                     className="fT py-1 d-block text-decoration-none text-white rounded"
                   >
-                    Əlaqə
+                 {t('contact')}
                   </NavLink>
                 </li>
                 <li>
@@ -161,7 +212,7 @@ function Footer() {
                     to="questions"
                     className="fT py-1 d-block text-decoration-none text-white rounded"
                   >
-                    Çox verilən suallar
+                   {t('questions')}
                   </NavLink>
                 </li>
                 <li>
@@ -170,44 +221,54 @@ function Footer() {
                     to="about"
                     className="fT py-1 d-block text-decoration-none text-white rounded"
                   >
-                    Şirkət haqqında
+                 {t('about')}
                   </NavLink>
                 </li>
               </ul>
-            </div>
-            <div className="col-md-6 col-lg-3 mb-md-0 mb-4">
-              <h2 className="footer-heading ">Follow us</h2>
+            </motion.div>
+            <motion.div ref={ref3} className="col-md-6 col-lg-3 mb-md-0 mb-4"
+              variants={{
+                hidden: { opacity: 0, translateX: -300 },
+                visible: { opacity: 1, translateX: 0 }
+  
+              }}
+              initial='hidden'
+              animate={maincontrols3}
+              transition={{ duration: 1 }}
+            
+            >
+              <h2 className="footer-heading ">{t('follow')}</h2>
               <ul className="ftco-footer-social p-0 ms-2">
                 <li>
-                  <a to="https://www.instagram.com/kenan060584/">
+                  <a href="https://www.instagram.com/bakudoors.com_/">
                     <span>
                       <AiOutlineInstagram className="" size={25} />
                     </span>
                   </a>
                 </li>
                 <li>
-                  <a href="#">
+                <a href="https://www.facebook.com/bakudoors.mmc/">
                     <span>
                       <BsFacebook className="" size={23} />
                     </span>
                   </a>
                 </li>
               </ul>
-            </div>
+            </motion.div>
           </div>
         </div>
-        <div className="w-100  border-top py-1 bg-success text-white text-end">
+        <motion.div className="w-100  border-top py-1 bg-success text-white text-end">
           <div className="container">
             <div className="row">
               <div className="col-md-6 col-lg-8">
                 <p className="copyright">
                   Copyright &copy;All rights reserved | This template is made
-                  with <i className="ion-ios-heart" aria-hidden="true"></i> by
+                  with <i className="ion-ios-heart" aria-hidden="true"></i> by K&A
                 </p>
               </div>
             </div>
           </div>
-        </div>
+        </motion.div>
       </footer>
     </>
   );

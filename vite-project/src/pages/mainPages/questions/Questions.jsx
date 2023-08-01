@@ -1,33 +1,32 @@
 import {motion} from 'framer-motion'
-
 import {BsFillArrowRightCircleFill, BsFillArrowDownCircleFill} from "react-icons/bs";
-
 import { useState } from "react";
 import ProductTitle from "../about/ProductTitle";
-
+import { useTranslation } from 'react-i18next';
 function Questions() {
+  const {t} = useTranslation()
   const [activeIndex, setActiveIndex] = useState(null);
 
   const questions = [
     {
-      question: "Sual 1",
-      answer: "Cavab 1",
+      question:t('s1'),
+      answer: t('q1'),
     },
     {
-      question: "Sual 2",
-      answer: "Cavab 2",
+      question:t('s2'),
+      answer: t('q2'),
     },
     {
-      question: "Sual 3",
-      answer: "Cavab 3",
+      question:t('s3'),
+      answer: t('q3'),
     },
     {
-      question: "Sual 4",
-      answer: "Cavab 4",
+      question:t('s4'),
+      answer: t('q4'),
     },
     {
-      question: "Sual 5",
-      answer: "Cavab 5",
+      question:t('s5'),
+      answer: t('q5'),
     },
   ];
 
@@ -49,7 +48,7 @@ function Questions() {
     transition={{delay:0.2,duration:1}}
     >
     <div>
-        <ProductTitle title="  Çox Verilən Suallar" />
+        <ProductTitle title={t('frquestions')} />
       </div>
       <div className="container bg-primary text-white rounded p-3 ">
         {questions.map((q, index) => (

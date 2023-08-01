@@ -464,6 +464,7 @@ main {
  .responsiveImg {
   width: 18rem;
   height: 18rem;
+  
 }
 
 @media only screen and (max-width: 1200px) {
@@ -488,8 +489,12 @@ main {
 }
 
 
-
-
+.responsiveTitle{
+  font-size: 1rem;
+}
+.responsiveText{
+  font-size: 1rem;
+}
 
 .responsiveImgseenaye {
   width: 18rem;
@@ -501,6 +506,12 @@ main {
     width: 10rem;
     height: 10rem;
   }
+  .responsiveText{
+    font-size: 0.8rem;
+  }
+  .responsiveTitle{
+    font-size: 0.8rem;
+  }
 }
 
 @media only screen and (max-width: 992px) {
@@ -508,12 +519,24 @@ main {
     width: 7rem;
     height: 7rem;
   }
+  .responsiveTitle{
+    font-size: 0.8rem;
+  }
+  .responsiveText{
+    font-size: 0.6rem;
+  }
 }
 
 @media only screen and (max-width: 768px) {
   .responsiveImgseenaye {
     width: 3rem;
     height: 3rem;
+  }
+  .responsiveTitle{
+    font-size: 0.8rem;
+  }
+  .responsiveText{
+    font-size: 0.4rem;
   }
 }
 
@@ -781,4 +804,48 @@ sidebarC */
 .flexc{
   display: flex !important;
   flex-wrap: wrap !important;
+}
+
+
+
+
+
+
+/* qapiServis */
+
+@media only screen and (min-width: 1400px) {
+.responsiveTextServis{
+font-size: 17px;
+}
+
+}
+
+
+
+@media only screen and (max-width: 1400px) {
+  .responsiveTextServis{
+    font-size: 12px;
+  }
+  .responsiveheight{
+    height: 4rem !important;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+
+  .responsiveheightCard{
+    height: 50rem !important;
+  }
+}
+
+
+
+/* iframe */
+
+
+.width{
+  width: 100%;
+}
+.height{
+  height: 100%;
 }

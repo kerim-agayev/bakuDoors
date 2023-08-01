@@ -1,13 +1,14 @@
 import React from 'react'
-import { NavLink, Outlet } from "react-router-dom"
+import {  Outlet } from "react-router-dom"
 import SidebarMain from '../../components/sidebar/SidebarMain'
+import { useTranslation } from 'react-i18next';
 function AutoDarvaza() {
+  const {t} = useTranslation()
 
-
-  const a = "90 DƏRƏCƏ AÇILAN DARVAZALAR"
-  const b = "YANA SÜRÜŞƏRƏK AÇILAN DARVAZALAR"
-  const c = "AVTOMATİK DARVAZALAR"
-  const d = "DƏMİR DARVAZALAR"
+  const a = t('agates')
+  const b = t('bgates')
+  const c = t('cgates')
+  const d = t('dgates')
 const aLink = 'doxsanderecedarvaza'
 const bLink = 'yanasurusendarvaza'
 const cLink = 'xacilandarvaza'

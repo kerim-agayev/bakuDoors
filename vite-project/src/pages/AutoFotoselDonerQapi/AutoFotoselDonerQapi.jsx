@@ -1,14 +1,18 @@
 import React from 'react'
-import { NavLink, Outlet } from "react-router-dom"
+import { Outlet } from "react-router-dom"
 import SidebarMain from '../../components/sidebar/SidebarMain'
+import { useTranslation } from 'react-i18next';
+
+
+
 function AutoFotoselDonerQapi() {
+  const {t} = useTranslation()
 
 
-
-  const a = "AVTOMATİK FOTOSEL QAPILAR"
-  const b = "Avtomatik Dönər Qapılar"
-  const c = "YARIM DAİRƏVİ FOTOSEL QAPILAR"
-  const d = "HERMETİK XƏSTƏXANA QAPILARI"
+  const a = t('photocell')
+  const b = t('revolving')
+  const c = t('circular')
+  const d = t('hermetic')
 const aLink = 'autofotosel'
 const bLink = 'autodoner'
 const cLink = 'autoyarimdaireviqapi'

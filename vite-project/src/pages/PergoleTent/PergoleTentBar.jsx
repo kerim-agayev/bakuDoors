@@ -1,9 +1,14 @@
 import React from 'react'
-import { NavLink, Outlet } from "react-router-dom"
+import {  Outlet } from "react-router-dom"
 import SidebarMain from '../../components/sidebar/SidebarMain'
+import { useTranslation } from 'react-i18next';
+
+
 function PergoleTentBar() {
-    const a = "PERGOLE VƏ TENT SİSTEMLƏRİ"
-    const b = "Gorduyumuz Isler"
+  const {t} = useTranslation()
+
+    const a = t('epergole')
+    const b = t('works')
     const aLink = 'pergoletentmain'
     const bLink = 'pergoletentourworks'
   

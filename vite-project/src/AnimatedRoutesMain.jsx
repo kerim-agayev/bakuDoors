@@ -1,7 +1,6 @@
 import React from 'react'
 import Home from './pages/mainPages/home/Home'
 import Navbar from './components/navbar/Navbar'
-
 import About from './pages/mainPages/about/About'
 import Contact from './pages/mainPages/contact/Contact'
 import Questions from './pages/mainPages/questions/Questions'
@@ -40,6 +39,9 @@ import {AnimatePresence} from 'framer-motion'
 import PergoleTentBar from './pages/PergoleTent/PergoleTentBar'
 import PergoleTentWorks from './pages/PergoleTent/PergoleTentWorks'
 import Navbar2 from './components/navbar/Navbar2'
+import YuklemeRampasi from './pages/YuklemeRampasi/YuklemeRampasi'
+import YuklemeRampasiBar from './pages/YuklemeRampasi/YuklemeRampasiBar'
+import YuklemeRampasiWorks from './pages/YuklemeRampasi/YuklemeRampasiWorks'
 
 function AnimatedRoutesMain() {
  
@@ -105,8 +107,12 @@ function AnimatedRoutesMain() {
         <Route path="xacilandarvaza" element={<XAcilanDarvaza />} />
         <Route path="yanasurusendarvaza" element={<YanaSurusenDarvaza/>} />
       </Route>
-
-
+  {/* yuklemeRampasi*/}
+  <Route path="yuklemerampasi" element={<YuklemeRampasiBar />}  >
+        <Route path="yuklememain" element={<YuklemeRampasi />} />
+        <Route path="yuklemeworks" element={<YuklemeRampasiWorks />} />
+   
+      </Route>
     </Route>
 
 

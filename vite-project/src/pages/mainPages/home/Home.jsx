@@ -16,11 +16,11 @@ import Saunalar from '../../../assets/saunalar.jpg'
 import Servis from '../../../assets/servis.jpg'
 
 import ProductTitle from "../about/ProductTitle";
-import { delay, motion } from 'framer-motion'
-
+import {  motion } from 'framer-motion'
+import { useTranslation } from 'react-i18next';
 
 function Home() {
-
+  const {t} = useTranslation()
   const container = {
     visible: {
       transition: {
@@ -45,15 +45,15 @@ function Home() {
   }
 
   const photoLinks = [
-    { id: 1, title: BakuDoorSseksional, text: 'Avtomatik Seksiyonal Qapilar', link: 'autoseksiyonalqapi' },
-    { id: 2, title: JaluzSistemleri, text: 'Avtomatik Jaluz Qapilar', link: 'autojaluzqapi' },
-    { id: 3, title: AutoFotoselEsas, text: 'Avtomatik Fotosel ve Doner Qapilar', link: 'autofotoseldonerqapi' },
-    { id: 4, title: AutoDarvazalar, text: 'Avtomatik Darvazalar', link: 'autodarvaza' },
-    { id: 5, title: Pergole, text: 'Pergole ve Tent Sistemleri', link: 'pergoletent' },
-    { id: 6, title: CamBalkon, text: 'Avtomatik Suse Sistemleri', link: 'autosuse' },
-    { id: 7, title: Slaqbaumlar2, text: 'Avtomatik Baryer Sistemleri', link: 'autobaryer' },
-    { id: 8, title: Saunalar, text: 'Sauna & Besetka', link: 'saunabesetka' },
-    { id: 9, title: Servis, text: 'Servis & Qurasdirma', link: 'servisqurasdirma' },
+    { id: 1, title: BakuDoorSseksional, text:t('a'), link: 'autoseksiyonalqapi' },
+    { id: 2, title: JaluzSistemleri, text: t('b'), link: 'autojaluzqapi' },
+    { id: 3, title: AutoFotoselEsas, text: t('i'), link: 'autofotoseldonerqapi' },
+    { id: 4, title: AutoDarvazalar, text: t('d'), link: 'autodarvaza' },
+    { id: 5, title: Pergole, text: t('e'), link: 'pergoletent' },
+    { id: 6, title: CamBalkon, text: t('f'), link: 'autosuse' },
+    { id: 7, title: Slaqbaumlar2, text: t('g'), link: 'autobaryer' },
+    { id: 8, title: Saunalar, text: t('h'), link: 'saunabesetka' },
+    { id: 9, title: Servis, text:t('c'), link: 'servisqurasdirma' },
   ];
 
 
@@ -63,7 +63,7 @@ function Home() {
 
   return (
     <>
-      <ProductTitle title=" Məhsul Kateqoriyaları" />
+      <ProductTitle title={t('productcategory')} />
       <motion.div className="container mt-5"
            initial='hidden'
       animate='visible'
@@ -85,7 +85,7 @@ function Home() {
               >
                 <Card className="my-3 border border-primary rounded-5 p-3 ">
 
-                  <img className="m-auto homeCards" src={photo.title} alt="" style={{ width: '18rem', height: '18rem' }} />
+                  <img className="m-auto homeCards rounded" src={photo.title} alt="" style={{ width: '18rem', height: '18rem' }} />
 
                   <Card.Body className="">
                     <Card.Title>{photo.text}</Card.Title>
@@ -95,7 +95,7 @@ function Home() {
                       to={photo.link}
                     >
                       {" "}
-                      Məhsullara bax
+                    {t('seeproducts')}
                     </NavLink>
                   </Card.Body>
                 </Card>

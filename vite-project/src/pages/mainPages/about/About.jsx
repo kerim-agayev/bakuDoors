@@ -1,7 +1,9 @@
 import React from "react";
 import ProductTitle from "./ProductTitle";
 import {motion} from 'framer-motion'
+import { useTranslation } from 'react-i18next';
 function About() {
+  const {t} = useTranslation()
   return (
     <>
     <motion.div className="motion"
@@ -16,25 +18,25 @@ function About() {
     <div className="container my-5">
         <div className="row">
           <div className="col-12 text-center">
-            <ProductTitle title="Haqqımızda" />
+            <ProductTitle title={t('about')} />
           </div>
           <ul className="ulAbout col-12 mx-2 bg-primary text-white rounded p-3">
-          <li className="liAbout"><h5> Hörmətli Müştəri.</h5></li>
-            <li className="liAbout"><h5>Dəyərli və qiymətli vaxtınızı bizə sərf etdiyiniz üçün öncədən Sizə dərin minnətdarlığımızı bildiririk.</h5></li>
+          <li className="liAbout"><h5> {t('aa')}</h5></li>
+            <li className="liAbout"><h5>{t('ba')}</h5></li>
 
-            <li className="liAbout"><h5>Biz – Baku DOORS  olaraq Azərbaycanda avtomatlaşdırma sahəsində fəaliyyət göstəririk. Bizim üçün vacib olanı Müştərilərimizə keyfiyyətli və səmərəli xidmət göstərməkdir.</h5></li>
+            <li className="liAbout"><h5>{t('ca')}</h5></li>
 
-            <li className="liAbout"><h5>Şirkətimiz fəaliyyəti--- avtomatik qapılar və şlaqbaum sistemləridir..</h5></li>
+            <li className="liAbout"><h5>{t('da')}</h5></li>
 
-            <li className="liAbout"><h5> Qarajların , darvazaların , anbarların və marketlərin qapı larının avtomatik olaraq açılıb bağlanmasını--Siz Baku DOORS-a etibar edin..</h5></li>
+            <li className="liAbout"><h5> {t('ea')}</h5></li>
 
-            <li className="liAbout"><h5>Şirkətimizin istifadə etdiyi mal-materiallar Avropanın brend şirkətlərinə məxsusdur. . </h5></li>
+            <li className="liAbout"><h5>{t('fa')}</h5></li>
 
-            <li className="liAbout"><h5>Bizim partnyorlarımız olan Beninca, Ditec, Label, Tecsedo, Game, Naturalbond, Flexidoor, Alp Alüminium, Əmrə Alüminium dünya bazarında yüksək reytinqə nail olmuşdur.</h5></li>
+            <li className="liAbout"><h5>{t('ga')}</h5></li>
 
-            <li className="liAbout"><h5>Artıq bu şirkətlərin məhsullarını Sizdə Baku DOORS  vasitəsilə əldə edə bilrəsiniz. </h5></li>
-            <li className="liAbout"><h5>Rahatlığınızı bizə etibar edin. Kefiyyətli məhsullar və professional işçilərimiz sayəsində müştərilərimizin zövqünə uyğun gördüyümüz hər bir işə məsuliyyət və cavabdehlik daşıyırıq.</h5></li>
-            <li className="liAbout"><h5>Hörmətlə : Baku DOORS </h5></li>
+            <li className="liAbout"><h5> {t('ha')}</h5></li>
+            <li className="liAbout"><h5>{t('ia')}</h5></li>
+            <li className="liAbout"><h5>{t('ja')}</h5></li>
           </ul>
         </div>
       </div>

@@ -1,10 +1,14 @@
 import React from 'react'
-import { NavLink, Outlet } from "react-router-dom"
+import { Outlet } from "react-router-dom"
 import SidebarMain from '../../components/sidebar/SidebarMain'
+import { useTranslation } from 'react-i18next';
 function AutoSeksiyonalQapi() {
-  
-  const a = "Avtomatik Qaraj Qapilari"
-  const b = "Avtomatik Senaye Qapilari"
+  const {t} = useTranslation()
+
+
+
+  const a = t('garage')
+  const b = t('industrial')
 const aLink = 'autoqaraj'
 const bLink = 'autosenaye'
 

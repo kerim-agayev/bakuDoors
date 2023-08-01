@@ -2,7 +2,9 @@ import React, { useEffect, useRef } from 'react'
 import ProductTitle from '../mainPages/about/ProductTitle';
 import Data from "../../datas/Data.json";
 import { motion , useInView, useAnimation} from 'framer-motion'
+import { useTranslation } from 'react-i18next';
 function PanoramaUstunluk() {
+  const {t} = useTranslation()
   const ref = useRef(null)
 
   const isinview = useInView(ref)
@@ -54,7 +56,7 @@ function PanoramaUstunluk() {
             className='all-ourworks mt-5 m-auto'
           >
 
-            <ProductTitle title=' ŞİRKƏTİMİZİN GÖRDÜYÜ İŞLƏR' />
+            <ProductTitle title={t('works2')} />
           </motion.div>
 
 
@@ -77,7 +79,7 @@ function PanoramaUstunluk() {
 
               >
                 <div className="card  p-md-2" >
-                  <img src={pan.imgUrl} className="card-img-top objectFit responsiveImg" alt="..." />
+                  <img src={pan.imgUrl} className="card-img-top objectFit responsiveImg rounded" alt="..." />
 
                 </div>
 

@@ -2,7 +2,9 @@ import React, { useEffect, useRef } from 'react'
 import JaluzSistemleri from '../../assets/jaluzsistemleri.jpg'
 import Data from "../../datas/Data.json";
 import { motion , useInView, useAnimation} from 'framer-motion'
+import { useTranslation } from 'react-i18next';
 function AutoJaluz() {
+  const {t} = useTranslation()
   const ref = useRef(null)
 
   const isinview = useInView(ref)
@@ -60,7 +62,7 @@ function AutoJaluz() {
             >
               <img src={JaluzSistemleri} className="card-img-top" alt="..." />
               <div className="card-body">
-                <h6 className="card-text">AVTOMATİK JALÜZ QAPILAR</h6>
+                <h6 className="card-text">{t('blind')}</h6>
               </div>
             </motion.div>
             <motion.div className="card mt-5 shadow-lg all-card m-auto-all"
@@ -69,10 +71,10 @@ function AutoJaluz() {
               transition={{ duration: 1 }}
             >
               <div className="card-body">
-                <p>Jaluz Qapılar – Avtomatik jaluz qapılar müasir dövürdə darvaza və qaraj qapılarında quraşdırıla bilər. Avtomatik jaluz qapılar sürətli açılıb bağlanması ilə hərəkəti tənzim edir. </p>
-                <p> Avtomatik jaluz qapılar motor sistemi və pərdələrdən ibarətdir.  Motor sisteminə  motor, motorun borusu və idarəetmə paneli daxildir.</p>
-                <p>Bu sistem xüsusi hazırlanmış soyuğa, yağışa və şaxtaya davamlı alüminium qutunun içərisində quraşdırılır. Alüminium pədələr bükülərək bu qutunun içərisində rulonlanır.</p>
-                <p>Avtomatik jaluz qapıların pərdələri hər iki üzü alüminium, içərisi isə sıxılmış dolqudur. Bu da avtomatik jaluz qapılar quraşdırılan mühütün havasını tənzimləyir. </p>
+                <p>{t('jaluz1')}</p>
+                <p> {t('jaluz2')}</p>
+                <p>{t('jaluz3')}</p>
+                <p>{t('jaluz4')}</p>
               </div>
             </motion.div>
           </div>
@@ -104,7 +106,7 @@ function AutoJaluz() {
 
               >
                 <div className="card  p-md-2 ">
-                  <img src={auto.imgUrl} className="card-img-top objectFit responsiveImg" alt="..." />
+                  <img src={auto.imgUrl} className="card-img-top objectFit responsiveImg rounded" alt="..." />
 
                 </div>
 

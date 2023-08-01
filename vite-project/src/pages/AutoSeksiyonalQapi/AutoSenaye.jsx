@@ -6,13 +6,17 @@ import BakuDoorSseksional from '../../assets/bakudoorsseksional.jpg'
 import { motion, useInView, useAnimation } from 'framer-motion'
 import ProductTitle from '../mainPages/about/ProductTitle';
 import Data from "../../datas/Data.json";
+import { useTranslation } from 'react-i18next';
+
+
 function AutoSenaye() {
+  const {t} = useTranslation()
   const ref = useRef(null)
-
+  const ref2 = useRef(null)
   const isinview = useInView(ref)
-
+  const isinview2 = useInView(ref2)
   const maincontrols = useAnimation()
-
+  const maincontrols2 = useAnimation()
   useEffect(() => {
 
 
@@ -21,8 +25,13 @@ function AutoSenaye() {
 
     }
 
+    if (isinview2) {
+      maincontrols2.start('visible')
 
-  }, [isinview])
+    }
+
+
+  }, [isinview, isinview2])
   const { autosenayeqapi } = Data
   const container = {
     visible: {
@@ -61,7 +70,7 @@ function AutoSenaye() {
             >
               <img src={BakuDoorSseksional} className="card-img-top" alt="..." />
               <div className="card-body">
-                <h6 className="card-text">Avtomatik Senaye Qapilari</h6>
+                <h6 className="card-text">{t('industrial')}</h6>
               </div>
             </motion.div>
 
@@ -73,11 +82,10 @@ function AutoSenaye() {
 
             >
               <div className="card-body">
-                <p>
-                  Avtomatik qapıların  özəlliklərindən biri də istənilən şəraitə və mühitə uyğun quraşdırıla bilməsidir. Buna misal olaraq normal, vertikal və yarımvertikal avtomatik qapılardır.</p>
-                <p className="card-text">Vertikal və yarımvertikal qapılar əsasən sənaye tipli obyektlərdə quraşdırılır. Sənaye qapıların quraşdırılma yerindən asılı olaraq müxtəlif cür quraşdırmaq olar. Ümumiyyətlə sənaye tipli avtomatik qapıların motorları 3 Faza olmalıdır ki, qapının hərəkətinə çətinlik yaratmasın. Sənaye avtomatik qapılar soyuğa və şaxtaya davamlıdır. Quraşdırılan sənaye obyektinin izolasiyasını təmin edir.</p>
-                <p className="card-text">Yarımvertikal avtomatik qapılar – adından göründüyü kimi bu tip avtomatik qapılar istənilən məsafədən sonra dönərək tavanın altına yığıla bilər.  </p>
-                <p className="card-text"> Vertikal avtomatik qapılar – tavana qədər açıla bilən qapılardır. Bu tip avtomatik qapılar əlavə yer tutmur və quraşdırılan yerdə avtomatik giriş-çixişi tənzimləyir.</p>
+                <p className="card-text">{t('autosenaye1')}</p>
+                <p className="card-text">{t('autosenaye2')}</p>
+                <p className="card-text"> {t('autosenaye3')}</p>
+                <p className="card-text">{t('autosenaye4')} </p>
               </div>
             </motion.div>
 
@@ -130,13 +138,19 @@ function AutoSenaye() {
       </div>
 
       <motion.div
-        initial={{ opacity: 0, translateX: -300 }}
-        animate={{ opacity: 1, translateX: 0 }}
+      ref={ref2}
+        variants={{
+          hidden: { opacity: 0, translateX: -300 },
+          visible: { opacity: 1, translateX: 0 }
+
+        }}
+        initial='hidden'
+        animate={maincontrols2}
         transition={{ duration: 1 }}
         className='all-ourworks mt-5 m-auto'
       >
 
-        <ProductTitle title=' ŞİRKƏTİMİZİN GÖRDÜYÜ İŞLƏR' />
+        <ProductTitle title={t('works2')} />
       </motion.div>
 
 
@@ -159,7 +173,7 @@ function AutoSenaye() {
 
               >
                 <div className="card  p-md-2 " >
-                  <img src={senaye.imgUrl} className="card-img-top objectFit responsiveImg" alt="..." />
+                  <img src={senaye.imgUrl} className="card-img-top objectFit responsiveImg rounded" alt="..." />
 
                 </div>
 

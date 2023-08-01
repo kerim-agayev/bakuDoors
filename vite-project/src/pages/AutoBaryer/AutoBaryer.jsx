@@ -1,12 +1,12 @@
 import React from 'react';
 import { Outlet } from 'react-router-dom';
 import SidebarMain from '../../components/sidebar/SidebarMain';
-
+import { useTranslation } from 'react-i18next';
 function AutoBaryer() {
+  const {t} = useTranslation()
 
-
-  const a = "Slaqbaum"
-  const b = "Vesor"
+  const a = t('barrier')
+  const b = t('vesor')
 const aLink = 'slaqbaum'
 const bLink = 'vesor'
 

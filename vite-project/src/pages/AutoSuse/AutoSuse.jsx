@@ -1,9 +1,13 @@
 import React from 'react'
-import { NavLink, Outlet } from "react-router-dom"
+import {  Outlet } from "react-router-dom"
 import SidebarMain from '../../components/sidebar/SidebarMain'
+import { useTranslation } from 'react-i18next';
+
 function AutoSuse() {
-  const a = "Panorama Sistemi"
-  const b = "Panoramanin Ustunlukleri"
+
+  const {t} = useTranslation()
+  const a = t('pansystem')
+  const b = t('works')
   const aLink = 'panoramasistem'
   const bLink = 'panoramaustunluk'
 

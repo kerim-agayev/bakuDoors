@@ -9,7 +9,9 @@ import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import ProductTitle from "../about/ProductTitle";
 import {motion} from 'framer-motion'
+import { useTranslation } from 'react-i18next';
 function Contact() {
+  const {t} = useTranslation()
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [to, setTo] = useState("");
@@ -63,7 +65,7 @@ function Contact() {
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-md-6 text-center mb-5">
-              <ProductTitle title="Əlaqə" />
+              <ProductTitle title={t('contact')} />
             </div>
           </div>
           <div className="row justify-content-center">
@@ -77,7 +79,7 @@ function Contact() {
                   
                   >
                     <div className="contact-wrap w-100 p-md-5 p-4">
-                      <h3 className="mb-4 fontFamily fUpperCase">K&M Plast</h3>
+                      <h3 className="mb-4 fontFamily fUpperCase">Baku Doors</h3>
                       <div id="form-message-warning" className="mb-4"></div>
                       <div id="form-message-success" className="mb-4"></div>
                       <form
@@ -153,7 +155,7 @@ function Contact() {
                             <div className="form-group my-2">
                               <input
                                 type="submit"
-                                value="Send Message"
+                                value={t('smessage')}
                                 className="btn btn-primary"
                               />
                               <div className="submitting"></div>
@@ -173,7 +175,7 @@ function Contact() {
                     <div className="info-wrap bg-primary w-100 p-lg-5 p-4 ">
                       <h3 className="mb-4 mt-md-4 fontFamily">
                         {" "}
-                        Əlaqə Məlumtları
+                       {t('cinfo')}
                       </h3>
                       <div className="dbox w-100 d-flex align-items-start">
                         <div className="icon d-flex align-items-center justify-content-center">
@@ -184,7 +186,7 @@ function Contact() {
                             <span>
                               <GiPositionMarker />
                             </span>
-                            <span>Address:&nbsp; Azərbaycan, Bakı şəhəri</span>{" "}
+                            <span>Address:&nbsp; Bakı şəhəri, Xətai rayonu Süleyman vəzirov küç. 33</span>{" "}
                           </p>
                         </div>
                       </div>
@@ -198,7 +200,7 @@ function Contact() {
                               {" "}
                               <BsFillTelephonePlusFill />
                             </span>
-                            <span>Phone:&nbsp; 0503868998</span>
+                            <span>Phone:&nbsp;  050 400 33 55</span>
                           </p>
                         </div>
                       </div>
@@ -211,7 +213,7 @@ function Contact() {
                             <span>
                               <AiOutlineMail />
                             </span>
-                            <span> Email:&nbsp; kmplast2016@gmail.com</span>
+                            <span> Email:&nbsp;info@bakudoors.com</span>
                           </p>
                         </div>
                       </div>

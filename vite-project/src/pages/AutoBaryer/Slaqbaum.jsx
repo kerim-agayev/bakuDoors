@@ -1,25 +1,30 @@
 import React, { useEffect, useRef } from 'react'
 import Slaqbaumlar2 from '../../assets/slaqbaumlar2.jpg'
-import { motion , useInView, useAnimation} from 'framer-motion'
+import { motion, useInView, useAnimation } from 'framer-motion'
 import Data from "../../datas/Data.json";
 import ProductTitle from '../mainPages/about/ProductTitle';
+import { useTranslation } from 'react-i18next';
 function Slaqbaum() {
+  const {t} = useTranslation()
   const ref = useRef(null)
   const ref2 = useRef(null)
   const isinview = useInView(ref)
-  // const isinview2 = useInView(ref2)
+  const isinview2 = useInView(ref2)
   const maincontrols = useAnimation()
-  // const maincontrols2 = useAnimation()
+  const maincontrols2 = useAnimation()
   useEffect(() => {
 
-  
+
     if (isinview) {
       maincontrols.start('visible')
 
     }
-   
-    
-  }, [isinview])
+    if (isinview2) {
+      maincontrols2.start('visible')
+
+    }
+
+  }, [isinview, isinview2])
 
 
   const { slaqbaum } = Data
@@ -47,60 +52,63 @@ function Slaqbaum() {
   }
   return (
     <>
-        <div className='container mt-5 ' >
-      <div className='row'>
-        <div className='col-12'>
-          <motion.div className="card shadow m-auto-all" style={{ width: '18rem' }}
-            initial={{ opacity: 0, scale: 0.8 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 1 }}
-          
-          
-          >
-            <img src={Slaqbaumlar2} className="card-img-top" alt="..." />
-            <div className="card-body">
-              <h6 className="card-text">Slaqbaum Tikintisi </h6>
-            </div>
-          </motion.div>
+      <div className='container mt-5 ' >
+        <div className='row'>
+          <div className='col-12'>
+            <motion.div className="card shadow m-auto-all" style={{ width: '18rem' }}
+              initial={{ opacity: 0, scale: 0.8 }}
+              animate={{ opacity: 1, scale: 1 }}
+              transition={{ duration: 1 }}
+
+
+            >
+              <img src={Slaqbaumlar2} className="card-img-top" alt="..." />
+              <div className="card-body">
+                <h6 className="card-text">{t('barrier')} </h6>
+              </div>
+            </motion.div>
 
 
 
 
-          <motion.div className="card shadow-lg mt-5 m-auto-all all-card"
-            initial={{ opacity: 0, scale: 0.8 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 1 }}
-          
-          
-          >
-            <div className="card-body ">
-              <p>  Yeni əl işimizdən.</p>
-              <p>--- işimiz keyfiyyətimizdir</p>
-              <p>Əlaqə: 050 400 3355 - 055 633 2888 - 070 633 2888</p>
-              <p>info@bakudoors.com - www.bakudoors.com</p>
-            </div>
-          </motion.div>
+            <motion.div className="card shadow-lg mt-5 m-auto-all all-card"
+              initial={{ opacity: 0, scale: 0.8 }}
+              animate={{ opacity: 1, scale: 1 }}
+              transition={{ duration: 1 }}
+
+
+            >
+              <div className="card-body ">
+                <p> {t('barrier1')}</p>
+                <p>{t('barrier2')}</p>
+                <p>{t('barrier3')}</p>
+                <p>info@bakudoors.com - www.bakudoors.com</p>
+              </div>
+            </motion.div>
+
+
+          </div>
+
 
 
         </div>
-
-
-
       </div>
 
 
+      <motion.div
+        ref={ref2}
+        variants={{
+          hidden: { opacity: 0, translateX: -300 },
+          visible: { opacity: 1, translateX: 0 }
 
-    </div>
-
-
-    <motion.div
-        initial={{ opacity: 0, translateX: -300 }}
-        animate={{ opacity: 1, translateX: 0 }}
+        }}
+        initial='hidden'
+        animate={maincontrols2}
         transition={{ duration: 1 }}
         className='all-ourworks mt-5 m-auto'
       >
 
-        <ProductTitle title=' ŞİRKƏTİMİZİN GÖRDÜYÜ İŞLƏR' />
+        <ProductTitle title={t('works')} />
       </motion.div>
 
 
@@ -122,7 +130,7 @@ function Slaqbaum() {
 
               >
                 <div className="card  p-md-2 " >
-                  <img src={slaq.imgUrl} className="card-img-top objectFit responsiveImg" alt="..." />
+                  <img src={slaq.imgUrl} className="card-img-top objectFit responsiveImg rounded" alt="..." />
 
                 </div>
 
@@ -137,7 +145,7 @@ function Slaqbaum() {
         </div>
       </motion.div>
 
-    
+
     </>
 
 

@@ -1,7 +1,9 @@
 import React from 'react'
 import Pergole from '../../assets/pergole.jpg'
 import { motion } from 'framer-motion'
+import { useTranslation } from 'react-i18next';
 function PergoleTent() {
+  const {t} = useTranslation()
   return (
     <div className='container mt-5' >
       <div className='row'>
@@ -15,7 +17,7 @@ function PergoleTent() {
           >
             <img src={Pergole} className="card-img-top" alt="..." />
             <div className="card-body">
-              <h6 className="card-text">PERGOLE VƏ TENT SİSTEMLƏRİ</h6>
+              <h6 className="card-text">{t('epergole')}</h6>
             </div>
           </motion.div>
 
@@ -28,7 +30,7 @@ function PergoleTent() {
           
           >
             <div className="card-body">
-              <p>Pergola Sistemlərimiz  müxtəlif seriyaları ilə xarici məkanların genişləndirilməsinə imkan yaradır və il boyu istifadə edə biləcəyiniz relsli tent sistemidir. İncə quruluş və müasir dizayna sahib açılıb-bağlanan tavan sistemi günəş şüasından, yağışdan və qardan qoruyur.</p>
+              <p>{t('pergolemain')}</p>
             </div>
           </motion.div>
 

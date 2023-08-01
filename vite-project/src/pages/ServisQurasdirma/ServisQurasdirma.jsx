@@ -1,10 +1,13 @@
 import React from 'react'
-import { NavLink, Outlet } from "react-router-dom"
+import { Outlet } from "react-router-dom"
 import SidebarMain from '../../components/sidebar/SidebarMain'
-function ServisQurasdirma() {
+import { useTranslation } from 'react-i18next';
 
-  const a = "Qapilarin Servisi ve Qurasdirilmasi"
-  const b = "Slaqbaumlarin Servisi ve Qurasdirilmasi"
+
+function ServisQurasdirma() {
+  const {t} = useTranslation()
+  const a = t('doorservice')
+  const b = t('barrierservice')
 const aLink = 'qapiservisqurasdirma'
 const bLink = 'slaqbaumservisqurasdirma'
 

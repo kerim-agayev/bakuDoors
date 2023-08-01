@@ -78,10 +78,7 @@
         "id": 1,
         "imgUrl": "../../../src/assets/panorama/panorama.jpg"
       },
-      {
-        "id": 2,
-        "imgUrl": "../../../src/assets/panorama/panorama2.png"
-      },
+     
       {
         "id": 3,
         "imgUrl": "../../../src/assets/panorama/panorama3.jpg"
@@ -1272,7 +1269,7 @@
         "id": 1,
         "title":"Motor sistemi",
         "imgUrl": "../../../src/assets/autoQarajData/autoqarajdata.jpg",
-        "text":"Avropanın brend şirkətlərinin istehsalı olan avtomatik qapı motorları ( 2 il zəmanət verilir) 1200N gücə malikdir,elektron idarəetmə paneli avtomatik qapı motorunun idarəedilməsini tənzimləyir.Avtomatik qapıların motorları uzaqdan idarə oluna bilən motorlardır. Bunun üçün pultun üzərində  olan düyməni sixmaq lazımdır."
+        "text":"Avropanın brend şirkətlərinin istehsalı olan avtomatik qapı motorları ( 2 il zəmanət verilir) 1200N gücə malikdir,elektron idarəetmə paneli avtomatik qapı motorunun idarəedilməsini tənzimləyir.Avtomatik qapıların motorları uzaqdan idarə oluna bilən motorlardır. "
       },
       {
         "id": 2,
@@ -1291,6 +1288,58 @@
         "title":"Mexanik hissələr",
         "imgUrl": "../../../src/assets/autoQarajData/autoqarajdata4.jpg",
         "text":"Avtomatik qapıların mexanik hissələri paslanmaz qalvaniz metaldan hazırlanmışdır. Mexanik hissələr müxtəlif parçalardan ibarətdir.  Yay, petlə , təkər , profildən  ibarət hissələr əsasən paslanmır. Buda avtomatik qapıların səssiz və maneəsiz işləməsinə şərait yaradır."
+      }
+    ],
+    "yuklemerampasi": [
+      {
+        "id": 1,
+        "imgUrl": "../../../src/assets/yuklemeRampasi/yuklemerampasi.jpg"
+  
+      },
+      {
+        "id": 2,
+        "imgUrl": "../../../src/assets/yuklemeRampasi/yuklemerampasi2.jpg"
+
+      },
+      {
+        "id": 3,
+        "imgUrl": "../../../src/assets/yuklemeRampasi/yuklemerampasi3.jpg"
+
+      },
+      {
+        "id": 4,
+        "imgUrl": "../../../src/assets/yuklemeRampasi/yuklemerampasi4.jpg"
+      
+      },
+      {
+        "id": 5,
+        "imgUrl": "../../../src/assets/yuklemeRampasi/yuklemerampasi5.jpg"
+   
+      },
+      {
+        "id": 6,
+        "imgUrl": "../../../src//assets/yuklemeRampasi/yuklemerampasi6.jpg"
+    
+      },
+      {
+        "id": 7,
+        "imgUrl": "../../../src/assets/yuklemeRampasi/yuklemerampasi7.jpg"
+ 
+      },
+      {
+        "id": 8,
+        "imgUrl": "../../../src/assets/yuklemeRampasi/yuklemerampasi8.jpg"
+    
+      },
+      {
+        "id": 9,
+        "imgUrl": "../../../src/assets/yuklemeRampasi/yuklemerampasi9.jpg"
+    
+      },
+      {
+        "id": 10,
+        "imgUrl": "../../../src/assets/yuklemeRampasi/yuklemerampasi10.jpg"
+   
       }
     ]
   }
