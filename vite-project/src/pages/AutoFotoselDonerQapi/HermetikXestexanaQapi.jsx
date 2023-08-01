@@ -21,7 +21,7 @@ function HermetikXestexanaQapi() {
           >
             <img src={AutoFotoselEsas} className="card-img-top" alt="..." />
             <div className="card-body">
-              <h6 className="card-text">HERMETİK XƏSTƏXANA QAPILARI</h6>
+              <h6 className="card-text">{t('hermetic')}</h6>
             </div>
           </motion.div>
           <motion.div className="card mt-5 shadow-lg all-card m-auto-all"
@@ -32,16 +32,8 @@ function HermetikXestexanaQapi() {
           
           >
             <div className="card-body">
-              <h3> Xəstəxana Qapıları </h3>
-              <p>Xəstəxanalarda əməliyyat, reanimasiya,xüsusi xidmət sahələrində,
-
-                tam sızdırmazlıq tələb etməyən hallarda xüsusi laminant
-
-                və ya polad materialdan emal edilən yana sürüşən və
-
-                ilgəkli qapı qanadları və arzu edilən açma bağlama
-
-                sistemli (barmaq izi,kart, şifrə, radar, buton və s). qapı tipləridir. </p>
+              <h3> {t('hermetic1')} </h3>
+              <p>{t('hermetic2')} </p>
             </div>
           </motion.div>
 

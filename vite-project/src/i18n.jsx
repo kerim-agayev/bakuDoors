@@ -111,7 +111,8 @@ translation:{
     autosenaye2:"Vertikal və yarımvertikal qapılar əsasən sənaye tipli obyektlərdə quraşdırılır. Sənaye qapıların quraşdırılma yerindən asılı olaraq müxtəlif cür quraşdırmaq olar. Ümumiyyətlə sənaye tipli avtomatik qapıların motorları 3 Faza olmalıdır ki, qapının hərəkətinə çətinlik yaratmasın. Sənaye avtomatik qapılar soyuğa və şaxtaya davamlıdır. Quraşdırılan sənaye obyektinin izolasiyasını təmin edir.",
     autosenaye3:"Yarımvertikal avtomatik qapılar – adından göründüyü kimi bu tip avtomatik qapılar istənilən məsafədən sonra dönərək tavanın altına yığıla bilər.",
     autosenaye4:"Vertikal avtomatik qapılar – tavana qədər açıla bilən qapılardır. Bu tip avtomatik qapılar əlavə yer tutmur və quraşdırılan yerdə avtomatik giriş-çixişi tənzimləyir.",
-
+    hermetic1:"Xəstəxana Qapıları",
+    hermetic2:"Xəstəxanalarda əməliyyat, reanimasiya,xüsusi xidmət sahələrində, tam sızdırmazlıq tələb etməyən hallarda xüsusi laminant və ya polad materialdan emal edilən yana sürüşən və ilgəkli qapı qanadları və arzu edilən açma bağlama sistemli (barmaq izi,kart, şifrə, radar, buton və s). qapı tipləridir.",
 
 
 
@@ -218,6 +219,21 @@ en:{
         autosenaye2:"Vertical and semi-vertical doors are mainly installed in industrial facilities. Depending on the installation location, industrial doors can be installed in different ways. In general, the motors of industrial-type automatic doors should be 3-Phase so as not to cause difficulties for the movement of the door. Industrial automatic doors are resistant to cold and frost. Provides isolation of the installed industrial facility.",
         autosenaye3:"Semi-vertical automatic doors - as the name suggests, this type of automatic doors can be folded back and stored under the ceiling after any distance.",
         autosenaye4:"Vertical automatic doors are doors that can be opened up to the ceiling. Automatic doors of this type do not take up additional space and regulate automatic entry and exit at the place of installation.",
+        hermetic1:"Hospital Doors",
+        hermetic2:"Side-sliding and hinged door wings made of special laminate or steel material and with the desired opening and closing system (fingerprint, card, password, radar, button, etc.) door types.",
+
+
+
+
+
+
+
+
+
+
+
+
+
     }
 
 }
