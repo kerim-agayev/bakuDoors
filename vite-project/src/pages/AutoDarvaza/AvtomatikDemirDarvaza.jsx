@@ -3,7 +3,9 @@ import Data from "../../datas/Data.json";
 import DemirDarvaza from '../../assets/demirdarvaza.jpg'
 import { motion , useInView, useAnimation} from 'framer-motion'
 import ProductTitle from '../mainPages/about/ProductTitle';
+import { useTranslation } from 'react-i18next';
 function AvtomatikDemirDarvaza() {
+  const {t} = useTranslation()
   const ref = useRef(null)
   const ref2 = useRef(null)
  

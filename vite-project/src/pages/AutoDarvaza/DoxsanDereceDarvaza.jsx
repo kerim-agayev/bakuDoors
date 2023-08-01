@@ -3,7 +3,9 @@ import Data from "../../datas/Data.json";
 import DoxsanAcilanDarvaza from '../../assets/doxsanacilandarvaza.jpg'
 import { motion , useInView, useAnimation} from 'framer-motion'
 import ProductTitle from '../mainPages/about/ProductTitle';
+import { useTranslation } from 'react-i18next';
 function DoxsanDereceDarvaza() {
+  const {t} = useTranslation()
   const ref = useRef(null)
   const ref2 = useRef(null)
  

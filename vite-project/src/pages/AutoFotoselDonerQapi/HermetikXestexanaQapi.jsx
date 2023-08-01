@@ -1,7 +1,13 @@
 import React from 'react'
 import AutoFotoselEsas from '../../assets/autofotoselesas.jpg'
 import { motion } from 'framer-motion'
+import { useTranslation } from 'react-i18next';
+
+
 function HermetikXestexanaQapi() {
+  const {t} = useTranslation()
+
+
   return (
     <div className='container mt-5' >
       <div className='row'>

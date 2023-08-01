@@ -3,7 +3,9 @@ import AutoDonerPhoto from '../../assets/autodoner.jpg'
 import Data from "../../datas/Data.json";
 import { motion , useInView, useAnimation} from 'framer-motion'
 import ProductTitle from '../mainPages/about/ProductTitle';
+import { useTranslation } from 'react-i18next';
 function AutoDoner() {
+  const {t} = useTranslation()
   const ref = useRef(null)
 
   const isinview = useInView(ref)

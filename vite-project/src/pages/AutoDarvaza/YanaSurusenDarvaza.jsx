@@ -3,7 +3,10 @@ import YanaSurusenQapi from '../../assets/yanasurusenqapi.jpg'
 import Data from "../../datas/Data.json";
 import { motion , useInView, useAnimation} from 'framer-motion'
 import ProductTitle from '../mainPages/about/ProductTitle';
+import { useTranslation } from 'react-i18next';
+
 function YanaSurusenDarvaza() {
+  const {t} = useTranslation()
   const ref = useRef(null)
   const ref2 = useRef(null)
  

@@ -1,8 +1,11 @@
 import React from 'react'
 import AutoDarvazalar from '../../assets/autodarvazalar.jpg'
 import { motion } from 'framer-motion'
+import { useTranslation } from 'react-i18next';
 function XAcilanDarvaza() {
+  const {t} = useTranslation()
   return (
+    
     <div className='container mt-5' >
       <div className='row'>
         <div className='col-12'>

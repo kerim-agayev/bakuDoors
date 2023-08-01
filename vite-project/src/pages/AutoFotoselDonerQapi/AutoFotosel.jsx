@@ -2,10 +2,11 @@ import React, { useEffect, useRef } from 'react'
 import AutoFotoselEsas from '../../assets/autofotoselesas.jpg'
 import AutoFotosel1 from '../../assets/autofotosel1.jpg'
 import Data from "../../datas/Data.json";
-
 import { motion , useInView, useAnimation} from 'framer-motion'
 import ProductTitle from '../mainPages/about/ProductTitle';
+import { useTranslation } from 'react-i18next';
 function AutoFotosel() {
+  const {t} = useTranslation()
   const ref = useRef(null)
 
   const isinview = useInView(ref)
