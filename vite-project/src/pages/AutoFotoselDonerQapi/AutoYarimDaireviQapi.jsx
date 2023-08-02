@@ -1,4 +1,4 @@
-import React from 'react'
+
 import YarimDairevi from '../../assets/yarimdairevi.png'
 import { motion } from 'framer-motion'
 import { useTranslation } from 'react-i18next';
@@ -17,7 +17,7 @@ function AutoYarimDaireviQapi() {
           >
             <img src={YarimDairevi} className="card-img-top" alt="..." />
             <div className="card-body">
-              <h6 className="card-text">YARIM DAİRƏVİ FOTOSEL QAPILAR</h6>
+              <h6 className="card-text">{t('circular')}</h6>
             </div>
           </motion.div>
 
@@ -29,7 +29,7 @@ function AutoYarimDaireviQapi() {
           
           >
             <div className="card-body">
-            <p>YARIM DAİRƏVİ FOTOSEL QAPILAR- Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima atque accusamus, ullam sit optio in nostrum voluptatibus eum enim nulla quisquam, facilis amet quibusdam consequuntur dolores, expedita numquam laudantium saepe.</p>
+            <p>{t('circular')}- Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima atque accusamus, ullam sit optio in nostrum voluptatibus eum enim nulla quisquam, facilis amet quibusdam consequuntur dolores, expedita numquam laudantium saepe.</p>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, corrupti?.</p>
             </div>
           </motion.div>

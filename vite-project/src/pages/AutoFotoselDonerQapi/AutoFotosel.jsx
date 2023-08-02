@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from 'react'
+import  { useEffect, useRef } from 'react'
 import AutoFotoselEsas from '../../assets/autofotoselesas.jpg'
 import AutoFotosel1 from '../../assets/autofotosel1.jpg'
 import Data from "../../datas/Data.json";
@@ -68,7 +68,7 @@ function AutoFotosel() {
           >
             <img src={AutoFotoselEsas} className="card-img-top" alt="..." />
             <div className="card-body">
-              <h6 className="card-text">AVTOMATİK FOTOSEL QAPILAR</h6>
+              <h6 className="card-text">{t('photocell')}</h6>
             </div>
           </motion.div>
           <motion.div className="card mt-5 mb-5 shadow-lg all-card m-auto-all"
@@ -78,8 +78,8 @@ function AutoFotosel() {
           
           >
             <div className="card-body">
-              <p>Avtomatik fotosel qapılar - Qapı boşluğu üzərinə asılan bir ray üzərində sürüşərək hərəkət edən tək və ya cüt istiqamətə açılan qanadlardan ibarət sürüşən qapını avtomatik hala gətirilməsi sistemidir. Sistemin adı avtomatik sürüşən qapı olmaqla birlikdə, qapıya yaxınlaşan kəslərin qəbul edilməsini təmin edən infrared və ya mikrodalğalı radarlar xalq arasında fotosel olaraq bilindiyindən, fotoselli qapı adı dəyişməz bir şəkildə söz xəzinəmizə yerləşmiş vəziyyətdədir.</p>
-              <p>Fotosel qapılar motor sistemi, alüminium profillər və şüşədən ibarətdir.</p>
+              <p>{t('fotocell1')}</p>
+              <p>{t('fotocell2')}</p>
             </div>
           </motion.div>
 
@@ -113,21 +113,20 @@ function AutoFotosel() {
       >
         <div className="col-md-6 mt-5 shadow-lg m-auto">
           <ul className="list-group">
-            <li className="list-group-item">Maksimum qanad tutumu; 1 qanad ən çox 140 kq - 500-dən 2.800 mm.'ye qədər. 2 qanad ən çox hər biri 80 kq - 500-dən 1400 mm.'ye qədər.</li>
-            <li className="list-group-item">Maksimum itələmə qüvvəsi: 150 N Açılma / Kapanma Sürəti: 15 - 55 cm./sn. arası nizamlana bilər.</li>
-            <li className="list-group-item">Yavaşlama / Yaklaşma Sürəti: 1 - 10 cm./sn. arası nizamlana bilər.</li>
-            <li className="list-group-item">Yavaşlama / Yaklaşma məsafə: 1 - 50 sm. arası nizamlana bilər.</li>
-            <li className="list-group-item">Dayanıb Kapatma vaxtı (Avtomatik / Yarı Manuel / Manuel): 0-60 saniyə arası nizamlana bilər.</li>
-            <li className="list-group-item">Vites mühərriki / Elektron kart / Konverter / Batareya: Şaseye montajlı haldadır.</li>
-            <li className="list-group-item">Mühərrik: 24V DC - 45W qalıcı maqnitli və fırçaları inteqrasiya vəziyyətdədir.</li>
-            <li className="list-group-item">Vites Düşürme Vahidi: Tərsinə çevrilə və sərbəst qorumalıdır.</li>
-            <li className="list-group-item">Hərəkatı Ötürmə Forması: Anti-statik cədvəli polad qayışla edilər.</li>
-            <li className="list-group-item">Kanat Nizamlamaları: yüksəklikdə, üfüqi və şaquli olaraq düzəlişlər edilə bilər.</li>
-            <li className="list-group-item">Güc Qaynağı: 230V +/- 10% 50/60 Hz Adaptörle birlikdə 24V aşağı gərginlik.</li>
-            <li className="list-group-item">Xərclədiyi Güc məbləği: Maksimum 150 vat.</li>
-            <li className="list-group-item">Əmək İstilik Aralığı: -20 ° C / + 50 ° C</li>
-            <li className="list-group-item">A fourth item</li>
-            <li className="list-group-item">Qoruma Sınıfı: IP 23 Radar: 0,50 - 2,50 metr məsafə təyin edilə bilər, micro - processor radar.</li>
+            <li className="list-group-item">{t('fotocell3')}</li>
+            <li className="list-group-item">{t('fotocell4')}</li>
+            <li className="list-group-item">{t('fotocell5')}</li>
+            <li className="list-group-item">{t('fotocell6')}</li>
+            <li className="list-group-item">{t('fotocell7')}</li>
+            <li className="list-group-item">{t('fotocell8')}</li>
+            <li className="list-group-item">{t('fotocell9')}</li>
+            <li className="list-group-item">{t('fotocell10')}</li>
+            <li className="list-group-item">{t('fotocell11')}</li>
+            <li className="list-group-item">{t('fotocell12')}</li>
+            <li className="list-group-item">{t('fotocell13')}</li>
+            <li className="list-group-item">{t('fotocell14')}</li>
+            <li className="list-group-item">{t('fotocell15')}</li>
+            <li className="list-group-item">{t('fotocell16')}</li>
           </ul>
         </div>
 
@@ -151,7 +150,7 @@ function AutoFotosel() {
         className='all-ourworks mt-5 m-auto'
       >
 
-        <ProductTitle title=' ŞİRKƏTİMİZİN GÖRDÜYÜ İŞLƏR' />
+        <ProductTitle title={t('works2')} />
       </motion.div>
 
 

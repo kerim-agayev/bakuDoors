@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from 'react'
+import  { useEffect, useRef } from 'react'
 import Data from "../../datas/Data.json";
 import DoxsanAcilanDarvaza from '../../assets/doxsanacilandarvaza.jpg'
 import { motion , useInView, useAnimation} from 'framer-motion'
@@ -70,7 +70,7 @@ function DoxsanDereceDarvaza() {
             >
               <img src={DoxsanAcilanDarvaza} className="card-img-top" alt="..." />
               <div className="card-body">
-                <h6 className="card-text">AVTOMATİK 90 DƏRƏCƏ AÇILAN DARVAZALAR</h6>
+                <h6 className="card-text">{t('agates')}</h6>
               </div>
             </motion.div>
             <motion.div className="card mt-5 shadow-lg all-card m-auto-all"
@@ -109,7 +109,7 @@ function DoxsanDereceDarvaza() {
         className='all-ourworks mt-5 m-auto'
       >
 
-        <ProductTitle title=' ŞİRKƏTİMİZİN GÖRDÜYÜ İŞLƏR' />
+        <ProductTitle title={t('works2')} />
       </motion.div>
 
 

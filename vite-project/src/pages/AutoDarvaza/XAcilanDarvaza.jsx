@@ -1,4 +1,4 @@
-import React from 'react'
+
 import AutoDarvazalar from '../../assets/autodarvazalar.jpg'
 import { motion } from 'framer-motion'
 import { useTranslation } from 'react-i18next';
@@ -18,7 +18,7 @@ function XAcilanDarvaza() {
           >
             <img src={AutoDarvazalar} className="card-img-top" alt="..." />
             <div className="card-body">
-              <h6 className="card-text">AVTOMATİK DARVAZALAR</h6>
+              <h6 className="card-text">{t('cgates')}</h6>
             </div>
           </motion.div>
 
@@ -32,11 +32,11 @@ function XAcilanDarvaza() {
           
           >
             <div className="card-body">
-              <h3 className='mt-5'>Baku DOORS – Avtomatik qapılar şirkəti avtomatik darvazalarının 4 növünü təqdim edir.</h3>
-              <p className="card-text">Mövcud darvazaların avtomatlaşdırılması – </p>
-              <p className="card-text">Sendvic paneldən 90 dərəcə açılan avtomatik darvazalar.</p>
-              <p className="card-text">Sendvic paneldən yana sürüçən avtomatik darvazalar.</p>
-              <p className="card-text">Amerikan tipli X açılan avtomatik darvazalar.</p>
+              <h3 className='mt-5'>{t('gates1')}</h3>
+              <p className="card-text"> {t('gates2')} </p>
+              <p className="card-text">{t('gates3')}</p>
+              <p className="card-text">{t('gates4')}</p>
+              <p className="card-text">{t('gates5')}</p>
             </div>
           </motion.div>
 

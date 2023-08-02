@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from 'react'
+import  { useEffect, useRef } from 'react'
 import AutoDonerPhoto from '../../assets/autodoner.jpg'
 import Data from "../../datas/Data.json";
 import { motion , useInView, useAnimation} from 'framer-motion'
@@ -71,7 +71,7 @@ function AutoDoner() {
             <img src={AutoDonerPhoto} className="card-img-top" alt="..." />
             <div className="card-body">
               <h6 className="card-text">
-                Avtomatik Dönər Qapılar</h6>
+                {t('revolving')}</h6>
             </div>
           </motion.div>
 
@@ -85,7 +85,7 @@ function AutoDoner() {
           
           >
             <div className="card-body">
-            <p>Avtomatik fırlanan qapılar bina içindəki temperatur  səviyyəsini  sabit saxlamaq üçün ən ideal avadanlıqdır. Giriş  və çıxışlardakı  insan axımını yüksək  səviyyədə  idarə edir. Dizayn baxımından ticari obyektlərdə  yadda qalan  bir görüntü  yaradır. </p>
+            <p>{t('revolving1')} </p>
 
             </div>
           </motion.div>
@@ -100,14 +100,14 @@ function AutoDoner() {
         
         >
           <ul className="list-group ">
-            <li className="list-group-item active" aria-current="true">Xüsusiyyətləri :</li>
-            <li className="list-group-item">Radarların  fırlanan qapı tavanlarında  gizli   şəkildə  yerləşməsi</li>
-            <li className="list-group-item">Avtomatik fırlanan qapları 2, 3 və ya 4  qanadlı  olmaqla  3  fərqli  variantda  istehsal  edilməkdədir</li>
-            <li className="list-group-item">Aliminium  gövdə  üzərinə  geydirilən  müxtəlif  rəng  və material  seçimi</li>
-            <li className="list-group-item">Horizontal   və vertikal  olaraq insan keçid  sürətini  tənzimləyən  qanad  rezinləri
+            <li className="list-group-item active" aria-current="true">{t('revolving2')}</li>
+            <li className="list-group-item">{t('revolving3')}</li>
+            <li className="list-group-item">{t('revolving4')}</li>
+            <li className="list-group-item">{t('revolving5')}</li>
+            <li className="list-group-item">{t('revolving6')}
             </li>
-            <li className="list-group-item">Əlillərin istifadəsini  yüngülləşdirmək üçün  əlavə  düymə  vasitəsilə   hərəkətə gətirilmə qabiliyyəti</li>
-            <li className="list-group-item">Avtomatik və ya mexaniki hərəkət seçimi.</li>
+            <li className="list-group-item">{t('revolving7')}</li>
+            <li className="list-group-item">{t('revolving8')}</li>
 
           </ul>
         </motion.div>
@@ -134,7 +134,7 @@ function AutoDoner() {
         className='all-ourworks mt-5 m-auto'
       >
 
-        <ProductTitle title=' ŞİRKƏTİMİZİN GÖRDÜYÜ İŞLƏR' />
+        <ProductTitle title={t('works2')} />
       </motion.div>
 
 

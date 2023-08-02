@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from 'react'
+import  { useEffect, useRef } from 'react'
 import YanaSurusenQapi from '../../assets/yanasurusenqapi.jpg'
 import Data from "../../datas/Data.json";
 import { motion , useInView, useAnimation} from 'framer-motion'
@@ -72,7 +72,7 @@ function YanaSurusenDarvaza() {
           >
             <img src={YanaSurusenQapi} className="card-img-top" alt="..." />
             <div className="card-body">
-              <h6 className="card-text">YANA SÜRÜŞƏRƏK AÇILAN DARVAZALAR</h6>
+              <h6 className="card-text">{t('bgates')}</h6>
             </div>
           </motion.div>
 
@@ -84,13 +84,13 @@ function YanaSurusenDarvaza() {
           >
             <div className="card-body ">
               <ul className="list-group ">
-                <li className="list-group-item">Avtomatik darvaza qapılarının elektron hissələri ən son texnologiya ilə istehsal olunur(İTALİYA İSTEHSALI).</li>
-                <li className="list-group-item">  Avtomatik darvaza qapıları pultla heç bir çətinlik olmadan idarə olunur.</li>
-                <li className="list-group-item">  Avtomatik darvaza qapıları tam təhlükəsizliyə  malikdir.</li>
-                <li className="list-group-item"> Avtomatik darvaza qapıları çox gözəl görünüşə və keyfiyyətə malikdir.</li>
-                <li className="list-group-item">  Avtomatik darvaza qapıları elektrik enejisinin qənaətinə görə çox ekonom və möhtəşəmdir.</li>
-                <li className="list-group-item">   Avtomatik darvaza qapıları elektrik enejisi kəsildikdə belə əlavə qoşulan batareyalar sayəsində asanlıqla açılıb-bağlana bilir.</li>
-                <li className="list-group-item"> Avtomatik darvaza qapılarına quraşdırılan motorların özü də darvazaya xüsusi gözəllik verir.</li>
+                <li className="list-group-item">{t('sliding1')}</li>
+                <li className="list-group-item">{t('sliding2')}  </li>
+                <li className="list-group-item"> {t('sliding3')} </li>
+                <li className="list-group-item">{t('sliding4')} </li>
+                <li className="list-group-item">{t('sliding5')}  </li>
+                <li className="list-group-item"> {t('sliding6')} </li>
+                <li className="list-group-item"> {t('sliding7')}</li>
 
               </ul>
             </div>
@@ -125,7 +125,7 @@ function YanaSurusenDarvaza() {
         className='all-ourworks mt-5 m-auto'
       >
 
-        <ProductTitle title=' ŞİRKƏTİMİZİN GÖRDÜYÜ İŞLƏR' />
+        <ProductTitle title={t('works2')} />
       </motion.div>
 
 

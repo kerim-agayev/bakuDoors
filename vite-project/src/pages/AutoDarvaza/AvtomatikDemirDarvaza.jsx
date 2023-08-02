@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from 'react'
+import  { useEffect, useRef } from 'react'
 import Data from "../../datas/Data.json";
 import DemirDarvaza from '../../assets/demirdarvaza.jpg'
 import { motion , useInView, useAnimation} from 'framer-motion'
@@ -67,7 +67,7 @@ function AvtomatikDemirDarvaza() {
             >
               <img src={DemirDarvaza} className="card-img-top" alt="..." />
               <div className="card-body">
-                <h6 className="card-text">DƏMİR DARVAZALAR</h6>
+                <h6 className="card-text">{t('dgates')}</h6>
               </div>
             </motion.div> 
             <motion.div className="card mt-5 shadow-lg all-card m-auto-all"
@@ -106,7 +106,7 @@ function AvtomatikDemirDarvaza() {
         className='all-ourworks mt-5 m-auto'
       >
 
-        <ProductTitle title=' ŞİRKƏTİMİZİN GÖRDÜYÜ İŞLƏR' />
+        <ProductTitle title={t('works2')} />
       </motion.div>
 
 

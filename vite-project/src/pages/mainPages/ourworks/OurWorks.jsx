@@ -101,7 +101,7 @@ function OurWorks() {
                                 className="form-control"
                                 name="from_name"
                                 id="name"
-                                placeholder="Name/ Surname"
+                                placeholder={t('namesurname')}
                               />
                               {/* name */}
                             </div>
@@ -131,7 +131,7 @@ function OurWorks() {
                                 className="form-control"
                                 name="vezife"
                                 id="vezife"
-                                placeholder="Profession"
+                                placeholder={t('profession')}
                               />
                               {/* vezife */}
                             </div>
@@ -146,7 +146,7 @@ function OurWorks() {
                                 className="form-control"
                                 name="phone"
                                 id="phone"
-                                placeholder="Phone"
+                                placeholder={t('phone')}
                               />
                               {/* phone */}
                             </div>
@@ -161,7 +161,7 @@ function OurWorks() {
                                 className="form-control"
                                 name="to_name"
                                 id="subject"
-                                placeholder="To"
+                                placeholder={t('to')}
                               />
                               {/* text */}
                             </div>
@@ -177,7 +177,7 @@ function OurWorks() {
                                 id="message"
                                 cols="30"
                                 rows="7"
-                                placeholder="Message"
+                                placeholder={t('message')}
                               ></textarea>
                               {/* message */}
                             </div>

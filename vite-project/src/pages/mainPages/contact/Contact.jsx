@@ -100,7 +100,7 @@ function Contact() {
                                 className="form-control"
                                 name="from_name"
                                 id="name"
-                                placeholder="Name"
+                                placeholder={t('name')}
                               />
                               {/* name */}
                             </div>
@@ -130,7 +130,7 @@ function Contact() {
                                 className="form-control"
                                 name="to_name"
                                 id="subject"
-                                placeholder="To"
+                                placeholder={t('to')}
                               />
                               {/* text */}
                             </div>
@@ -146,7 +146,7 @@ function Contact() {
                                 id="message"
                                 cols="30"
                                 rows="7"
-                                placeholder="Message"
+                                placeholder={t('message')}
                               ></textarea>
                               {/* message */}
                             </div>
@@ -186,7 +186,7 @@ function Contact() {
                             <span>
                               <GiPositionMarker />
                             </span>
-                            <span>Address:&nbsp; Bakı şəhəri, Xətai rayonu Süleyman vəzirov küç. 33</span>{" "}
+                            <span>{t('address')}&nbsp; Bakı şəhəri, Xətai rayonu Süleyman vəzirov küç. 33</span>{" "}
                           </p>
                         </div>
                       </div>
@@ -200,7 +200,7 @@ function Contact() {
                               {" "}
                               <BsFillTelephonePlusFill />
                             </span>
-                            <span>Phone:&nbsp;  050 400 33 55</span>
+                            <span>{t('phone')}&nbsp;  050 400 33 55</span>
                           </p>
                         </div>
                       </div>
