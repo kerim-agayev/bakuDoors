@@ -2,7 +2,7 @@ import Data from "../../datas/Data.json";
 import Saunalar from '../../assets/saunalar.jpg'
 import { motion , useInView, useAnimation} from 'framer-motion'
 import ProductTitle from '../mainPages/about/ProductTitle';
-import React, { useEffect, useRef } from 'react'
+import  { useEffect, useRef } from 'react'
 import { useTranslation } from 'react-i18next';
 
 function Sauna() {

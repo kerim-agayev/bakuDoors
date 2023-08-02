@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from 'react'
+import  { useEffect, useRef } from 'react'
 import BakudoorSeksional from '../../assets/bakudoorsseksional.jpg'
 import Data from "../../datas/Data.json";
 import ProductTitle from '../mainPages/about/ProductTitle';

@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from 'react'
+import  { useEffect, useRef } from 'react'
 import JaluzSistemleri from '../../assets/jaluzsistemleri.jpg'
 import Data from "../../datas/Data.json";
 import { motion , useInView, useAnimation} from 'framer-motion'

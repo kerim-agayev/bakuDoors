@@ -1,4 +1,4 @@
-import React from 'react'
+
 import  Pavillion from '../../assets/pavillion.jpg'
 import { motion } from 'framer-motion'
 import { useTranslation } from 'react-i18next';

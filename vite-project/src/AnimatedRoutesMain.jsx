@@ -56,7 +56,7 @@ function AnimatedRoutesMain() {
       <Route path="about" element={<About />} />
       <Route path='contact' element={<Contact />} />
       <Route path='questions' element={<Questions />} />
-      <Route path='ourworks' element={<OurWorks />} />
+       <Route path='ourworks' element={<OurWorks />} /> 
       {/* autoseksiyonalqapi */}
       <Route path="autoseksiyonalqapi" element={<AutoSeksiyonalQapi />}  >
         <Route path="autoqaraj" element={<AutoQaraj />} />

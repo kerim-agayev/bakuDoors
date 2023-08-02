@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from 'react'
+import  { useEffect, useRef } from 'react'
 import FotoselServis from '../../assets/fotoselservis.jpg'
 import QarajServis from '../../assets/qarajservis.jpg'
 import SenayeServis from '../../assets/senayeservis.jpg'

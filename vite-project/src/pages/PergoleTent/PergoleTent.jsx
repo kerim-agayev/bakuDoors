@@ -1,4 +1,4 @@
-import React from 'react'
+
 import Pergole from '../../assets/pergole.jpg'
 import { motion } from 'framer-motion'
 import { useTranslation } from 'react-i18next';

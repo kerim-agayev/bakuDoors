@@ -1,5 +1,5 @@
 import { FaWhatsapp } from 'react-icons/fa';
-import { Outlet } from 'react-router-dom';
+
 
 const WhatsappIcon = () => {
   return (

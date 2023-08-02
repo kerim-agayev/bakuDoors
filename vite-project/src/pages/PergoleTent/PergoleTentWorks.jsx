@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from 'react'
+import { useEffect, useRef } from 'react'
 import ProductTitle from '../mainPages/about/ProductTitle';
 import { motion , useInView, useAnimation} from 'framer-motion'
 import Data from "../../datas/Data.json";

@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from 'react'
+import { useEffect, useRef } from 'react'
 import Slaqbaumlar2 from '../../assets/slaqbaumlar2.jpg'
 import { motion, useInView, useAnimation } from 'framer-motion'
 import Data from "../../datas/Data.json";
@@ -108,7 +108,7 @@ function Slaqbaum() {
         className='all-ourworks mt-5 m-auto'
       >
 
-        <ProductTitle title={t('works')} />
+        <ProductTitle title={t('works2')} />
       </motion.div>
 
 

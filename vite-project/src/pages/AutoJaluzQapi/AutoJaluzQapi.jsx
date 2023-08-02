@@ -1,9 +1,9 @@
-import React from 'react'
+
 import {  Outlet } from "react-router-dom"
 import SidebarMain from '../../components/sidebar/SidebarMain'
 import { useTranslation } from 'react-i18next';
 function AutoJaluzQapi() {
-  const {t,i18n} = useTranslation()
+  const {t} = useTranslation()
 
   const a = t('blind')
   const b = t('works')

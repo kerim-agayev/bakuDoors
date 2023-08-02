@@ -1,8 +1,8 @@
 
-import { NavLink, Outlet , Link } from "react-router-dom"
+import { NavLink,  Link } from "react-router-dom"
 import Logo from '../../assets/logo.png'
 import { motion, useInView, useAnimation } from 'framer-motion'
-import React, { useEffect, useState , useRef} from "react";
+import { useEffect, useState , useRef} from "react";
 import { AiOutlineInstagram } from "react-icons/ai";
 import { BsFacebook } from "react-icons/bs";
 import { useTranslation } from 'react-i18next';

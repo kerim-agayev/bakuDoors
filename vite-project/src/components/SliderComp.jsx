@@ -1,4 +1,4 @@
-import React from "react";
+
 import Slider from "react-slick";
 import Bond from '../assets/brend/bond.png'
 import Beninca from '../assets/brend/beninca.png'

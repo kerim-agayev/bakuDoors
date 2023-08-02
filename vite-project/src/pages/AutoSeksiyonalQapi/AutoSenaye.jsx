@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from 'react'
+import  { useEffect, useRef } from 'react'
 // import SenayeQapilariUst from '../../assets/senayeqapilariust.gif'
 import SenayeQapilariAlt1 from '../../assets/senayeqapilarialt1.jpg'
 import SenayeQapilariAlt2 from '../../assets/senayeqapilarialt2.jpg'

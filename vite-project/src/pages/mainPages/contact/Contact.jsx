@@ -23,10 +23,10 @@ function Contact() {
 
     emailjs
       .sendForm(
-        "service_cvmd4ho",
-        "template_yowunnk",
+        "service_a9u3hef",
+        "template_vz2z024",
         form.current,
-        "tR41beRv2dXbwDcBy"
+        "TMYxep9R-8Me4L93Z"
       )
       .then(
         (result) => {
@@ -98,7 +98,7 @@ function Contact() {
                                 value={name}
                                 onChange={(e) => setName(e.target.value)}
                                 className="form-control"
-                                name="from_name"
+                                name="user_name"
                                 id="name"
                                 placeholder={t('name')}
                               />
