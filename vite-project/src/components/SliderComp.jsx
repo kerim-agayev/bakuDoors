@@ -3,14 +3,14 @@ import Slider from "react-slick";
 import Bond from '../assets/brend/bond.png'
 import Beninca from '../assets/brend/beninca.png'
 import Cab from '../assets/brend/cab.png'
-import Came from '../assets/brend/Came.png'
+import Came from '../assets/brend/CAME.png'
 import Ditec from '../assets/brend/ditec.png'
 import Doco from '../assets/brend/doco.png'
 import Dorma from '../assets/brend/dorma.png'
 import FacLogo from '../assets/brend/FAAC_LOGO.jpg'
 import FlexiForce from '../assets/brend/flexiforce.png'
-import Geze from '../assets/brend/geze.jpg'
-import Somfy from '../assets/brend/Somfy.png'
+import Geze from '../assets/brend/GEZE.jpg'
+import Somfy from '../assets/brend/SOMFY.png'
 import Winsa from '../assets/brend/winsa.png'
 import { IoIosArrowForward } from "react-icons/io";
 
