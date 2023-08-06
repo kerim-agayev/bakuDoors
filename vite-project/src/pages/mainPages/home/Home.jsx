@@ -1,8 +1,7 @@
 
-import React from "react";
 
 import Card from "react-bootstrap/Card";
-import { NavLink, Outlet } from "react-router-dom"
+import { NavLink } from "react-router-dom"
 import SliderComp from "../../../components/SliderComp";
 
 import BakuDoorSseksional from '../../../assets/bakudoorsseksional.jpg'
