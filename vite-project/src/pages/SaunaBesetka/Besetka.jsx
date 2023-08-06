@@ -1,5 +1,5 @@
 
-import  Pavillion from '../../assets/pavillion.jpg'
+import  Pavillion from '/pavillion.jpg'
 import { motion } from 'framer-motion'
 import { useTranslation } from 'react-i18next';
 function Besetka() {

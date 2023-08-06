@@ -2,15 +2,15 @@ import Card from "react-bootstrap/Card";
 import { Link, NavLink } from "react-router-dom";
 import SliderComp from "../../../components/SliderComp";
 import { AiFillRightCircle} from 'react-icons/ai'
-import BakuDoorSseksional from "../../../assets/bakudoorsseksional.jpg";
-import JaluzSistemleri from "../../../assets/jaluzsistemleri.jpg";
-import AutoFotoselEsas from "../../../assets/autofotoselesas.jpg";
-import AutoDarvazalar from "../../../assets/autodarvazalar.jpg";
-import CamBalkon from "../../../assets/cambalkon.jpg";
-import Pergole from "../../../assets/pergole.jpg";
-import Slaqbaumlar2 from "../../../assets/slaqbaumlar2.jpg";
-import Saunalar from "../../../assets/saunalar.jpg";
-import Servis from "../../../assets/servis.jpg";
+import BakuDoorSseksional from "/bakudoorsseksional.jpg";
+import JaluzSistemleri from "/jaluzsistemleri.jpg";
+import AutoFotoselEsas from "/autofotoselesas.jpg";
+import AutoDarvazalar from "/autodarvazalar.jpg";
+import CamBalkon from "/cambalkon.jpg";
+import Pergole from "/pergole.jpg";
+import Slaqbaumlar2 from "/slaqbaumlar2.jpg";
+import Saunalar from "/saunalar.jpg";
+
 
 import ProductTitle from "../about/ProductTitle";
 import { motion } from "framer-motion";

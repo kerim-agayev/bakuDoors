@@ -1,5 +1,5 @@
 
-import CamBalkon from '../../assets/cambalkon.jpg'
+import CamBalkon from '/cambalkon.jpg'
 import { motion } from 'framer-motion'
 import { useTranslation } from 'react-i18next';
 

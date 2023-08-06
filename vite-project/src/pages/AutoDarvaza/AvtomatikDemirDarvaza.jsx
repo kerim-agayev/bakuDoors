@@ -1,6 +1,6 @@
 import  { useEffect, useRef } from 'react'
 import Data from "../../datas/Data.json";
-import DemirDarvaza from '../../assets/demirdarvaza.jpg'
+import DemirDarvaza from '/demirdarvaza.jpg'
 import { motion , useInView, useAnimation} from 'framer-motion'
 import ProductTitle from '../mainPages/about/ProductTitle';
 import { useTranslation } from 'react-i18next';

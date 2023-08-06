@@ -1,5 +1,5 @@
 
-import VesorPhoto from '../../assets/vesor.jpg'
+import VesorPhoto from '/vesor.jpg'
 import { motion} from 'framer-motion'
 import { useTranslation } from 'react-i18next';
 

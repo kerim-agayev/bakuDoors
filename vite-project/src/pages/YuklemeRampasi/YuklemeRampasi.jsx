@@ -1,4 +1,4 @@
-import YuklemeRampasiPhoto from '../../assets/yuklemerampasi.jpg'
+import YuklemeRampasiPhoto from '/yuklemerampasi.jpg'
 import { motion } from 'framer-motion'
 
 

@@ -1,5 +1,5 @@
 
-import AutoDarvazalar from '../../assets/autodarvazalar.jpg'
+import AutoDarvazalar from '/autodarvazalar.jpg'
 import { motion } from 'framer-motion'
 import { useTranslation } from 'react-i18next';
 function XAcilanDarvaza() {

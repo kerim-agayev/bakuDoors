@@ -1,5 +1,5 @@
 import { useEffect, useRef } from 'react'
-import Slaqbaumlar2 from '../../assets/slaqbaumlar2.jpg'
+import Slaqbaumlar2 from '/slaqbaumlar2.jpg'
 import { motion, useInView, useAnimation } from 'framer-motion'
 import Data from "../../datas/Data.json";
 import ProductTitle from '../mainPages/about/ProductTitle';

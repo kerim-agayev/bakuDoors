@@ -1,5 +1,5 @@
 import  { useEffect, useRef } from 'react'
-import BakudoorSeksional from '../../assets/bakudoorsseksional.jpg'
+import BakudoorSeksional from '/bakudoorsseksional.jpg'
 import Data from "../../datas/Data.json";
 import ProductTitle from '../mainPages/about/ProductTitle';
 import { motion, useInView, useAnimation } from 'framer-motion'

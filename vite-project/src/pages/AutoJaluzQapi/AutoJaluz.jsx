@@ -1,5 +1,5 @@
 import  { useEffect, useRef } from 'react'
-import JaluzSistemleri from '../../assets/jaluzsistemleri.jpg'
+import JaluzSistemleri from '/jaluzsistemleri.jpg'
 import Data from "../../datas/Data.json";
 import { motion , useInView, useAnimation} from 'framer-motion'
 import { useTranslation } from 'react-i18next';

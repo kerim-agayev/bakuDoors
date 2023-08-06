@@ -1,8 +1,8 @@
 import  { useEffect, useRef } from 'react'
-import FotoselServis from '../../assets/fotoselservis.jpg'
-import QarajServis from '../../assets/qarajservis.jpg'
-import SenayeServis from '../../assets/senayeservis.jpg'
-import DarvazaServis from '../../assets/darvazaservis.jpg'
+import FotoselServis from '/fotoselservis.jpg'
+import QarajServis from '/qarajservis.jpg'
+import SenayeServis from '/senayeservis.jpg'
+import DarvazaServis from '/darvazaservis.jpg'
 import { motion, useInView, useAnimation } from 'framer-motion'
 import { useTranslation } from 'react-i18next';
 function QapiServisQurasdirma() {

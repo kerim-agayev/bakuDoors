@@ -1,8 +1,6 @@
 import  { useEffect, useRef } from 'react'
-// import SenayeQapilariUst from '../../assets/senayeqapilariust.gif'
-import SenayeQapilariAlt1 from '../../assets/senayeqapilarialt1.jpg'
-import SenayeQapilariAlt2 from '../../assets/senayeqapilarialt2.jpg'
-import BakuDoorSseksional from '../../assets/bakudoorsseksional.jpg'
+import SenayeQapilariAlt1 from '/senayeqapilarialt1.jpg'
+import SenayeQapilariAlt2 from '/senayeqapilarialt2.jpg'
 import AutoSenayePhoto from '/autoSenayeQapi/autoSenayeQapi.jpg'
 import { motion, useInView, useAnimation } from 'framer-motion'
 import ProductTitle from '../mainPages/about/ProductTitle';

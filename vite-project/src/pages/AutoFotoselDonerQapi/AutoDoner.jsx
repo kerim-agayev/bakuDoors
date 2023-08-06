@@ -1,5 +1,5 @@
 import  { useEffect, useRef } from 'react'
-import AutoDonerPhoto from '../../assets/autodoner.jpg'
+import AutoDonerPhoto from '/autodoner.jpg'
 import Data from "../../datas/Data.json";
 import { motion , useInView, useAnimation} from 'framer-motion'
 import ProductTitle from '../mainPages/about/ProductTitle';

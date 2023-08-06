@@ -1,5 +1,5 @@
 
-import YarimDairevi from '../../assets/yarimdairevi.png'
+import YarimDairevi from '/yarimdairevi.png'
 import { motion } from 'framer-motion'
 import { useTranslation } from 'react-i18next';
 function AutoYarimDaireviQapi() {
