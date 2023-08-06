@@ -45,6 +45,8 @@ function Home() {
       link: "autoseksiyonalqapi",
       hovera: t("garage"),
       hoverb: t("industrial"),
+      linkhovera:"autoseksiyonalqapi/autoqaraj",
+      linkhoverb:"autoseksiyonalqapi/autosenaye",
     },
     {
       id: 2,
@@ -53,6 +55,8 @@ function Home() {
       link: "autojaluzqapi",
       hovera: t("blind"),
       hoverb: t("works"),
+      linkhovera:"autojaluzqapi/autojaluz",
+      linkhoverb:"autojaluzqapi/autojaluzdarvaza",
     },
     {
       id: 3,
@@ -63,7 +67,11 @@ function Home() {
       hovera: t("revolving"),
       hoverb: t("photocell"),
       hoverc: t("hermetic"),
-      hoverd: t("circular")
+      hoverd: t("circular"),
+      linkhovera:"autofotoseldonerqapi/autodoner",
+      linkhoverb:"autofotoseldonerqapi/autofotosel",
+      linkhoverc:"autofotoseldonerqapi/hermetikxestexanaqapi",
+      linkhoverd:"autofotoseldonerqapi/autoyarimdaireviqapi",
     },
     {
       id: 4,
@@ -74,6 +82,10 @@ function Home() {
       hoverb: t("cgates"),
       hoverc: t("agates"),
       hoverd: t("bgates"),
+      linkhovera:"autodarvaza/avtomatikdemirdarvaza",
+      linkhoverb:"autodarvaza/xacilandarvaza",
+      linkhoverc:"autodarvaza/doxsanderecedarvaza",
+      linkhoverd:"autodarvaza/yanasurusendarvaza",
     },
     {
       id: 5,
@@ -82,6 +94,9 @@ function Home() {
       link: "pergoletent",
       hovera: t("epergole"),
       hoverb: t("works"),
+      linkhovera:"pergoletent/pergoletentmain",
+      linkhoverb:"pergoletent/pergoletentourworks",
+    
     },
     {
       id: 6,
@@ -90,6 +105,8 @@ function Home() {
       link: "autosuse",
       hovera: t("pansystem"),
       hoverb: t("works"),
+      linkhovera:"autosuse/panoramasistem",
+      linkhoverb:"autosuse/panoramaustunluk",
     },
     {
       id: 7,
@@ -98,6 +115,8 @@ function Home() {
       link: "autobaryer",
       hovera: t("vesor"),
       hoverb: t("barrier"),
+      linkhovera:"autobaryer/vesor",
+      linkhoverb:"autobaryer/slaqbaum",
     },
     {
       id: 8,
@@ -106,6 +125,8 @@ function Home() {
       link: "saunabesetka",
       hovera: t("saunatik"),
       hoverb: t("pavilion"),
+      linkhovera:"saunabesetka/sauna",
+      linkhoverb:"saunabesetka/besetka",
     },
     {
       id: 9,
@@ -113,7 +134,9 @@ function Home() {
       text: t("c"),
       link: "servisqurasdirma",
       hovera: t("doorservicehover"),
-      hoverb: t("barrierservicehover")
+      hoverb: t("barrierservicehover"),
+      linkhovera:"servisqurasdirma/qapiservisqurasdirma",
+      linkhoverb:"servisqurasdirma/slaqbaumservisqurasdirma",
     },
   ];
 
@@ -177,16 +200,16 @@ function Home() {
                    {photo.hoverc ? (
                       
                   <div className="image-overlayb textOverlay">
-                    <Link ><AiFillRightCircle/>{photo.hovera}</Link>
-                    <Link ><AiFillRightCircle/>{photo.hoverb}</Link>
-                   <Link ><AiFillRightCircle/>{photo.hoverc}</Link>
-                    <Link ><AiFillRightCircle/>{photo.hoverd}</Link>
+                    <Link to={photo.linkhovera} ><AiFillRightCircle/>{photo.hovera}</Link>
+                    <Link to={photo.linkhoverb} ><AiFillRightCircle/>{photo.hoverb}</Link>
+                   <Link to={photo.linkhoverc} ><AiFillRightCircle/>{photo.hoverc}</Link>
+                    <Link to={photo.linkhoverd} ><AiFillRightCircle/>{photo.hoverd}</Link>
                   </div>
                   ):(
                     <>
                       <div className="image-overlay textOverlay">
-                    <Link ><AiFillRightCircle/>{photo.hovera}</Link>
-                    <Link ><AiFillRightCircle/>{photo.hoverb}</Link>
+                    <Link to={photo.linkhovera} ><AiFillRightCircle/>{photo.hovera}</Link>
+                    <Link to={photo.linkhoverb} ><AiFillRightCircle/>{photo.hoverb}</Link>
                  
                   </div>
                     </>
