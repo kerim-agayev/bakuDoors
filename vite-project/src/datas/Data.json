@@ -54,22 +54,22 @@
     "slaqbaum": [
       {
         "id": 1,
-        "imgUrl": "../../../src/assets/slaqbaum/slaqbaumPhoto.jpg"
+        "imgUrl": "/slaqbaum/slaqbaumPhoto.jpg"
        
       },
       {
         "id": 2,
-        "imgUrl": "../../../src/assets/slaqbaum/slaqbaumPhoto2.jpg"
+        "imgUrl": "/slaqbaum/slaqbaumPhoto2.jpg"
      
       },
       {
         "id": 3,
-        "imgUrl": "../../../src/assets/slaqbaum/slaqbaumPhoto3.jpg"
+        "imgUrl": "/slaqbaum/slaqbaumPhoto3.jpg"
       
       },
       {
         "id": 4,
-        "imgUrl": "../../../src/assets/slaqbaum/slaqbaumPhoto4.jpg"
+        "imgUrl": "/slaqbaum/slaqbaumPhoto4.jpg"
      
       }
     ],
