@@ -76,120 +76,120 @@
     "panorama": [
       {
         "id": 1,
-        "imgUrl": "../../../src/assets/panorama/panorama.jpg"
+        "imgUrl": "/panorama/panorama.jpg"
       },
      
       {
         "id": 3,
-        "imgUrl": "../../../src/assets/panorama/panorama3.jpg"
+        "imgUrl": "/panorama/panorama3.jpg"
       },
       {
         "id": 4,
-        "imgUrl": "../../../src/assets/panorama/panorama4.jpg"
+        "imgUrl": "/panorama/panorama4.jpg"
       },
       {
         "id": 5,
-        "imgUrl": "../../../src/assets/panorama/panorama5.jpg"
+        "imgUrl": "/panorama/panorama5.jpg"
       },
       {
         "id": 6,
-        "imgUrl": "../../../src/assets/panorama/panorama6.jpg"
+        "imgUrl": "/panorama/panorama6.jpg"
       },
       {
         "id": 7,
-        "imgUrl": "../../../src/assets/panorama/panorama7.jpg"
+        "imgUrl": "/panorama/panorama7.jpg"
       },
       {
         "id": 8,
-        "imgUrl": "../../../src/assets/panorama/panorama8.jpg"
+        "imgUrl": "/panorama/panorama8.jpg"
       },
       {
         "id": 9,
-        "imgUrl": "../../../src/assets/panorama/panorama9.jpg"
+        "imgUrl": "/panorama/panorama9.jpg"
       },
       {
         "id": 10,
-        "imgUrl": "../../../src/assets/panorama/panorama10.jpg"
+        "imgUrl": "/panorama/panorama10.jpg"
       },
       {
         "id": 11,
-        "imgUrl": "../../../src/assets/panorama/panorama11.jpg"
+        "imgUrl": "/panorama/panorama11.jpg"
       },
       {
         "id": 12,
-        "imgUrl": "../../../src/assets/panorama/panorama12.jpg"
+        "imgUrl": "/panorama/panorama12.jpg"
       },
       {
         "id": 13,
-        "imgUrl": "../../../src/assets/panorama/panorama13.jpg"
+        "imgUrl": "/panorama/panorama13.jpg"
       },
       {
         "id": 14,
-        "imgUrl": "../../../src/assets/panorama/panorama14.jpg"
+        "imgUrl": "/panorama/panorama14.jpg"
       },
       {
         "id": 15,
-        "imgUrl": "../../../src/assets/panorama/panorama15.jpg"
+        "imgUrl": "/panorama/panorama15.jpg"
       },
       {
         "id": 16,
-        "imgUrl": "../../../src/assets/panorama/panorama16.jpg"
+        "imgUrl": "/panorama/panorama16.jpg"
       },
       {
         "id": 17,
-        "imgUrl": "../../../src/assets/panorama/panorama17.jpg"
+        "imgUrl": "/panorama/panorama17.jpg"
       },
       {
         "id": 18,
-        "imgUrl": "../../../src/assets/panorama/panorama18.jpg"
+        "imgUrl": "/panorama/panorama18.jpg"
       },
       {
         "id": 19,
-        "imgUrl": "../../../src/assets/panorama/panorama19.jpg"
+        "imgUrl": "/panorama/panorama19.jpg"
       },
       {
         "id": 20,
-        "imgUrl": "../../../src/assets/panorama/panorama20.jpg"
+        "imgUrl": "/panorama/panorama20.jpg"
       },
       {
         "id": 21,
-        "imgUrl": "../../../src/assets/panorama/panorama21.jpg"
+        "imgUrl": "/panorama/panorama21.jpg"
       },
       {
         "id": 22,
-        "imgUrl": "../../../src/assets/panorama/panorama22.jpg"
+        "imgUrl": "/panorama/panorama22.jpg"
       },
       {
         "id": 23,
-        "imgUrl": "../../../src/assets/panorama/panorama23.jpg"
+        "imgUrl": "/panorama/panorama23.jpg"
       },
       {
         "id": 24,
-        "imgUrl": "../../../src/assets/panorama/panorama24.jpg"
+        "imgUrl": "/panorama/panorama24.jpg"
       },
       {
         "id": 25,
-        "imgUrl": "../../../src/assets/panorama/panorama25.jpg"
+        "imgUrl": "/panorama/panorama25.jpg"
       },
       {
         "id": 26,
-        "imgUrl": "../../../src/assets/panorama/panorama26.jpg"
+        "imgUrl": "/panorama/panorama26.jpg"
       },
       {
         "id": 27,
-        "imgUrl": "../../../src/assets/panorama/panorama27.jpg"
+        "imgUrl": "/panorama/panorama27.jpg"
       },
       {
         "id": 28,
-        "imgUrl": "../../../src/assets/panorama/panorama28.jpg"
+        "imgUrl": "/panorama/panorama28.jpg"
       },
       {
         "id": 29,
-        "imgUrl": "../../../src/assets/panorama/panorama29.jpg"
+        "imgUrl": "/panorama/panorama29.jpg"
       },
       {
         "id": 30,
-        "imgUrl": "../../../src/assets/panorama/panorama30.jpg"
+        "imgUrl": "/panorama/panorama30.jpg"
       }
     ],
     "pergole": [
