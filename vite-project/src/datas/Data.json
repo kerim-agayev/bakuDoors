@@ -53,19 +53,23 @@
     ],
     "slaqbaum": [
       {
-        "id":/slaqbaum/slaqbaumPhoto.jpg"
+        "id": 1,
+        "imgUrl":"/slaqbaum/slaqbaumPhoto.jpg"
        
       },
       {
-        "id":/slaqbaum/slaqbaumPhoto2.jpg"
+        "id": 2,
+        "imgUrl":"/slaqbaum/slaqbaumPhoto2.jpg"
      
       },
       {
-        "id":/slaqbaum/slaqbaumPhoto3.jpg"
+        "id": 3,
+        "imgUrl":"/slaqbaum/slaqbaumPhoto3.jpg"
       
       },
       {
-        "id":/slaqbaum/slaqbaumPhoto4.jpg"
+        "id": 4,
+        "imgUrl":"/slaqbaum/slaqbaumPhoto4.jpg"
      
       }
     ],
