@@ -62,7 +62,9 @@ translation:{
     works2:"ŞİRKƏTİMİZİN GÖRDÜYÜ İŞLƏR",
     blind:"AVTOMATİK JALÜZ SİSTEMLƏRİ",
     doorservice:"QAPILARIN SERVİSİ VƏ QURAŞDIRILMASI",
+    doorservicehover:"QAPILARIN SERVİSİ",
     barrierservice:"AVTOMATİK ŞLAQBAUMLARIN SERVİSİ ",
+    barrierservicehover:"ŞLAQBAUMLARIN SERVİSİ ",
     agates:"90 DƏRƏCƏ AÇILAN DARVAZALAR",
     bgates:"YANA SÜRÜŞƏRƏK AÇILAN DARVAZALAR",
     cgates:"AVTOMATİK DARVAZALAR",
@@ -306,7 +308,9 @@ en:{
         message:"Message",
         phone:"Phone:",
         namesurname:"Name/ Surname",
-        profession:"Profession"
+        profession:"Profession",
+        doorservicehover:"DOOR SERVICE",
+        barrierservicehover:"SERVICE OF AUTOMATIC BARRIER "
 
 
 
