@@ -13,12 +13,14 @@ import Geze from '../assets/brend/GEZE.jpg'
 import Somfy from '../assets/brend/SOMFY.png'
 import Winsa from '../assets/brend/winsa.png'
 import { IoIosArrowForward } from "react-icons/io";
+import { useTranslation } from "react-i18next";
+import ProductTitle from "../pages/mainPages/about/ProductTitle";
 
 
 
 
 function SliderComp() {
-
+  const { t } = useTranslation();
 
   function NextBtn({ onClick }) {
 
@@ -59,8 +61,12 @@ function SliderComp() {
     <>
     <div className="container">
     <div className="my-5">
-        <h2 className="text-center mb-5">Brendler</h2>
-        <Slider className="mt-5 mb-5" {...settings}>
+        <h2 className="text-center mb-5">
+          <ProductTitle title={t('brend')} />
+  
+          
+          </h2>
+        <Slider className="mt-3 mb-3" {...settings}>
           <div>
             <h3>
        <img className='mx-auto  mt-5 mb-5 responsiveImg' src={Bond} alt="" />

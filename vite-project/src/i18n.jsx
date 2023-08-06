@@ -157,7 +157,8 @@ translation:{
     message:"Mesaj",
     phone:"Nömrəniz:",
     namesurname:"Ad/ Soyad",
-    profession:"Peşə"
+    profession:"Peşə",
+    brend:"BREDNLƏR"
 
 
 
@@ -310,7 +311,9 @@ en:{
         namesurname:"Name/ Surname",
         profession:"Profession",
         doorservicehover:"DOOR SERVICE",
-        barrierservicehover:"SERVICE OF AUTOMATIC BARRIER "
+        barrierservicehover:"SERVICE OF AUTOMATIC BARRIER ",
+        brend:"BRAND"
+
 
 
 
