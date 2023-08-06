@@ -50,7 +50,7 @@ function SliderComp() {
       {
         breakpoint: 768,
         settings: {
-          slidesToShow: 1,
+          slidesToShow: 2,
         },
       },
     ],
@@ -60,69 +60,69 @@ function SliderComp() {
     <div className="container">
     <div className="my-5">
         <h2 className="text-center mb-5">Brendler</h2>
-        <Slider {...settings}>
+        <Slider className="mt-5 mb-5" {...settings}>
           <div>
             <h3>
-       <img className='mx-auto' src={Bond} alt="" style={{width:'18rem',height:'18rem'}}/>
+       <img className='mx-auto  mt-5 mb-5 responsiveImg' src={Bond} alt="" />
             </h3>
           </div>
           <div>
             <h3>
-         <img className='mx-auto' src={Beninca} alt=""style={{width:'18rem',height:'18rem'}} />
+         <img className='mx-auto mt-5 mb-5  responsiveImg' src={Beninca} alt="" />
             </h3>
           </div>
           <div>
             <h3>
-          <img className='mx-auto' src={Came} alt=""style={{width:'18rem',height:'18rem'}} />
+          <img className='mx-auto mt-5 mb-5 responsiveImg' src={Came} alt="" />
             </h3>
           </div>
           <div>
             <h3>
-      <img className='mx-auto' src={Cab} alt=""style={{width:'18rem',height:'18rem'}} />
+      <img className='mx-auto mt-5 mb-5 responsiveImg' src={Cab} alt="" />
             </h3>
           </div>
           <div>
             <h3>
-        <img className='mx-auto' src={Ditec} alt=""style={{width:'18rem',height:'18rem'}} />
+        <img className='mx-auto mt-5 mb-5 responsiveImg' src={Ditec} alt="" />
             </h3>
           </div>
           <div>
             <h3>
             
-                    <img className='mx-auto' src={Dorma} alt=""style={{width:'18rem',height:'18rem'}} />
+                    <img className='mx-auto mt-5 mb-5 responsiveImg' src={Dorma} alt="" />
             </h3>
           </div>
           <div>
             <h3>
-      <img className='mx-auto' src={Doco} alt=""style={{width:'18rem',height:'18rem'}} />
+      <img className='mx-auto mt-5 mb-5 responsiveImg' src={Doco} alt="" />
             </h3>
           </div>
           <div>
             <h3>
-          <img className='mx-auto' src={FacLogo} alt="" style={{width:'18rem',height:'18rem'}}/>
+          <img className='mx-auto mt-5 mb-5 responsiveImg' src={FacLogo} alt="" />
             </h3>
           </div>
           <div>
             <h3>
-          <img className='mx-auto' src={FlexiForce} alt=""style={{width:'18rem',height:'18rem'}} />
+          <img className='mx-auto mt-5 mb-5 responsiveImg' src={FlexiForce} alt="" />
             </h3>
           </div>
           <div>
             <h3>
           
-              <img className='mx-auto' src={Geze} alt=""style={{width:'18rem',height:'18rem'}} />
+              <img className='mx-auto mt-5 mb-5 responsiveImg' src={Geze} alt="" />
             </h3>
           </div>
           <div>
             <h3>
              
-              <img className='mx-auto' src={Somfy} alt="" style={{width:'18rem',height:'18rem'}}/>
+              <img className='mx-auto mt-5 mb-5 responsiveImg' src={Somfy} alt="" />
             </h3>
           </div>
           <div>
             <h3>
             
-              <img className='mx-auto' src={Winsa} alt="" style={{width:'18rem',height:'18rem'}}/>
+              <img className='mx-auto mt-5 mb-5 responsiveImg' src={Winsa} alt="" />
             </h3>
           </div>
         </Slider>
