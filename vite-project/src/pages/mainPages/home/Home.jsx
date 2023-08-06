@@ -211,7 +211,7 @@ function Home() {
           ))}
         </div>
       </motion.div>
-      {/* <SliderComp /> */}
+      <SliderComp />
     </>
   );
 }
