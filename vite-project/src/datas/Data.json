@@ -234,10 +234,12 @@
         "imgUrl": "/pergoleTent/pergoleTent10.jpg"
       },
       {
-        "id": /pergoleTent/pergoleTent11.jpg"
+         "id": 11,
+        "imgUrl": "/pergoleTent/pergoleTent11.jpg"
       },
       {
-        "id": /pergoleTent/pergoleTent12.jpg"
+         "id": 12,
+        "imgUrl": "/pergoleTent/pergoleTent12.jpg"
       }
     ],
     "autojaluzqapi": [
@@ -325,7 +327,7 @@
       },
       {
         "id": 6,
-        "imgUrl": "../../../src/assets/autoJaluzQapilarDetay/autoJaluzQapiDetay6.jpg"
+        "imgUrl": "/autoJaluzQapilarDetay/autoJaluzQapiDetay6.jpg"
       }
     ],
     "autoqarajqapi": [
@@ -383,7 +385,7 @@
       },
       {
         "id": 14,
-        "imgUrl": "../../../src/assets/autoQarajQapilari/autoQarajQapi14.jpg"
+        "imgUrl": "/autoQarajQapilari/autoQarajQapi14.jpg"
       },
       {
         "id": 15,
@@ -1311,7 +1313,7 @@
       },
       {
         "id": 5,
-        "imgUrl": "../../../src/assets/yuklemeRampasi/yuklemerampasi5.jpg"
+        "imgUrl": "/yuklemeRampasi/yuklemerampasi5.jpg"
    
       },
       {
