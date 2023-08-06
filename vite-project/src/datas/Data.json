@@ -2,74 +2,70 @@
     "saunaBesetka": [
       {
         "id": 1,
-        "imgUrl": "../../../src/assets/saunaFile/saunaPhoto.jpg"
+        "imgUrl": "/saunaFile/saunaPhoto.jpg"
   
       },
       {
         "id": 2,
-        "imgUrl": "../../../src/assets/saunaFile/saunaPhoto2.jpg"
+        "imgUrl": "/saunaFile/saunaPhoto2.jpg"
 
       },
       {
         "id": 3,
-        "imgUrl": "../../../src/assets/saunaFile/saunaPhoto3.jpg"
+        "imgUrl": "/saunaFile/saunaPhoto3.jpg"
 
       },
       {
         "id": 4,
-        "imgUrl": "../../../src/assets/saunaFile/saunaPhoto4.jpg"
+        "imgUrl": "/saunaFile/saunaPhoto4.jpg"
       
       },
       {
         "id": 5,
-        "imgUrl": "../../../src/assets/saunaFile/saunaPhoto5.jpg"
+        "imgUrl": "/saunaFile/saunaPhoto5.jpg"
    
       },
       {
         "id": 6,
-        "imgUrl": "../../../src/assets/saunaFile/saunaPhoto6.jpg"
+        "imgUrl": "/saunaFile/saunaPhoto6.jpg"
     
       },
       {
         "id": 7,
-        "imgUrl": "../../../src/assets/saunaFile/saunaPhoto7.jpg"
+        "imgUrl": "/saunaFile/saunaPhoto7.jpg"
  
       },
       {
         "id": 8,
-        "imgUrl": "../../../src/assets/saunaFile/saunaPhoto8.jpg"
+        "imgUrl": "/saunaFile/saunaPhoto8.jpg"
     
       },
       {
         "id": 9,
-        "imgUrl": "../../../src/assets/saunaFile/saunaPhoto9.jpg"
+        "imgUrl": "/saunaFile/saunaPhoto9.jpg"
     
       },
       {
         "id": 10,
-        "imgUrl": "../../../src/assets/saunaFile/saunaPhoto10.jpg"
+        "imgUrl": "/saunaFile/saunaPhoto10.jpg"
    
       }
     ],
     "slaqbaum": [
       {
-        "id": 1,
-        "imgUrl": "../../../src/assets/slaqbaum/slaqbaumPhoto.jpg"
+        "id":/slaqbaum/slaqbaumPhoto.jpg"
        
       },
       {
-        "id": 2,
-        "imgUrl": "../../../src/assets/slaqbaum/slaqbaumPhoto2.jpg"
+        "id":/slaqbaum/slaqbaumPhoto2.jpg"
      
       },
       {
-        "id": 3,
-        "imgUrl": "../../../src/assets/slaqbaum/slaqbaumPhoto3.jpg"
+        "id":/slaqbaum/slaqbaumPhoto3.jpg"
       
       },
       {
-        "id": 4,
-        "imgUrl": "../../../src/assets/slaqbaum/slaqbaumPhoto4.jpg"
+        "id":/slaqbaum/slaqbaumPhoto4.jpg"
      
       }
     ],
