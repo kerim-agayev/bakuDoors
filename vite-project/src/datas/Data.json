@@ -2,52 +2,52 @@
     "saunaBesetka": [
       {
         "id": 1,
-        "imgUrl": ".saunaFile/saunaPhoto.jpg"
+        "imgUrl": "/saunaFile/saunaPhoto.jpg"
   
       },
       {
         "id": 2,
-        "imgUrl": ".saunaFile/saunaPhoto2.jpg"
+        "imgUrl": "/saunaFile/saunaPhoto2.jpg"
 
       },
       {
         "id": 3,
-        "imgUrl": ".saunaFile/saunaPhoto3.jpg"
+        "imgUrl": "/saunaFile/saunaPhoto3.jpg"
 
       },
       {
         "id": 4,
-        "imgUrl": ".saunaFile/saunaPhoto4.jpg"
+        "imgUrl": "/saunaFile/saunaPhoto4.jpg"
       
       },
       {
         "id": 5,
-        "imgUrl": ".saunaFile/saunaPhoto5.jpg"
+        "imgUrl": "/saunaFile/saunaPhoto5.jpg"
    
       },
       {
         "id": 6,
-        "imgUrl": ".saunaFile/saunaPhoto6.jpg"
+        "imgUrl": "/saunaFile/saunaPhoto6.jpg"
     
       },
       {
         "id": 7,
-        "imgUrl": ".saunaFile/saunaPhoto7.jpg"
+        "imgUrl": "/saunaFile/saunaPhoto7.jpg"
  
       },
       {
         "id": 8,
-        "imgUrl": ".saunaFile/saunaPhoto8.jpg"
+        "imgUrl": "/saunaFile/saunaPhoto8.jpg"
     
       },
       {
         "id": 9,
-        "imgUrl": ".saunaFile/saunaPhoto9.jpg"
+        "imgUrl": "/saunaFile/saunaPhoto9.jpg"
     
       },
       {
         "id": 10,
-        "imgUrl": ".saunaFile/saunaPhoto10.jpg"
+        "imgUrl": "/saunaFile/saunaPhoto10.jpg"
    
       }
     ],

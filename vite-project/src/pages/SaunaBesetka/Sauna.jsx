@@ -1,7 +1,7 @@
 import Data from "../../datas/Data.json";
 import Saunalar from '../../assets/saunalar.jpg'
-import Photo from '../../assets/saunaFile/saunaPhoto2.jpg'
-import Photo2 from '../../../src/assets/saunaFile/saunaPhoto.jpg'
+import Photo from '../../../public/saunaFile/saunaPhoto2.jpg'
+import Photo2 from '../../../public/saunaFile/saunaphoto3.jpg'
 import { motion , useInView, useAnimation} from 'framer-motion'
 import ProductTitle from '../mainPages/about/ProductTitle';
 import  { useEffect, useRef } from 'react'
@@ -143,7 +143,18 @@ function Sauna() {
 
 
           }
+  
+              {/* <motion.div ref={ref}  className="col-4 col-xl-3  shadow mb-3 rounded "
+                variants={item}
 
+              >
+                <div className="card  p-md-2 " >
+                  <img src={Photo2} className="card-img-top objectFit responsiveImg" alt="..." />
+
+                </div>
+
+              </motion.div> */}
+           
            
           
 
