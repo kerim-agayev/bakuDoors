@@ -27,7 +27,7 @@ translation:{
     f:"Avtomatik Şüşə Sistemləri",
     g:"Avtomatik Baryer Sistemləri",
     h:"Sauna & Besetka",
-    i:"Avtomatik Fotosel və Döner Qapılar",
+    i:"Fotosel və Dönər Qapılar",
     j:"Yükləmə Rampası",
     seeproducts :"Məhsullara bax",
     pages:"Səhifələr",
