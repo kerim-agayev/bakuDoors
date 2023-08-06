@@ -8,6 +8,7 @@ import WhatsappIcon from './components/WhatsappIcon'
 import SmoothSliderButton from './components/SmoothSliderButton'
 import Footer from './components/footer/Footer'
 import AnimatedRoutesMain from './AnimatedRoutesMain'
+import Footer2 from './components/footer/Footer2'
 
 
 
@@ -83,7 +84,7 @@ function App() {
 <AnimatedRoutesMain/>
    <SmoothSliderButton/>
    <WhatsappIcon/>
-   <Footer/>
+   <Footer2/>
 
    
    </BrowserRouter>

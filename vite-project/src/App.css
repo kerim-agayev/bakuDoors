@@ -374,7 +374,10 @@ main {
   background-color: #0056b3;
 }
 
-
+.responsiveImgSlide{
+  width: 5rem;
+  height: 5rem;
+}
 
 
 
@@ -710,25 +713,25 @@ border-radius: 10px;
 }
 .image-overlay{
   position: absolute;
-  
   left: 0;
-  top: 100%;
+  top: 84%;
   width: 100%;
   height: 100%;
   display: flex;
   flex-direction: column;
   font-size: 1rem;
-gap: 0.7rem;
+   gap: 0.7rem;
   background-color: rgba(0, 0, 0, 0.5); 
   border-radius: 10px;
   align-items: center;
   justify-content: center;
   
   transition: 300ms all;
+ 
 }
 
 .position-relative:hover .image-overlay{
-  
+ 
   top: 0;
 
 
@@ -758,7 +761,7 @@ gap: 0.7rem;
 .image-overlayb{
   position: absolute;
   left: 0;
-  top: 100%;
+  top: 84%;
   width: 100%;
   height: 100%;
   display: flex;
@@ -769,6 +772,93 @@ gap: 0.7rem;
   border-radius: 10px;
   align-items: center;
   justify-content: center;
-  
   transition: 300ms all;
+}
+
+
+
+
+/* 
+home.jsx new */
+.flex{
+  display: flex ;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+}
+.objFit{
+  object-fit: cover !important;
+}
+
+.image-overlay.textOverlay.homeFSize a:first-child {
+  font-size: 1.2rem; 
+}
+.image-overlayb.textOverlay.homeFSize a:first-child {
+  font-size: 1.2rem; 
+}
+.hovercard{
+  background-color: #5a469b;
+  width: 100%;
+  display: inline-block;
+ margin-top: -45px;
+
+}
+
+.hovercard:hover{
+ 
+border-radius: 10px;
+}
+/* newFooter */
+.footerFlex{
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+
+  align-items: center;
+}
+.footerFlex2{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+  gap: 5px;
+}
+.footerFSize{
+  font-size: 0.7rem;
+}
+.footerFlex3{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px !important;
+}
+.widthfooter{
+width: 100% ;
+}
+.heightfooter{
+height: 300px;
+}
+.absolute{
+  position: absolute;
+  right: 5rem;
+  top: 1rem;
+  background-color: #ff4500;
+}
+.footerFlex4{
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: start;
+  gap: 5px;
+}
+.footerFlex5{
+  display: flex;
+  gap: 0;
+  justify-content: start;
+  align-items: center;
+}
+.envelope{
+  background-color: #ff4500;
+  color: #f1f1f1;
 }

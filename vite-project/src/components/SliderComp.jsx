@@ -41,7 +41,7 @@ function SliderComp() {
     dots: true,
     infinite: true,
     speed: 500,
-    slidesToShow: 2,
+    slidesToShow: 4,
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 2500,
@@ -69,66 +69,66 @@ function SliderComp() {
         <Slider className="mt-3 mb-3" {...settings}>
           <div>
             <h3>
-       <img className='mx-auto  mt-5 mb-5 responsiveImg' src={Bond} alt="" />
+       <img className='mx-auto  mt-5 mb-5 responsiveImgSlide' src={Bond} alt="" />
             </h3>
           </div>
           <div>
             <h3>
-         <img className='mx-auto mt-5 mb-5  responsiveImg' src={Beninca} alt="" />
+         <img className='mx-auto mt-5 mb-5  responsiveImgSlide' src={Beninca} alt="" />
             </h3>
           </div>
           <div>
             <h3>
-          <img className='mx-auto mt-5 mb-5 responsiveImg' src={Came} alt="" />
+          <img className='mx-auto mt-5 mb-5 responsiveImgSlide' src={Came} alt="" />
             </h3>
           </div>
           <div>
             <h3>
-      <img className='mx-auto mt-5 mb-5 responsiveImg' src={Cab} alt="" />
+      <img className='mx-auto mt-5 mb-5 responsiveImgSlide' src={Cab} alt="" />
             </h3>
           </div>
           <div>
             <h3>
-        <img className='mx-auto mt-5 mb-5 responsiveImg' src={Ditec} alt="" />
+        <img className='mx-auto mt-5 mb-5 responsiveImgSlide' src={Ditec} alt="" />
             </h3>
           </div>
           <div>
             <h3>
             
-                    <img className='mx-auto mt-5 mb-5 responsiveImg' src={Dorma} alt="" />
+                    <img className='mx-auto mt-5 mb-5 responsiveImgSlide' src={Dorma} alt="" />
             </h3>
           </div>
           <div>
             <h3>
-      <img className='mx-auto mt-5 mb-5 responsiveImg' src={Doco} alt="" />
+      <img className='mx-auto mt-5 mb-5 responsiveImgSlide' src={Doco} alt="" />
             </h3>
           </div>
           <div>
             <h3>
-          <img className='mx-auto mt-5 mb-5 responsiveImg' src={FacLogo} alt="" />
+          <img className='mx-auto mt-5 mb-5 responsiveImgSlide' src={FacLogo} alt="" />
             </h3>
           </div>
           <div>
             <h3>
-          <img className='mx-auto mt-5 mb-5 responsiveImg' src={FlexiForce} alt="" />
+          <img className='mx-auto mt-5 mb-5 responsiveImgSlide' src={FlexiForce} alt="" />
             </h3>
           </div>
           <div>
             <h3>
           
-              <img className='mx-auto mt-5 mb-5 responsiveImg' src={Geze} alt="" />
+              <img className='mx-auto mt-5 mb-5 responsiveImgSlide' src={Geze} alt="" />
             </h3>
           </div>
           <div>
             <h3>
              
-              <img className='mx-auto mt-5 mb-5 responsiveImg' src={Somfy} alt="" />
+              <img className='mx-auto mt-5 mb-5 responsiveImgSlide' src={Somfy} alt="" />
             </h3>
           </div>
           <div>
             <h3>
             
-              <img className='mx-auto mt-5 mb-5 responsiveImg' src={Winsa} alt="" />
+              <img className='mx-auto mt-5 mb-5 responsiveImgSlide' src={Winsa} alt="" />
             </h3>
           </div>
         </Slider>
