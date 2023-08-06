@@ -1,4 +1,4 @@
-import { useState } from "react"
+import { useEffect, useState} from "react";
 import {AiOutlineRight} from 'react-icons/ai'
 import {GrLocation} from 'react-icons/gr'
 import {FaTimes, FaEnvelopeSquare} from 'react-icons/fa'
@@ -12,10 +12,26 @@ import { Link } from "react-router-dom"
 import Logo from '/logo.png'
 
 function Footer2() {
+    useEffect(() => {
+ 
+        const handleScroll = () => {
+          const scrollY = window.scrollY; 
+        
+          setFooterMarginTop(scrollY >= 350 ? 200 : 350);
+        };
+    
+        window.addEventListener('scroll', handleScroll);
+    
+        // Unmount olduğunda event listener'ı legv edririk
+        return () => {
+          window.removeEventListener('scroll', handleScroll);
+        };
+      }, []);
+      const [footerMarginTop, setFooterMarginTop] = useState(350); 
     const [open, setOpen] = useState(false)
   return (
     <>
-<div className="container">
+<div className="container"  style={{ marginTop: `${footerMarginTop}px`}}>
     <div className="row">
     <div className="col-6 col-md-3 mb-5">
 <div className="logo">
