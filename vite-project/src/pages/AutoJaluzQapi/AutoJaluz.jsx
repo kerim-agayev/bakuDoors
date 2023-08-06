@@ -3,6 +3,7 @@ import JaluzSistemleri from '/jaluzsistemleri.jpg'
 import Data from "../../datas/Data.json";
 import { motion , useInView, useAnimation} from 'framer-motion'
 import { useTranslation } from 'react-i18next';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 function AutoJaluz() {
   const {t} = useTranslation()
   const ref = useRef(null)
@@ -106,7 +107,7 @@ function AutoJaluz() {
 
               >
                 <div className="card  p-md-2 ">
-                  <img src={auto.imgUrl} className="card-img-top objectFit responsiveImg rounded" alt="..." />
+                  <LazyLoadImage  src={auto.imgUrl} className="card-img-top objectFit responsiveImg rounded" alt="..." />
 
                 </div>
 

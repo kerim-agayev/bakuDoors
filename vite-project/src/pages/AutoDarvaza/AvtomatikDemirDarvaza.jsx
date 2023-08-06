@@ -4,6 +4,7 @@ import DemirDarvaza from '/demirdarvaza.jpg'
 import { motion , useInView, useAnimation} from 'framer-motion'
 import ProductTitle from '../mainPages/about/ProductTitle';
 import { useTranslation } from 'react-i18next';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 function AvtomatikDemirDarvaza() {
   const {t} = useTranslation()
   const ref = useRef(null)
@@ -128,7 +129,7 @@ function AvtomatikDemirDarvaza() {
 
               >
                 <div className="card  p-md-2 " >
-                  <img src={darvaza.imgUrl} className="card-img-top objectFit responsiveImg rounded" alt="..." />
+                  < LazyLoadImage src={darvaza.imgUrl} className="card-img-top objectFit responsiveImg rounded" alt="..." />
 
                 </div>
 

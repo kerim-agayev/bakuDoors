@@ -4,7 +4,7 @@ import Data from "../../datas/Data.json";
 import ProductTitle from '../mainPages/about/ProductTitle';
 import { motion, useInView, useAnimation } from 'framer-motion'
 import { useTranslation } from 'react-i18next';
-
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 function AutoQaraj() {
   const {t} = useTranslation()
@@ -129,7 +129,7 @@ function AutoQaraj() {
 
                       >
                         <div className="card  p-md-2 " >
-                          <img src={data.imgUrl} className="card-img-top objectFit responsiveImg" alt="..." />
+                          <LazyLoadImage src={data.imgUrl} className="card-img-top objectFit responsiveImg" alt="..." />
                           <div className="card-body ">
                             <h6 className='title responsiveTitle'>{data.title}</h6>
                             <p className="card-text d-none d-md-block responsiveText">{data.text}</p>

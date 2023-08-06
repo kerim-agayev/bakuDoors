@@ -2,7 +2,7 @@ import  { useEffect, useRef } from 'react'
 import Data from "../../datas/Data.json";
 import ProductTitle from '../mainPages/about/ProductTitle';
 import { motion , useInView, useAnimation} from 'framer-motion'
-
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 function YuklemeRampasiWorks() {
     const { yuklemerampasi } = Data
     const ref = useRef(null)
@@ -87,7 +87,7 @@ function YuklemeRampasiWorks() {
 
               >
                 <div className="card  p-md-2 " >
-                  <img src={rampa.imgUrl} className="card-img-top objectFit responsiveImg rounded" alt="..." />
+                  <LazyLoadImage src={rampa.imgUrl} className="card-img-top objectFit responsiveImg rounded" alt="..." />
 
                 </div>
 

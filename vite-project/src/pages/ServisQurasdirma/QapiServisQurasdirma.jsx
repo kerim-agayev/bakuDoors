@@ -5,6 +5,7 @@ import SenayeServis from '/senayeservis.jpg'
 import DarvazaServis from '/darvazaservis.jpg'
 import { motion, useInView, useAnimation } from 'framer-motion'
 import { useTranslation } from 'react-i18next';
+
 function QapiServisQurasdirma() {
   const {t} = useTranslation()
 
