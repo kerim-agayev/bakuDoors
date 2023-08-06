@@ -1,5 +1,7 @@
 import Data from "../../datas/Data.json";
 import Saunalar from '../../assets/saunalar.jpg'
+import Photo from '../../assets/saunaFile/saunaPhoto2.jpg'
+import Photo2 from '../../../src/assets/saunaFile/saunaPhoto.jpg'
 import { motion , useInView, useAnimation} from 'framer-motion'
 import ProductTitle from '../mainPages/about/ProductTitle';
 import  { useEffect, useRef } from 'react'
@@ -142,6 +144,8 @@ function Sauna() {
 
           }
 
+           
+          
 
 
         </div>
