@@ -10,7 +10,7 @@ import CamBalkon from "/cambalkon.jpg";
 import Pergole from "/pergole.jpg";
 import Slaqbaumlar2 from "/slaqbaumlar2.jpg";
 import Saunalar from "/saunalar.jpg";
-
+import Servis from "/servis.jpg";
 
 import ProductTitle from "../about/ProductTitle";
 import { motion } from "framer-motion";
