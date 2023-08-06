@@ -195,135 +195,133 @@
     "pergole": [
       {
         "id": 1,
-        "imgUrl": "../../../src/assets/pergoleTent/pergoleTent.jpg"
+        "imgUrl": "/pergoleTent/pergoleTent.jpg"
       },
       {
         "id": 2,
-        "imgUrl": "../../../src/assets/pergoleTent/pergoleTent2.jpg"
+        "imgUrl": "/pergoleTent/pergoleTent2.jpg"
       },
       {
         "id": 3,
-        "imgUrl": "../../../src/assets/pergoleTent/pergoleTent3.jpg"
+        "imgUrl": "/pergoleTent/pergoleTent3.jpg"
       },
       {
         "id": 4,
-        "imgUrl": "../../../src/assets/pergoleTent/pergoleTent4.jpg"
+        "imgUrl": "/pergoleTent/pergoleTent4.jpg"
       },
       {
         "id": 5,
-        "imgUrl": "../../../src/assets/pergoleTent/pergoleTent5.jpg"
+        "imgUrl": "/pergoleTent/pergoleTent5.jpg"
       },
       {
         "id": 6,
-        "imgUrl": "../../../src/assets/pergoleTent/pergoleTent6.jpg"
+        "imgUrl": "/pergoleTent/pergoleTent6.jpg"
       },
       {
         "id": 7,
-        "imgUrl": "../../../src/assets/pergoleTent/pergoleTent7.jpg"
+        "imgUrl": "/pergoleTent/pergoleTent7.jpg"
       },
       {
         "id": 8,
-        "imgUrl": "../../../src/assets/pergoleTent/pergoleTent8.jpg"
+        "imgUrl": "/pergoleTent/pergoleTent8.jpg"
       },
       {
         "id": 9,
-        "imgUrl": "../../../src/assets/pergoleTent/pergoleTent9.jpg"
+        "imgUrl": "/pergoleTent/pergoleTent9.jpg"
       },
       {
         "id": 10,
-        "imgUrl": "../../../src/assets/pergoleTent/pergoleTent10.jpg"
+        "imgUrl": "/pergoleTent/pergoleTent10.jpg"
       },
       {
-        "id": 11,
-        "imgUrl": "../../../src/assets/pergoleTent/pergoleTent11.jpg"
+        "id": /pergoleTent/pergoleTent11.jpg"
       },
       {
-        "id": 12,
-        "imgUrl": "../../../src/assets/pergoleTent/pergoleTent12.jpg"
+        "id": /pergoleTent/pergoleTent12.jpg"
       }
     ],
     "autojaluzqapi": [
       {
         "id": 1,
-        "imgUrl": "../../../src/assets/autoJaluzQapilar/autoJaluzQapi.jpg"
+        "imgUrl": "/autoJaluzQapilar/autoJaluzQapi.jpg"
       },
       {
         "id": 2,
-        "imgUrl": "../../../src/assets/autoJaluzQapilar/autoJaluzQapi2.jpg"
+        "imgUrl": "/autoJaluzQapilar/autoJaluzQapi2.jpg"
       },
       {
         "id": 3,
-        "imgUrl": "../../../src/assets/autoJaluzQapilar/autoJaluzQapi3.jpg"
+        "imgUrl": "/autoJaluzQapilar/autoJaluzQapi3.jpg"
       },
       {
         "id": 4,
-        "imgUrl": "../../../src/assets/autoJaluzQapilar/autoJaluzQapi4.jpg"
+        "imgUrl": "/autoJaluzQapilar/autoJaluzQapi4.jpg"
       },
       {
         "id": 5,
-        "imgUrl": "../../../src/assets/autoJaluzQapilar/autoJaluzQapi5.jpg"
+        "imgUrl": "/autoJaluzQapilar/autoJaluzQapi5.jpg"
       },
       {
         "id": 6,
-        "imgUrl": "../../../src/assets/autoJaluzQapilar/autoJaluzQapi6.jpg"
+        "imgUrl": "/autoJaluzQapilar/autoJaluzQapi6.jpg"
       },
       {
         "id": 7,
-        "imgUrl": "../../../src/assets/autoJaluzQapilar/autoJaluzQapi7.jpg"
+        "imgUrl": "/autoJaluzQapilar/autoJaluzQapi7.jpg"
       },
       {
         "id": 8,
-        "imgUrl": "../../../src/assets/autoJaluzQapilar/autoJaluzQapi8.jpg"
+        "imgUrl": "/autoJaluzQapilar/autoJaluzQapi8.jpg"
       },
       {
         "id": 9,
-        "imgUrl": "../../../src/assets/autoJaluzQapilar/autoJaluzQapi9.jpg"
+        "imgUrl": "/autoJaluzQapilar/autoJaluzQapi9.jpg"
       },
       {
         "id": 10,
-        "imgUrl": "../../../src/assets/autoJaluzQapilar/autoJaluzQapi10.jpg"
+        "imgUrl": "/autoJaluzQapilar/autoJaluzQapi10.jpg"
       },
       {
         "id": 11,
-        "imgUrl": "../../../src/assets/autoJaluzQapilar/autoJaluzQapi11.jpg"
+        "imgUrl": "/autoJaluzQapilar/autoJaluzQapi11.jpg"
       },
       {
         "id": 12,
-        "imgUrl": "../../../src/assets/autoJaluzQapilar/autoJaluzQapi12.jpg"
+        "imgUrl": "/autoJaluzQapilar/autoJaluzQapi12.jpg"
       },
       {
         "id": 13,
-        "imgUrl": "../../../src/assets/autoJaluzQapilar/autoJaluzQapi13.jpg"
+        "imgUrl": "/autoJaluzQapilar/autoJaluzQapi13.jpg"
       },
       {
         "id": 14,
-        "imgUrl": "../../../src/assets/autoJaluzQapilar/autoJaluzQapi14.jpg"
+        "imgUrl": "/autoJaluzQapilar/autoJaluzQapi14.jpg"
       },
       {
         "id": 15,
-        "imgUrl": "../../../src/assets/autoJaluzQapilar/autoJaluzQapi15.jpg"
+        "imgUrl": "/autoJaluzQapilar/autoJaluzQapi15.jpg"
       }
     ],
     "autojaluzqapidetay": [
       {
         "id": 1,
-        "imgUrl": "../../../src/assets/autoJaluzQapilarDetay/autoJaluzQapiDetay.jpg"
+        "imgUrl": "/autoJaluzQapilarDetay/autoJaluzQapiDetay.jpg"
       },
       {
         "id": 2,
-        "imgUrl": "../../../src/assets/autoJaluzQapilarDetay/autoJaluzQapiDetay2.jpg"
+        "imgUrl": "/autoJaluzQapilarDetay/autoJaluzQapiDetay2.jpg"
       },
       {
         "id": 3,
-        "imgUrl": "../../../src/assets/autoJaluzQapilarDetay/autoJaluzQapiDetay3.jpg"
+        "imgUrl": "/autoJaluzQapilarDetay/autoJaluzQapiDetay3.jpg"
       },
       {
         "id": 4,
-        "imgUrl": "../../../src/assets/autoJaluzQapilarDetay/autoJaluzQapiDetay4.jpg"
+        "imgUrl": "/autoJaluzQapilarDetay/autoJaluzQapiDetay4.jpg"
       },
       {
         "id": 5,
-        "imgUrl": "../../../src/assets/autoJaluzQapilarDetay/autoJaluzQapiDetay5.jpg"
+        "imgUrl": "/autoJaluzQapilarDetay/autoJaluzQapiDetay5.jpg"
       },
       {
         "id": 6,
@@ -333,55 +331,55 @@
     "autoqarajqapi": [
       {
         "id": 1,
-        "imgUrl": "../../../src/assets/autoQarajQapilari/autoQarajQapi.jpg"
+        "imgUrl": "/autoQarajQapilari/autoQarajQapi.jpg"
       },
       {
         "id": 2,
-        "imgUrl": "../../../src/assets/autoQarajQapilari/autoQarajQapi2.jpg"
+        "imgUrl": "/autoQarajQapilari/autoQarajQapi2.jpg"
       },
       {
         "id": 3,
-        "imgUrl": "../../../src/assets/autoQarajQapilari/autoQarajQapi3.jpg"
+        "imgUrl": "/autoQarajQapilari/autoQarajQapi3.jpg"
       },
       {
         "id": 4,
-        "imgUrl": "../../../src/assets/autoQarajQapilari/autoQarajQapi4.jpg"
+        "imgUrl": "/autoQarajQapilari/autoQarajQapi4.jpg"
       },
       {
         "id": 5,
-        "imgUrl": "../../../src/assets/autoQarajQapilari/autoQarajQapi5.jpg"
+        "imgUrl": "/autoQarajQapilari/autoQarajQapi5.jpg"
       },
       {
         "id": 6,
-        "imgUrl": "../../../src/assets/autoQarajQapilari/autoQarajQapi6.jpg"
+        "imgUrl": "/autoQarajQapilari/autoQarajQapi6.jpg"
       },
       {
         "id": 7,
-        "imgUrl": "../../../src/assets/autoQarajQapilari/autoQarajQapi7.jpg"
+        "imgUrl": "/autoQarajQapilari/autoQarajQapi7.jpg"
       },
       {
         "id": 8,
-        "imgUrl": "../../../src/assets/autoQarajQapilari/autoQarajQapi8.jpg"
+        "imgUrl": "/autoQarajQapilari/autoQarajQapi8.jpg"
       },
       {
         "id": 9,
-        "imgUrl": "../../../src/assets/autoQarajQapilari/autoQarajQapi9.jpg"
+        "imgUrl": "/autoQarajQapilari/autoQarajQapi9.jpg"
       },
       {
         "id": 10,
-        "imgUrl": "../../../src/assets/autoQarajQapilari/autoQarajQapi10.jpg"
+        "imgUrl": "/autoQarajQapilari/autoQarajQapi10.jpg"
       },
       {
         "id": 11,
-        "imgUrl": "../../../src/assets/autoQarajQapilari/autoQarajQapi11.jpg"
+        "imgUrl": "/autoQarajQapilari/autoQarajQapi11.jpg"
       },
       {
         "id": 12,
-        "imgUrl": "../../../src/assets/autoQarajQapilari/autoQarajQapi12.jpg"
+        "imgUrl": "/autoQarajQapilari/autoQarajQapi12.jpg"
       },
       {
         "id": 13,
-        "imgUrl": "../../../src/assets/autoQarajQapilari/autoQarajQapi13.jpg"
+        "imgUrl": "/autoQarajQapilari/autoQarajQapi13.jpg"
       },
       {
         "id": 14,
@@ -389,926 +387,926 @@
       },
       {
         "id": 15,
-        "imgUrl": "../../../src/assets/autoQarajQapilari/autoQarajQapi15.jpg"
+        "imgUrl": "/autoQarajQapilari/autoQarajQapi15.jpg"
       },
       {
         "id": 16,
-        "imgUrl": "../../../src/assets/autoQarajQapilari/autoQarajQapi16.jpg"
+        "imgUrl": "/autoQarajQapilari/autoQarajQapi16.jpg"
       },
       {
         "id": 17,
-        "imgUrl": "../../../src/assets/autoQarajQapilari/autoQarajQapi17.jpg"
+        "imgUrl": "/autoQarajQapilari/autoQarajQapi17.jpg"
       },
       {
         "id": 18,
-        "imgUrl": "../../../src/assets/autoQarajQapilari/autoQarajQapi18.jpg"
+        "imgUrl": "/autoQarajQapilari/autoQarajQapi18.jpg"
       },
       {
         "id": 19,
-        "imgUrl": "../../../src/assets/autoQarajQapilari/autoQarajQapi19.jpg"
+        "imgUrl": "/autoQarajQapilari/autoQarajQapi19.jpg"
       },
       {
         "id": 20,
-        "imgUrl": "../../../src/assets/autoQarajQapilari/autoQarajQapi20.jpg"
+        "imgUrl": "/autoQarajQapilari/autoQarajQapi20.jpg"
       },
       {
         "id": 21,
-        "imgUrl": "../../../src/assets/autoQarajQapilari/autoQarajQapi21.jpg"
+        "imgUrl": "/autoQarajQapilari/autoQarajQapi21.jpg"
       },
       {
         "id": 22,
-        "imgUrl": "../../../src/assets/autoQarajQapilari/autoQarajQapi22.jpg"
+        "imgUrl": "/autoQarajQapilari/autoQarajQapi22.jpg"
       },
       {
         "id": 23,
-        "imgUrl": "../../../src/assets/autoQarajQapilari/autoQarajQapi23.jpg"
+        "imgUrl": "/autoQarajQapilari/autoQarajQapi23.jpg"
       },
       {
         "id": 24,
-        "imgUrl": "../../../src/assets/autoQarajQapilari/autoQarajQapi24.jpg"
+        "imgUrl": "/autoQarajQapilari/autoQarajQapi24.jpg"
       },
       {
         "id": 25,
-        "imgUrl": "../../../src/assets/autoQarajQapilari/autoQarajQapi25.jpg"
+        "imgUrl": "/autoQarajQapilari/autoQarajQapi25.jpg"
       },
       {
         "id": 26,
-        "imgUrl": "../../../src/assets/autoQarajQapilari/autoQarajQapi26.jpg"
+        "imgUrl": "/autoQarajQapilari/autoQarajQapi26.jpg"
       },
       {
         "id": 27,
-        "imgUrl": "../../../src/assets/autoQarajQapilari/autoQarajQapi27.jpg"
+        "imgUrl": "/autoQarajQapilari/autoQarajQapi27.jpg"
       },
       {
         "id": 28,
-        "imgUrl": "../../../src/assets/autoQarajQapilari/autoQarajQapi28.jpg"
+        "imgUrl": "/autoQarajQapilari/autoQarajQapi28.jpg"
       },
       {
         "id": 29,
-        "imgUrl": "../../../src/assets/autoQarajQapilari/autoQarajQapi29.jpg"
+        "imgUrl": "/autoQarajQapilari/autoQarajQapi29.jpg"
       },
       {
         "id": 30,
-        "imgUrl": "../../../src/assets/autoQarajQapilari/autoQarajQapi30.jpg"
+        "imgUrl": "/autoQarajQapilari/autoQarajQapi30.jpg"
       },  {
         "id": 31,
-        "imgUrl": "../../../src/assets/autoQarajQapilari/autoQarajQapi31.jpg"
+        "imgUrl": "/autoQarajQapilari/autoQarajQapi31.jpg"
       },
       {
         "id": 32,
-        "imgUrl": "../../../src/assets/autoQarajQapilari/autoQarajQapi32.jpg"
+        "imgUrl": "/autoQarajQapilari/autoQarajQapi32.jpg"
       },
       {
         "id": 33,
-        "imgUrl": "../../../src/assets/autoQarajQapilari/autoQarajQapi33.jpg"
+        "imgUrl": "/autoQarajQapilari/autoQarajQapi33.jpg"
       },
       {
         "id": 34,
-        "imgUrl": "../../../src/assets/autoQarajQapilari/autoQarajQapi34.jpg"
+        "imgUrl": "/autoQarajQapilari/autoQarajQapi34.jpg"
       },
       {
         "id": 35,
-        "imgUrl": "../../../src/assets/autoQarajQapilari/autoQarajQapi35.jpg"
+        "imgUrl": "/autoQarajQapilari/autoQarajQapi35.jpg"
       },
       {
         "id": 36,
-        "imgUrl": "../../../src/assets/autoQarajQapilari/autoQarajQapi36.jpg"
+        "imgUrl": "/autoQarajQapilari/autoQarajQapi36.jpg"
       },
       {
         "id": 37,
-        "imgUrl": "../../../src/assets/autoQarajQapilari/autoQarajQapi37.jpg"
+        "imgUrl": "/autoQarajQapilari/autoQarajQapi37.jpg"
       },
       {
         "id": 38,
-        "imgUrl": "../../../src/assets/autoQarajQapilari/autoQarajQapi38.jpg"
+        "imgUrl": "/autoQarajQapilari/autoQarajQapi38.jpg"
       },
       {
         "id": 39,
-        "imgUrl": "../../../src/assets/autoQarajQapilari/autoQarajQapi39.jpg"
+        "imgUrl": "/autoQarajQapilari/autoQarajQapi39.jpg"
       },
       {
         "id": 40,
-        "imgUrl": "../../../src/assets/autoQarajQapilari/autoQarajQapi40.jpg"
+        "imgUrl": "/autoQarajQapilari/autoQarajQapi40.jpg"
       },
       {
         "id": 41,
-        "imgUrl": "../../../src/assets/autoQarajQapilari/autoQarajQapi41.jpg"
+        "imgUrl": "/autoQarajQapilari/autoQarajQapi41.jpg"
       },
       {
         "id": 42,
-        "imgUrl": "../../../src/assets/autoQarajQapilari/autoQarajQapi42.jpg"
+        "imgUrl": "/autoQarajQapilari/autoQarajQapi42.jpg"
       },
       {
         "id": 43,
-        "imgUrl": "../../../src/assets/autoQarajQapilari/autoQarajQapi43.jpg"
+        "imgUrl": "/autoQarajQapilari/autoQarajQapi43.jpg"
       },
       {
         "id": 44,
-        "imgUrl": "../../../src/assets/autoQarajQapilari/autoQarajQapi44.jpg"
+        "imgUrl": "/autoQarajQapilari/autoQarajQapi44.jpg"
       },
       {
         "id": 45,
-        "imgUrl": "../../../src/assets/autoQarajQapilari/autoQarajQapi45.jpg"
+        "imgUrl": "/autoQarajQapilari/autoQarajQapi45.jpg"
       },
       {
         "id": 46,
-        "imgUrl": "../../../src/assets/autoQarajQapilari/autoQarajQapi46.jpg"
+        "imgUrl": "/autoQarajQapilari/autoQarajQapi46.jpg"
       },
       {
         "id": 47,
-        "imgUrl": "../../../src/assets/autoQarajQapilari/autoQarajQapi47.jpg"
+        "imgUrl": "/autoQarajQapilari/autoQarajQapi47.jpg"
       },
       {
         "id": 48,
-        "imgUrl": "../../../src/assets/autoQarajQapilari/autoQarajQapi48.jpg"
+        "imgUrl": "/autoQarajQapilari/autoQarajQapi48.jpg"
       },
       {
         "id": 49,
-        "imgUrl": "../../../src/assets/autoQarajQapilari/autoQarajQapi49.jpg"
+        "imgUrl": "/autoQarajQapilari/autoQarajQapi49.jpg"
       }
     ], 
      "autosenayeqapi": [
       {
         "id": 1,
-        "imgUrl": "../../../src/assets/autoSenayeQapi/autoSenayeQapi.jpg"
+        "imgUrl": "/autoSenayeQapi/autoSenayeQapi.jpg"
       },
       {
         "id": 2,
-        "imgUrl": "../../../src/assets/autoSenayeQapi/autoSenayeQapi2.jpg"
+        "imgUrl": "/autoSenayeQapi/autoSenayeQapi2.jpg"
       },
       {
         "id": 3,
-        "imgUrl": "../../../src/assets/autoSenayeQapi/autoSenayeQapi3.jpg"
+        "imgUrl": "/autoSenayeQapi/autoSenayeQapi3.jpg"
       },
       {
         "id": 4,
-        "imgUrl": "../../../src/assets/autoSenayeQapi/autoSenayeQapi4.jpg"
+        "imgUrl": "/autoSenayeQapi/autoSenayeQapi4.jpg"
       },
       {
         "id": 5,
-        "imgUrl": "../../../src/assets/autoSenayeQapi/autoSenayeQapi5.jpg"
+        "imgUrl": "/autoSenayeQapi/autoSenayeQapi5.jpg"
       },
       {
         "id": 6,
-        "imgUrl": "../../../src/assets/autoQarajQapilari/autoQarajQapi6.jpg"
+        "imgUrl": "/autoQarajQapilari/autoQarajQapi6.jpg"
       },
       {
         "id": 7,
-        "imgUrl": "../../../src/assets/autoSenayeQapi/autoSenayeQapi7.jpg"
+        "imgUrl": "/autoSenayeQapi/autoSenayeQapi7.jpg"
       },
       {
         "id": 8,
-        "imgUrl": "../../../src/assets/autoSenayeQapi/autoSenayeQapi8.jpg"
+        "imgUrl": "/autoSenayeQapi/autoSenayeQapi8.jpg"
       },
       {
         "id": 9,
-        "imgUrl": "../../../src/assets/autoSenayeQapi/autoSenayeQapi9.jpg"
+        "imgUrl": "/autoSenayeQapi/autoSenayeQapi9.jpg"
       },
       {
         "id": 10,
-        "imgUrl": "../../../src/assets/autoSenayeQapi/autoSenayeQapi10.jpg"
+        "imgUrl": "/autoSenayeQapi/autoSenayeQapi10.jpg"
       },
       {
         "id": 11,
-        "imgUrl": "../../../src/assets/autoSenayeQapi/autoSenayeQapi11.jpg"
+        "imgUrl": "/autoSenayeQapi/autoSenayeQapi11.jpg"
       },
       {
         "id": 12,
-        "imgUrl": "../../../src/assets/autoSenayeQapi/autoSenayeQapi12.jpg"
+        "imgUrl": "/autoSenayeQapi/autoSenayeQapi12.jpg"
       },
       {
         "id": 13,
-        "imgUrl": "../../../src/assets/autoSenayeQapi/autoSenayeQapi13.jpg"
+        "imgUrl": "/autoSenayeQapi/autoSenayeQapi13.jpg"
       },
       {
         "id": 14,
-        "imgUrl": "../../../src/assets/autoSenayeQapi/autoSenayeQapi14.jpg"
+        "imgUrl": "/autoSenayeQapi/autoSenayeQapi14.jpg"
       },
       {
         "id": 15,
-        "imgUrl": "../../../src/assets/autoQarajQapilari/autoQarajQapi15.jpg"
+        "imgUrl": "/autoQarajQapilari/autoQarajQapi15.jpg"
       },
       {
         "id": 16,
-        "imgUrl": "../../../src/assets/autoQarajQapilari/autoQarajQapi16.jpg"
+        "imgUrl": "/autoQarajQapilari/autoQarajQapi16.jpg"
       },
       {
         "id": 17,
-        "imgUrl": "../../../src/assets/autoQarajQapilari/autoQarajQapi17.jpg"
+        "imgUrl": "/autoQarajQapilari/autoQarajQapi17.jpg"
       },
       {
         "id": 18,
-        "imgUrl": "../../../src/assets/autoQarajQapilari/autoQarajQapi18.jpg"
+        "imgUrl": "/autoQarajQapilari/autoQarajQapi18.jpg"
       },
       {
         "id": 19,
-        "imgUrl": "../../../src/assets/autoQarajQapilari/autoQarajQapi19.jpg"
+        "imgUrl": "/autoQarajQapilari/autoQarajQapi19.jpg"
       },
       {
         "id": 20,
-        "imgUrl": "../../../src/assets/autoSenayeQapi/autoSenayeQapi20.jpg"
+        "imgUrl": "/autoSenayeQapi/autoSenayeQapi20.jpg"
       },
       {
         "id": 21,
-        "imgUrl": "../../../src/assets/autoSenayeQapi/autoSenayeQapi21.jpg"
+        "imgUrl": "/autoSenayeQapi/autoSenayeQapi21.jpg"
       },
       {
         "id": 22,
-        "imgUrl": "../../../src/assets/autoSenayeQapi/autoSenayeQapi22.jpg"
+        "imgUrl": "/autoSenayeQapi/autoSenayeQapi22.jpg"
       },
       {
         "id": 23,
-        "imgUrl": "../../../src/assets/autoSenayeQapi/autoSenayeQapi23.jpg"
+        "imgUrl": "/autoSenayeQapi/autoSenayeQapi23.jpg"
       },
       {
         "id": 24,
-        "imgUrl": "../../../src/assets/autoSenayeQapi/autoSenayeQapi24.jpg"
+        "imgUrl": "/autoSenayeQapi/autoSenayeQapi24.jpg"
       },
       {
         "id": 25,
-        "imgUrl": "../../../src/assets/autoSenayeQapi/autoSenayeQapi25.jpg"
+        "imgUrl": "/autoSenayeQapi/autoSenayeQapi25.jpg"
       },
       {
         "id": 26,
-        "imgUrl": "../../../src/assets/autoSenayeQapi/autoSenayeQapi26.jpg"
+        "imgUrl": "/autoSenayeQapi/autoSenayeQapi26.jpg"
       }
     ],
     "donerqapi": [
       {
         "id": 1,
-        "imgUrl": "../../../src/assets/donerQapi/donerQapi.jpg"
+        "imgUrl": "/donerQapi/donerQapi.jpg"
        
       },
       {
         "id": 2,
-        "imgUrl": "../../../src/assets/donerQapi/donerQapi2.jpg"
+        "imgUrl": "/donerQapi/donerQapi2.jpg"
      
       },
       {
         "id": 3,
-        "imgUrl": "../../../src/assets/donerQapi/donerQapi3.jpg"
+        "imgUrl": "/donerQapi/donerQapi3.jpg"
       
       },
       {
         "id": 4,
-        "imgUrl": "../../../src/assets/donerQapi/donerQapi4.jpg"
+        "imgUrl": "/donerQapi/donerQapi4.jpg"
      
       },
       {
         "id": 5,
-        "imgUrl": "../../../src/assets/donerQapi/donerQapi5.jpg"
+        "imgUrl": "/donerQapi/donerQapi5.jpg"
       
       },
       {
         "id": 6,
-        "imgUrl": "../../../src/assets/donerQapi/donerQapi6.jpg"
+        "imgUrl": "/donerQapi/donerQapi6.jpg"
      
       }
     ],
     "fotosel": [
       {
         "id": 1,
-        "imgUrl": "../../../src/assets/fotoselQapi/fotoselQapi.jpg"
+        "imgUrl": "/fotoselQapi/fotoselQapi.jpg"
   
       },
       {
         "id": 2,
-        "imgUrl": "../../../src/assets/fotoselQapi/fotoselQapi2.jpg"
+        "imgUrl": "/fotoselQapi/fotoselQapi2.jpg"
 
       },
       {
         "id": 3,
-        "imgUrl": "../../../src/assets/fotoselQapi/fotoselQapi3.jpg"
+        "imgUrl": "/fotoselQapi/fotoselQapi3.jpg"
 
       },
       {
         "id": 4,
-        "imgUrl": "../../../src/assets/fotoselQapi/fotoselQapi4.jpg"
+        "imgUrl": "/fotoselQapi/fotoselQapi4.jpg"
       
       },
       {
         "id": 5,
-        "imgUrl": "../../../src/assets/fotoselQapi/fotoselQapi5.jpg"
+        "imgUrl": "/fotoselQapi/fotoselQapi5.jpg"
    
       },
       {
         "id": 6,
-        "imgUrl": "../../../src//assets/fotoselQapi/fotoselQapi6.jpg"
+        "imgUrl": "./fotoselQapi/fotoselQapi6.jpg"
     
       },
       {
         "id": 7,
-        "imgUrl": "../../../src/assets/fotoselQapi/fotoselQapi7.jpg"
+        "imgUrl": "/fotoselQapi/fotoselQapi7.jpg"
  
       },
       {
         "id": 8,
-        "imgUrl": "../../../src/assets/fotoselQapi/fotoselQapi8.jpg"
+        "imgUrl": "/fotoselQapi/fotoselQapi8.jpg"
     
       },
       {
         "id": 9,
-        "imgUrl": "../../../src/assets/fotoselQapi/fotoselQapi9.jpg"
+        "imgUrl": "/fotoselQapi/fotoselQapi9.jpg"
     
       },
       {
         "id": 10,
-        "imgUrl": "../../../src/assets/fotoselQapi/fotoselQapi10.jpg"
+        "imgUrl": "/fotoselQapi/fotoselQapi10.jpg"
    
       },
       {
         "id": 11,
-        "imgUrl": "../../../src/assets/fotoselQapi/fotoselQapi11.jpg"
+        "imgUrl": "/fotoselQapi/fotoselQapi11.jpg"
   
       },
       {
         "id": 12,
-        "imgUrl": "../../../src/assets/fotoselQapi/fotoselQapi12.jpg"
+        "imgUrl": "/fotoselQapi/fotoselQapi12.jpg"
 
       },
       {
         "id": 13,
-        "imgUrl": "../../../src/assets/fotoselQapi/fotoselQapi13.jpg"
+        "imgUrl": "/fotoselQapi/fotoselQapi13.jpg"
 
       },
       {
         "id": 14,
-        "imgUrl": "../../../src/assets/fotoselQapi/fotoselQapi14.jpg"
+        "imgUrl": "/fotoselQapi/fotoselQapi14.jpg"
       
       },
       {
         "id": 15,
-        "imgUrl": "../../../src/assets/fotoselQapi/fotoselQapi15.jpg"
+        "imgUrl": "/fotoselQapi/fotoselQapi15.jpg"
    
       },
       {
         "id": 16,
-        "imgUrl": "../../../src//assets/fotoselQapi/fotoselQapi16.jpg"
+        "imgUrl": "/fotoselQapi/fotoselQapi16.jpg"
     
       }
     ],
     "doxsandarvaza": [
       {
         "id": 1,
-        "imgUrl": "../../../src/assets/doxsanAcilanDarvaza/doxsanAcilanDarvaza.jpg"
+        "imgUrl": "/doxsanAcilanDarvaza/doxsanAcilanDarvaza.jpg"
   
       },
       {
         "id": 2,
-        "imgUrl": "../../../src/assets/doxsanAcilanDarvaza/doxsanAcilanDarvaza2.jpg"
+        "imgUrl": "/doxsanAcilanDarvaza/doxsanAcilanDarvaza2.jpg"
 
       },
       {
         "id": 3,
-        "imgUrl": "../../../src/assets/doxsanAcilanDarvaza/doxsanAcilanDarvaza3.jpg"
+        "imgUrl": "/doxsanAcilanDarvaza/doxsanAcilanDarvaza3.jpg"
 
       },
       {
         "id": 4,
-        "imgUrl": "../../../src/assets/doxsanAcilanDarvaza/doxsanAcilanDarvaza4.jpg"
+        "imgUrl": "/doxsanAcilanDarvaza/doxsanAcilanDarvaza4.jpg"
       
       },
       {
         "id": 5,
-        "imgUrl": "../../../src/assets/doxsanAcilanDarvaza/doxsanAcilanDarvaza5.jpg"
+        "imgUrl": "/doxsanAcilanDarvaza/doxsanAcilanDarvaza5.jpg"
    
       },
       {
         "id": 6,
-        "imgUrl": "../../../src//assets/doxsanAcilanDarvaza/doxsanAcilanDarvaza6.jpg"
+        "imgUrl": "/doxsanAcilanDarvaza/doxsanAcilanDarvaza6.jpg"
     
       },
       {
         "id": 7,
-        "imgUrl": "../../../src/assets/doxsanAcilanDarvaza/doxsanAcilanDarvaza7.jpg"
+        "imgUrl": "/doxsanAcilanDarvaza/doxsanAcilanDarvaza7.jpg"
  
       },
       {
         "id": 8,
-        "imgUrl": "../../../src/assets/doxsanAcilanDarvaza/doxsanAcilanDarvaza8.jpg"
+        "imgUrl": "/doxsanAcilanDarvaza/doxsanAcilanDarvaza8.jpg"
     
       },
       {
         "id": 9,
-        "imgUrl": "../../../src/assets/doxsanAcilanDarvaza/doxsanAcilanDarvaza9.jpg"
+        "imgUrl": "/doxsanAcilanDarvaza/doxsanAcilanDarvaza9.jpg"
     
       },
       {
         "id": 10,
-        "imgUrl": "../../../src/assets/doxsanAcilanDarvaza/doxsanAcilanDarvaza10.jpg"
+        "imgUrl": "/doxsanAcilanDarvaza/doxsanAcilanDarvaza10.jpg"
    
       },
       {
         "id": 11,
-        "imgUrl": "../../../src/assets/doxsanAcilanDarvaza/doxsanAcilanDarvaza11.jpg"
+        "imgUrl": "/doxsanAcilanDarvaza/doxsanAcilanDarvaza11.jpg"
   
       },
       {
         "id": 12,
-        "imgUrl": "../../../src/assets/doxsanAcilanDarvaza/doxsanAcilanDarvaza12.jpg"
+        "imgUrl": "/doxsanAcilanDarvaza/doxsanAcilanDarvaza12.jpg"
 
       },
       {
         "id": 13,
-        "imgUrl": "../../../src/assets/doxsanAcilanDarvaza/doxsanAcilanDarvaza13.jpg"
+        "imgUrl": "/doxsanAcilanDarvaza/doxsanAcilanDarvaza13.jpg"
 
       },
       {
         "id": 14,
-        "imgUrl": "../../../src/assets/doxsanAcilanDarvaza/doxsanAcilanDarvaza14.jpg"
+        "imgUrl": "/doxsanAcilanDarvaza/doxsanAcilanDarvaza14.jpg"
       
       },
       {
         "id": 15,
-        "imgUrl": "../../../src/assets/doxsanAcilanDarvaza/doxsanAcilanDarvaza15.jpg"
+        "imgUrl": "/doxsanAcilanDarvaza/doxsanAcilanDarvaza15.jpg"
    
       }
     ],
     "yanasurusendarvaza": [
       {
         "id": 1,
-        "imgUrl": "../../../src/assets/yanaSuruserekAcilanDarvaza/yanaAcilanDarvaza.jpg"
+        "imgUrl": "/yanaSuruserekAcilanDarvaza/yanaAcilanDarvaza.jpg"
   
       },
       {
         "id": 2,
-        "imgUrl": "../../../src/assets/yanaSuruserekAcilanDarvaza/yanaAcilanDarvaza2.jpg"
+        "imgUrl": "/yanaSuruserekAcilanDarvaza/yanaAcilanDarvaza2.jpg"
 
       },
       {
         "id": 3,
-        "imgUrl": "../../../src/assets/yanaSuruserekAcilanDarvaza/yanaAcilanDarvaza3.jpg"
+        "imgUrl": "/yanaSuruserekAcilanDarvaza/yanaAcilanDarvaza3.jpg"
 
       },
       {
         "id": 4,
-        "imgUrl": "../../../src/assets/yanaSuruserekAcilanDarvaza/yanaAcilanDarvaza4.jpg"
+        "imgUrl": "/yanaSuruserekAcilanDarvaza/yanaAcilanDarvaza4.jpg"
       
       },
       {
         "id": 5,
-        "imgUrl": "../../../src/assets/yanaSuruserekAcilanDarvaza/yanaAcilanDarvaza5.jpg"
+        "imgUrl": "/yanaSuruserekAcilanDarvaza/yanaAcilanDarvaza5.jpg"
    
       },
       {
         "id": 6,
-        "imgUrl": "../../../src//assets/yanaSuruserekAcilanDarvaza/yanaAcilanDarvaza6.jpg"
+        "imgUrl": "/yanaSuruserekAcilanDarvaza/yanaAcilanDarvaza6.jpg"
     
       },
       {
         "id": 7,
-        "imgUrl": "../../../src/assets/yanaSuruserekAcilanDarvaza/yanaAcilanDarvaza7.jpg"
+        "imgUrl": "/yanaSuruserekAcilanDarvaza/yanaAcilanDarvaza7.jpg"
  
       },
       {
         "id": 8,
-        "imgUrl": "../../../src/assets/yanaSuruserekAcilanDarvaza/yanaAcilanDarvaza8.jpg"
+        "imgUrl": "/yanaSuruserekAcilanDarvaza/yanaAcilanDarvaza8.jpg"
     
       }
     ],
     "demirdarvaza": [
       {
         "id": 1,
-        "imgUrl": "../../../src/assets/demirDarvazalar/demirDarvazalar.jpg"
+        "imgUrl": "/demirDarvazalar/demirDarvazalar.jpg"
       },
       {
         "id": 2,
-        "imgUrl": "../../../src/assets/demirDarvazalar/demirDarvazalar2.jpg"
+        "imgUrl": "/demirDarvazalar/demirDarvazalar2.jpg"
       },
       {
         "id": 3,
-        "imgUrl": "../../../src/assets/demirDarvazalar/demirDarvazalar3.jpg"
+        "imgUrl": "/demirDarvazalar/demirDarvazalar3.jpg"
       },
       {
         "id": 4,
-        "imgUrl": "../../../src/assets/demirDarvazalar/demirDarvazalar4.jpg"
+        "imgUrl": "/demirDarvazalar/demirDarvazalar4.jpg"
       },
       {
         "id": 5,
-        "imgUrl": "../../../src/assets/demirDarvazalar/demirDarvazalar5.jpg"
+        "imgUrl": "/demirDarvazalar/demirDarvazalar5.jpg"
       },
       {
         "id": 6,
-        "imgUrl": "../../../src/assets/demirDarvazalar/demirDarvazalar6.jpg"
+        "imgUrl": "/demirDarvazalar/demirDarvazalar6.jpg"
       },
       {
         "id": 7,
-        "imgUrl": "../../../src/assets/demirDarvazalar/demirDarvazalar7.jpg"
+        "imgUrl": "/demirDarvazalar/demirDarvazalar7.jpg"
       },
       {
         "id": 8,
-        "imgUrl": "../../../src/assets/demirDarvazalar/demirDarvazalar8.jpg"
+        "imgUrl": "/demirDarvazalar/demirDarvazalar8.jpg"
       },
       {
         "id": 9,
-        "imgUrl": "../../../src/assets/demirDarvazalar/demirDarvazalar9.jpg"
+        "imgUrl": "/demirDarvazalar/demirDarvazalar9.jpg"
       },
       {
         "id": 10,
-        "imgUrl": "../../../src/assets/demirDarvazalar/demirDarvazalar10.jpg"
+        "imgUrl": "/demirDarvazalar/demirDarvazalar10.jpg"
       },
       {
         "id": 11,
-        "imgUrl": "../../../src/assets/demirDarvazalar/demirDarvazalar11.jpg"
+        "imgUrl": "/demirDarvazalar/demirDarvazalar11.jpg"
       },
       {
         "id": 12,
-        "imgUrl": "../../../src/assets/demirDarvazalar/demirDarvazalar12.jpg"
+        "imgUrl": "/demirDarvazalar/demirDarvazalar12.jpg"
       },
       {
         "id": 13,
-        "imgUrl": "../../../src/assets/demirDarvazalar/demirDarvazalar13.jpg"
+        "imgUrl": "/demirDarvazalar/demirDarvazalar13.jpg"
       },
       {
         "id": 14,
-        "imgUrl": "../../../src/assets/demirDarvazalar/demirDarvazalar14.jpg"
+        "imgUrl": "/demirDarvazalar/demirDarvazalar14.jpg"
       },
       {
         "id": 15,
-        "imgUrl": "../../../src/assets/demirDarvazalar/demirDarvazalar15.jpg"
+        "imgUrl": "/demirDarvazalar/demirDarvazalar15.jpg"
       },
       {
         "id": 16,
-        "imgUrl": "../../../src/assets/demirDarvazalar/demirDarvazalar16.jpg"
+        "imgUrl": "/demirDarvazalar/demirDarvazalar16.jpg"
       },
       {
         "id": 17,
-        "imgUrl": "../../../src/assets/demirDarvazalar/demirDarvazalar17.jpg"
+        "imgUrl": "/demirDarvazalar/demirDarvazalar17.jpg"
       },
       {
         "id": 18,
-        "imgUrl": "../../../src/assets/demirDarvazalar/demirDarvazalar18.jpg"
+        "imgUrl": "/demirDarvazalar/demirDarvazalar18.jpg"
       },
       {
         "id": 19,
-        "imgUrl": "../../../src/assets/demirDarvazalar/demirDarvazalar19.jpg"
+        "imgUrl": "/demirDarvazalar/demirDarvazalar19.jpg"
       },
       {
         "id": 20,
-        "imgUrl": "../../../src/assets/demirDarvazalar/demirDarvazalar20.jpg"
+        "imgUrl": "/demirDarvazalar/demirDarvazalar20.jpg"
       },
       {
         "id": 21,
-        "imgUrl": "../../../src/assets/demirDarvazalar/demirDarvazalar21.jpg"
+        "imgUrl": "/demirDarvazalar/demirDarvazalar21.jpg"
       },
       {
         "id": 22,
-        "imgUrl": "../../../src/assets/demirDarvazalar/demirDarvazalar22.jpg"
+        "imgUrl": "/demirDarvazalar/demirDarvazalar22.jpg"
       },
       {
         "id": 23,
-        "imgUrl": "../../../src/assets/demirDarvazalar/demirDarvazalar23.jpg"
+        "imgUrl": "/demirDarvazalar/demirDarvazalar23.jpg"
       },
       {
         "id": 24,
-        "imgUrl": "../../../src/assets/demirDarvazalar/demirDarvazalar24.jpg"
+        "imgUrl": "/demirDarvazalar/demirDarvazalar24.jpg"
       },
       {
         "id": 25,
-        "imgUrl": "../../../src/assets/demirDarvazalar/demirDarvazalar25.jpg"
+        "imgUrl": "/demirDarvazalar/demirDarvazalar25.jpg"
       },
       {
         "id": 26,
-        "imgUrl": "../../../src/assets/demirDarvazalar/demirDarvazalar26.jpg"
+        "imgUrl": "/demirDarvazalar/demirDarvazalar26.jpg"
       },
       {
         "id": 27,
-        "imgUrl": "../../../src/assets/demirDarvazalar/demirDarvazalar27.jpg"
+        "imgUrl": "/demirDarvazalar/demirDarvazalar27.jpg"
       },
       {
         "id": 28,
-        "imgUrl": "../../../src/assets/demirDarvazalar/demirDarvazalar28.jpg"
+        "imgUrl": "/demirDarvazalar/demirDarvazalar28.jpg"
       },
       {
         "id": 29,
-        "imgUrl": "../../../src/assets/demirDarvazalar/demirDarvazalar29.jpg"
+        "imgUrl": "/demirDarvazalar/demirDarvazalar29.jpg"
       },
       {
         "id": 30,
-        "imgUrl": "../../../src/assets/demirDarvazalar/demirDarvazalar30.jpg"
+        "imgUrl": "/demirDarvazalar/demirDarvazalar30.jpg"
       },
       {
         "id": 31,
-        "imgUrl": "../../../src/assets/demirDarvazalar/demirDarvazalar31.jpg"
+        "imgUrl": "/demirDarvazalar/demirDarvazalar31.jpg"
       },
       {
         "id": 32,
-        "imgUrl": "../../../src/assets/demirDarvazalar/demirDarvazalar32.jpg"
+        "imgUrl": "/demirDarvazalar/demirDarvazalar32.jpg"
       },
       {
         "id": 33,
-        "imgUrl": "../../../src/assets/demirDarvazalar/demirDarvazalar33.jpg"
+        "imgUrl": "/demirDarvazalar/demirDarvazalar33.jpg"
       },
       {
         "id": 34,
-        "imgUrl": "../../../src/assets/demirDarvazalar/demirDarvazalar34.jpg"
+        "imgUrl": "/demirDarvazalar/demirDarvazalar34.jpg"
       },
       {
         "id": 35,
-        "imgUrl": "../../../src/assets/demirDarvazalar/demirDarvazalar35.jpg"
+        "imgUrl": "/demirDarvazalar/demirDarvazalar35.jpg"
       },
       {
         "id": 36,
-        "imgUrl": "../../../src/assets/demirDarvazalar/demirDarvazalar36.jpg"
+        "imgUrl": "/demirDarvazalar/demirDarvazalar36.jpg"
       },
       {
         "id": 37,
-        "imgUrl": "../../../src/assets/demirDarvazalar/demirDarvazalar37.jpg"
+        "imgUrl": "/demirDarvazalar/demirDarvazalar37.jpg"
       },
       {
         "id": 38,
-        "imgUrl": "../../../src/assets/demirDarvazalar/demirDarvazalar38.jpg"
+        "imgUrl": "/demirDarvazalar/demirDarvazalar38.jpg"
       },
       {
         "id": 39,
-        "imgUrl": "../../../src/assets/demirDarvazalar/demirDarvazalar39.jpg"
+        "imgUrl": "/demirDarvazalar/demirDarvazalar39.jpg"
       },
       {
         "id": 40,
-        "imgUrl": "../../../src/assets/demirDarvazalar/demirDarvazalar40.jpg"
+        "imgUrl": "/demirDarvazalar/demirDarvazalar40.jpg"
       },
       {
         "id": 41,
-        "imgUrl": "../../../src/assets/demirDarvazalar/demirDarvazalar41.jpg"
+        "imgUrl": "/demirDarvazalar/demirDarvazalar41.jpg"
       },
       {
         "id": 42,
-        "imgUrl": "../../../src/assets/demirDarvazalar/demirDarvazalar42.jpg"
+        "imgUrl": "/demirDarvazalar/demirDarvazalar42.jpg"
       },
       {
         "id": 43,
-        "imgUrl": "../../../src/assets/demirDarvazalar/demirDarvazalar43.jpg"
+        "imgUrl": "/demirDarvazalar/demirDarvazalar43.jpg"
       },
       {
         "id": 44,
-        "imgUrl": "../../../src/assets/demirDarvazalar/demirDarvazalar44.jpg"
+        "imgUrl": "/demirDarvazalar/demirDarvazalar44.jpg"
       },
       {
         "id": 45,
-        "imgUrl": "../../../src/assets/demirDarvazalar/demirDarvazalar45.jpg"
+        "imgUrl": "/demirDarvazalar/demirDarvazalar45.jpg"
       },
       {
         "id": 46,
-        "imgUrl": "../../../src/assets/demirDarvazalar/demirDarvazalar46.jpg"
+        "imgUrl": "/demirDarvazalar/demirDarvazalar46.jpg"
       },
       {
         "id": 47,
-        "imgUrl": "../../../src/assets/demirDarvazalar/demirDarvazalar47.jpg"
+        "imgUrl": "/demirDarvazalar/demirDarvazalar47.jpg"
       },
       {
         "id": 48,
-        "imgUrl": "../../../src/assets/demirDarvazalar/demirDarvazalar48.jpg"
+        "imgUrl": "/demirDarvazalar/demirDarvazalar48.jpg"
       },
       {
         "id": 49,
-        "imgUrl": "../../../src/assets/demirDarvazalar/demirDarvazalar49.jpg"
+        "imgUrl": "/demirDarvazalar/demirDarvazalar49.jpg"
       },
       {
         "id": 50,
-        "imgUrl": "../../../src/assets/demirDarvazalar/demirDarvazalar50.jpg"
+        "imgUrl": "/demirDarvazalar/demirDarvazalar50.jpg"
       },
       {
         "id": 51,
-        "imgUrl": "../../../src/assets/demirDarvazalar/demirDarvazalar51.jpg"
+        "imgUrl": "/demirDarvazalar/demirDarvazalar51.jpg"
       },
       {
         "id": 52,
-        "imgUrl": "../../../src/assets/demirDarvazalar/demirDarvazalar52.jpg"
+        "imgUrl": "/demirDarvazalar/demirDarvazalar52.jpg"
       },
       {
         "id": 53,
-        "imgUrl": "../../../src/assets/demirDarvazalar/demirDarvazalar53.jpg"
+        "imgUrl": "/demirDarvazalar/demirDarvazalar53.jpg"
       },
       {
         "id": 54,
-        "imgUrl": "../../../src/assets/demirDarvazalar/demirDarvazalar54.jpg"
+        "imgUrl": "/demirDarvazalar/demirDarvazalar54.jpg"
       },
       {
         "id": 55,
-        "imgUrl": "../../../src/assets/demirDarvazalar/demirDarvazalar55.jpg"
+        "imgUrl": "/demirDarvazalar/demirDarvazalar55.jpg"
       },
       {
         "id": 56,
-        "imgUrl": "../../../src/assets/demirDarvazalar/demirDarvazalar56.jpg"
+        "imgUrl": "/demirDarvazalar/demirDarvazalar56.jpg"
       },
       {
         "id": 57,
-        "imgUrl": "../../../src/assets/demirDarvazalar/demirDarvazalar57.jpg"
+        "imgUrl": "/demirDarvazalar/demirDarvazalar57.jpg"
       },
       {
         "id": 58,
-        "imgUrl": "../../../src/assets/demirDarvazalar/demirDarvazalar58.jpg"
+        "imgUrl": "/demirDarvazalar/demirDarvazalar58.jpg"
       },
       {
         "id": 59,
-        "imgUrl": "../../../src/assets/demirDarvazalar/demirDarvazalar59.jpg"
+        "imgUrl": "/demirDarvazalar/demirDarvazalar59.jpg"
       },
       {
         "id": 60,
-        "imgUrl": "../../../src/assets/demirDarvazalar/demirDarvazalar60.jpg"
+        "imgUrl": "/demirDarvazalar/demirDarvazalar60.jpg"
       },
       {
         "id": 61,
-        "imgUrl": "../../../src/assets/demirDarvazalar/demirDarvazalar61.jpg"
+        "imgUrl": "/demirDarvazalar/demirDarvazalar61.jpg"
       },
       {
         "id": 62,
-        "imgUrl": "../../../src/assets/demirDarvazalar/demirDarvazalar62.jpg"
+        "imgUrl": "/demirDarvazalar/demirDarvazalar62.jpg"
       },
       {
         "id": 63,
-        "imgUrl": "../../../src/assets/demirDarvazalar/demirDarvazalar63.jpg"
+        "imgUrl": "/demirDarvazalar/demirDarvazalar63.jpg"
       },
       {
         "id": 64,
-        "imgUrl": "../../../src/assets/demirDarvazalar/demirDarvazalar64.jpg"
+        "imgUrl": "/demirDarvazalar/demirDarvazalar64.jpg"
       },
       {
         "id": 65,
-        "imgUrl": "../../../src/assets/demirDarvazalar/demirDarvazalar65.jpg"
+        "imgUrl": "/demirDarvazalar/demirDarvazalar65.jpg"
       },
       {
         "id": 66,
-        "imgUrl": "../../../src/assets/demirDarvazalar/demirDarvazalar66.jpg"
+        "imgUrl": "/demirDarvazalar/demirDarvazalar66.jpg"
       },
       {
         "id": 67,
-        "imgUrl": "../../../src/assets/demirDarvazalar/demirDarvazalar67.jpg"
+        "imgUrl": "/demirDarvazalar/demirDarvazalar67.jpg"
       },
       {
         "id": 68,
-        "imgUrl": "../../../src/assets/demirDarvazalar/demirDarvazalar68.jpg"
+        "imgUrl": "/demirDarvazalar/demirDarvazalar68.jpg"
       },
       {
         "id": 69,
-        "imgUrl": "../../../src/assets/demirDarvazalar/demirDarvazalar69.jpg"
+        "imgUrl": "/demirDarvazalar/demirDarvazalar69.jpg"
       },
       {
         "id": 70,
-        "imgUrl": "../../../src/assets/demirDarvazalar/demirDarvazalar70.jpg"
+        "imgUrl": "/demirDarvazalar/demirDarvazalar70.jpg"
       },
       {
         "id": 71,
-        "imgUrl": "../../../src/assets/demirDarvazalar/demirDarvazalar71.jpg"
+        "imgUrl": "/demirDarvazalar/demirDarvazalar71.jpg"
       },
       {
         "id": 72,
-        "imgUrl": "../../../src/assets/demirDarvazalar/demirDarvazalar72.jpg"
+        "imgUrl": "/demirDarvazalar/demirDarvazalar72.jpg"
       },
       {
         "id": 73,
-        "imgUrl": "../../../src/assets/demirDarvazalar/demirDarvazalar73.jpg"
+        "imgUrl": "/demirDarvazalar/demirDarvazalar73.jpg"
       },
       {
         "id": 74,
-        "imgUrl": "../../../src/assets/demirDarvazalar/demirDarvazalar74.jpg"
+        "imgUrl": "/demirDarvazalar/demirDarvazalar74.jpg"
       },
       {
         "id": 75,
-        "imgUrl": "../../../src/assets/demirDarvazalar/demirDarvazalar75.jpg"
+        "imgUrl": "/demirDarvazalar/demirDarvazalar75.jpg"
       },
       {
         "id": 76,
-        "imgUrl": "../../../src/assets/demirDarvazalar/demirDarvazalar76.jpg"
+        "imgUrl": "/demirDarvazalar/demirDarvazalar76.jpg"
       },
       {
         "id": 77,
-        "imgUrl": "../../../src/assets/demirDarvazalar/demirDarvazalar77.jpg"
+        "imgUrl": "/demirDarvazalar/demirDarvazalar77.jpg"
       },
       {
         "id": 78,
-        "imgUrl": "../../../src/assets/demirDarvazalar/demirDarvazalar78.jpg"
+        "imgUrl": "/demirDarvazalar/demirDarvazalar78.jpg"
       },
       {
         "id": 79,
-        "imgUrl": "../../../src/assets/demirDarvazalar/demirDarvazalar79.jpg"
+        "imgUrl": "/demirDarvazalar/demirDarvazalar79.jpg"
       },
       {
         "id": 80,
-        "imgUrl": "../../../src/assets/demirDarvazalar/demirDarvazalar80.jpg"
+        "imgUrl": "/demirDarvazalar/demirDarvazalar80.jpg"
       },
       {
         "id": 81,
-        "imgUrl": "../../../src/assets/demirDarvazalar/demirDarvazalar81.jpg"
+        "imgUrl": "/demirDarvazalar/demirDarvazalar81.jpg"
       },
       {
         "id": 82,
-        "imgUrl": "../../../src/assets/demirDarvazalar/demirDarvazalar82.jpg"
+        "imgUrl": "/demirDarvazalar/demirDarvazalar82.jpg"
       },
       {
         "id": 83,
-        "imgUrl": "../../../src/assets/demirDarvazalar/demirDarvazalar83.jpg"
+        "imgUrl": "/demirDarvazalar/demirDarvazalar83.jpg"
       },
       {
         "id": 84,
-        "imgUrl": "../../../src/assets/demirDarvazalar/demirDarvazalar84.jpg"
+        "imgUrl": "/demirDarvazalar/demirDarvazalar84.jpg"
       },
       {
         "id": 85,
-        "imgUrl": "../../../src/assets/demirDarvazalar/demirDarvazalar85.jpg"
+        "imgUrl": "/demirDarvazalar/demirDarvazalar85.jpg"
       },
       {
         "id": 86,
-        "imgUrl": "../../../src/assets/demirDarvazalar/demirDarvazalar86.jpg"
+        "imgUrl": "/demirDarvazalar/demirDarvazalar86.jpg"
       },
       {
         "id": 87,
-        "imgUrl": "../../../src/assets/demirDarvazalar/demirDarvazalar87.jpg"
+        "imgUrl": "/demirDarvazalar/demirDarvazalar87.jpg"
       },
       {
         "id": 88,
-        "imgUrl": "../../../src/assets/demirDarvazalar/demirDarvazalar88.jpg"
+        "imgUrl": "/demirDarvazalar/demirDarvazalar88.jpg"
       },
       {
         "id": 89,
-        "imgUrl": "../../../src/assets/demirDarvazalar/demirDarvazalar89.jpg"
+        "imgUrl": "/demirDarvazalar/demirDarvazalar89.jpg"
       },
       {
         "id": 90,
-        "imgUrl": "../../../src/assets/demirDarvazalar/demirDarvazalar90.jpg"
+        "imgUrl": "/demirDarvazalar/demirDarvazalar90.jpg"
       },
       {
         "id": 91,
-        "imgUrl": "../../../src/assets/demirDarvazalar/demirDarvazalar91.jpg"
+        "imgUrl": "/demirDarvazalar/demirDarvazalar91.jpg"
       },
       {
         "id": 92,
-        "imgUrl": "../../../src/assets/demirDarvazalar/demirDarvazalar92.jpg"
+        "imgUrl": "/demirDarvazalar/demirDarvazalar92.jpg"
       },
       {
         "id": 93,
-        "imgUrl": "../../../src/assets/demirDarvazalar/demirDarvazalar93.jpg"
+        "imgUrl": "/demirDarvazalar/demirDarvazalar93.jpg"
       },
       {
         "id": 94,
-        "imgUrl": "../../../src/assets/demirDarvazalar/demirDarvazalar94.jpg"
+        "imgUrl": "/demirDarvazalar/demirDarvazalar94.jpg"
       },
       {
         "id": 95,
-        "imgUrl": "../../../src/assets/demirDarvazalar/demirDarvazalar95.jpg"
+        "imgUrl": "/demirDarvazalar/demirDarvazalar95.jpg"
       },
       {
         "id": 96,
-        "imgUrl": "../../../src/assets/demirDarvazalar/demirDarvazalar96.jpg"
+        "imgUrl": "/demirDarvazalar/demirDarvazalar96.jpg"
       },
       {
         "id": 97,
-        "imgUrl": "../../../src/assets/demirDarvazalar/demirDarvazalar97.jpg"
+        "imgUrl": "/demirDarvazalar/demirDarvazalar97.jpg"
       },
       {
         "id": 98,
-        "imgUrl": "../../../src/assets/demirDarvazalar/demirDarvazalar98.jpg"
+        "imgUrl": "/demirDarvazalar/demirDarvazalar98.jpg"
       },
       {
         "id": 99,
-        "imgUrl": "../../../src/assets/demirDarvazalar/demirDarvazalar99.jpg"
+        "imgUrl": "/demirDarvazalar/demirDarvazalar99.jpg"
       }
     ],
     "autoqarajdata":[
       {
         "id": 1,
         "title":"Motor sistemi",
-        "imgUrl": "../../../src/assets/autoQarajData/autoqarajdata.jpg",
+        "imgUrl": "/autoQarajData/autoqarajdata.jpg",
         "text":"Avropanın brend şirkətlərinin istehsalı olan avtomatik qapı motorları ( 2 il zəmanət verilir) 1200N gücə malikdir,elektron idarəetmə paneli avtomatik qapı motorunun idarəedilməsini tənzimləyir.Avtomatik qapıların motorları uzaqdan idarə oluna bilən motorlardır. "
       },
       {
         "id": 2,
         "title":"Motor sistemi",
-        "imgUrl": "../../../src/assets/autoQarajData/autoqarajdata2.jpg",
+        "imgUrl": "/autoQarajData/autoqarajdata2.jpg",
         "text":"Avtomatik qapıların mortorları təhlükəsizlik sisteminin təmin etmək üçün quraşdırılan radarlarla birbaşa əlaqədə fəaliyyət göstərir. İstənilən maneə radarların qarşısını kəsdikdə motor avtomatik olaraq qapının hərəkətini saxlayır."
       },
       {
         "id": 3,
         "title":"Sendvic panel",
-        "imgUrl": "../../../src/assets/autoQarajData/autoqarajdata3.jpg",
+        "imgUrl": "/autoQarajData/autoqarajdata3.jpg",
         "text":"Avtomatik qapılar əsasən sendvic paneldən hazırlanır. Sendvic panel hər iki üzü paslanmaz qalvaniz metal , içi isə sıxılmış penaplastdır.Sendvic panellər isti və soyuğa davamlıdır. Poluetran izolasiyalı sendvic panel 45 mm qalınlığındadır."
       },
       {
         "id": 4,
         "title":"Mexanik hissələr",
-        "imgUrl": "../../../src/assets/autoQarajData/autoqarajdata4.jpg",
+        "imgUrl": "/autoQarajData/autoqarajdata4.jpg",
         "text":"Avtomatik qapıların mexanik hissələri paslanmaz qalvaniz metaldan hazırlanmışdır. Mexanik hissələr müxtəlif parçalardan ibarətdir.  Yay, petlə , təkər , profildən  ibarət hissələr əsasən paslanmır. Buda avtomatik qapıların səssiz və maneəsiz işləməsinə şərait yaradır."
       }
     ],
     "yuklemerampasi": [
       {
         "id": 1,
-        "imgUrl": "../../../src/assets/yuklemeRampasi/yuklemerampasi.jpg"
+        "imgUrl": "/yuklemeRampasi/yuklemerampasi.jpg"
   
       },
       {
         "id": 2,
-        "imgUrl": "../../../src/assets/yuklemeRampasi/yuklemerampasi2.jpg"
+        "imgUrl": "/yuklemeRampasi/yuklemerampasi2.jpg"
 
       },
       {
         "id": 3,
-        "imgUrl": "../../../src/assets/yuklemeRampasi/yuklemerampasi3.jpg"
+        "imgUrl": "/yuklemeRampasi/yuklemerampasi3.jpg"
 
       },
       {
         "id": 4,
-        "imgUrl": "../../../src/assets/yuklemeRampasi/yuklemerampasi4.jpg"
+        "imgUrl": "/yuklemeRampasi/yuklemerampasi4.jpg"
       
       },
       {
@@ -1318,27 +1316,27 @@
       },
       {
         "id": 6,
-        "imgUrl": "../../../src//assets/yuklemeRampasi/yuklemerampasi6.jpg"
+        "imgUrl": "./yuklemeRampasi/yuklemerampasi6.jpg"
     
       },
       {
         "id": 7,
-        "imgUrl": "../../../src/assets/yuklemeRampasi/yuklemerampasi7.jpg"
+        "imgUrl": "/yuklemeRampasi/yuklemerampasi7.jpg"
  
       },
       {
         "id": 8,
-        "imgUrl": "../../../src/assets/yuklemeRampasi/yuklemerampasi8.jpg"
+        "imgUrl": "/yuklemeRampasi/yuklemerampasi8.jpg"
     
       },
       {
         "id": 9,
-        "imgUrl": "../../../src/assets/yuklemeRampasi/yuklemerampasi9.jpg"
+        "imgUrl": "/yuklemeRampasi/yuklemerampasi9.jpg"
     
       },
       {
         "id": 10,
-        "imgUrl": "../../../src/assets/yuklemeRampasi/yuklemerampasi10.jpg"
+        "imgUrl": "/yuklemeRampasi/yuklemerampasi10.jpg"
    
       }
     ]
