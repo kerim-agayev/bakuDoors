@@ -108,9 +108,9 @@ function AnimatedRoutesMain() {
     <>
       <AnimatePresence>
         <Routes location={location} key={location.pathname}>
-          {/* <Route path="/" element={<Navbar2 />}> */}
+          <Route path="/" element={<Navbar2 />}>
             <Route
-            path="/"
+              index
               element={
                 <Suspense fallback={<Spinner />}>
                   <Home />
@@ -441,7 +441,7 @@ function AnimatedRoutesMain() {
                 </Suspense>
               }
             />
-          {/* </Route> */}
+          </Route>
         </Routes>
       </AnimatePresence>
     </>

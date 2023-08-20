@@ -1,11 +1,10 @@
 {
-     "rewrites": 
-    [
-        { "source": "/(.*)", "destination": "/" }
-    ] 
-    
+  "rewrites": [
+    { "src": "/", "dest": "/" },
+
+    { "src": "/saunabesetka", "dest": "/" },
+    { "src": "/autosuse", "dest": "/" },
+    { "src": "/autojaluzqapi", "dest": "/" },
+    { "src": "/autofotoseldonerqapi", "dest": "/" }
+  ]
 }
-
-
-
-

@@ -8,7 +8,7 @@ import WhatsappIcon from './components/WhatsappIcon'
 import SmoothSliderButton from './components/SmoothSliderButton'
 import AnimatedRoutesMain from './AnimatedRoutesMain'
 import Footer2 from './components/footer/Footer2'
-import Navbar2 from './components/navbar/Navbar2'
+
 
 
 
@@ -21,7 +21,6 @@ function App() {
     <>
    <BrowserRouter>
    <ScroolToTop/>
-   <Navbar2/>
 <AnimatedRoutesMain/>
    <SmoothSliderButton/>
    <WhatsappIcon/>
