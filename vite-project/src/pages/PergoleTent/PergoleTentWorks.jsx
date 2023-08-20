@@ -3,7 +3,7 @@ import ProductTitle from '../mainPages/about/ProductTitle';
 import { motion , useInView, useAnimation} from 'framer-motion'
 import Data from "../../datas/Data.json";
 import { useTranslation } from 'react-i18next';
-import { LazyLoadImage } from 'react-lazy-load-image-component';
+import LazyImage from '../../components/LazyImage';
 function PergoleTentWorks() {
   const {t} = useTranslation()
   const ref = useRef(null)
@@ -62,8 +62,8 @@ function PergoleTentWorks() {
 
 
         </div>
-      </div>
-<motion.div ref={ref} className="container mt-5"
+    
+<motion.div ref={ref} className="container mt-5 mb-5"
         initial='hidden'
         animate={maincontrols}
         variants={container}
@@ -75,13 +75,13 @@ function PergoleTentWorks() {
 
           {
             pergole.map((perg) => (
-              <motion.div ref={ref} key={perg.id} className="col-4 col-xl-3  shadow mb-3 rounded "
+              <motion.div ref={ref} key={perg.id} className="col-4  shadow mb-3 rounded "
                 variants={item}
 
               >
                 <div className="card  p-md-2" >
-                  <LazyLoadImage src={perg.imgUrl} className="card-img-top objectFit responsiveImg rounded" alt="..." />
-
+             
+                   <LazyImage src={perg.imgUrl}  id={perg.id}/>
                 </div>
 
               </motion.div>
@@ -94,8 +94,8 @@ function PergoleTentWorks() {
 
         </div>
       </motion.div>
-
-      
+<hr />
+      </div>
     </>
   )
 }

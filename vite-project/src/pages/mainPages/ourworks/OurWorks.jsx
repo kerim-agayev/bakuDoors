@@ -178,21 +178,7 @@ function OurWorks() {
                               </div>
                             </div>
                              {/* file */}
-                            {/* <div className="col-md-12">
-                              <div className="form-group my-2">
-                               
-                             
-                               
-                                  <label htmlFor="myfile">Select a file:</label>
-                                  <input 
-                                  type="file" 
-                                  onChange={(e)=> setFile(e.target.files[0])}
-                                  id="myfile" 
-                                 
-                                  name="file"></input>
-                              
-                              </div>
-                            </div> */}
+                      
                              {/* file */}
                             <div className="col-md-12">
                               <div className="form-group my-2">

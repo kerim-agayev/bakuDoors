@@ -1,7 +1,9 @@
-
-import {  Outlet } from "react-router-dom"
-import SidebarMain from '../../components/sidebar/SidebarMain'
+import DemirDarvaza from '/demirDarvazalar/demirDarvazalar4.jpg'
+import DoxsanAcilanDarvaza from '/doxsanacilandarvaza.jpg'
+import YanaSurusenQapi from '/yanasurusenqapi.jpg'
+import YanaSurusenQapi3 from '/yanaSuruserekAcilanDarvaza/yanaAcilanDarvaza3.jpg'
 import { useTranslation } from 'react-i18next';
+import Main from '../../components/main/Main'
 function AutoDarvaza() {
   const {t} = useTranslation()
 
@@ -26,18 +28,17 @@ const dLink = 'avtomatikdemirdarvaza'
     cLink:cLink,
     dLink:dLink
   };
-
+  const imgPhoto = {
+    img1:  DoxsanAcilanDarvaza ,
+    img2: YanaSurusenQapi,
+    img3: YanaSurusenQapi3,
+    img4:  DemirDarvaza
+  };
 
   return (
     <>
 
-
-    <div className="content-container"> {/* Wrap both SidebarMain and Outlet */}
-      <SidebarMain text={text} link = {link} />
-      <main>
-        <Outlet />
-      </main>
-    </div>
+    <Main text={text} link = {link} imgPhoto={imgPhoto}/>
   </>
   )
 }

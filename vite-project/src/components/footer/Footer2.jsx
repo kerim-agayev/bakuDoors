@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { AiOutlineRight } from "react-icons/ai";
 import { GrLocation } from "react-icons/gr";
 import { FaTimes, FaEnvelopeSquare } from "react-icons/fa";
@@ -15,26 +15,13 @@ import { Link } from "react-router-dom";
 import Logo from "/logo.png";
 
 function Footer2() {
-  useEffect(() => {
-    const handleScroll = () => {
-      const scrollY = window.scrollY;
-
-      setFooterMarginTop(scrollY >= 350 ? 200 : 350);
-    };
-
-    window.addEventListener("scroll", handleScroll);
-
-    // Unmount olduğunda event listener'ı legv edririk
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, []);
-  const [footerMarginTop, setFooterMarginTop] = useState(250);
+  
   const [open, setOpen] = useState(false);
   return (
     <>
-      <div className="container" style={{ marginTop: `${footerMarginTop}px` }}>
-        <div className="row">
+     
+      <div className="container mt-5 " >
+        <div className="row m-auto">
           <div className="col-6 col-md-3 mb-5">
             <div className="logo">
               <Link to="/" className="logofooter text-decoration-none text-white">
@@ -59,28 +46,44 @@ function Footer2() {
             <h5>Sayt xəritəsi</h5>
             <div className="list-group footerFSize">
               <div className="footerFlex">
+                <Link className="textNone" to='/'>
                 <AiOutlineRight />
                 Ana Səhifə
+                </Link>
+             
               </div>
               <div className="footerFlex">
+                <Link  className="textNone" to='contact'>
                 <AiOutlineRight />
                 Əlaqə
+                </Link>
+              
               </div>
               <div className="footerFlex">
+                <Link  className="textNone" to='about'>
                 <AiOutlineRight />
                 Haqqımızda
+                </Link>
+             
               </div>
               <div className="footerFlex">
-                <AiOutlineRight />
+             <Link  className="textNone" to='ourworks' >
+             <AiOutlineRight />
                 İnsan Resursları
+             </Link>
               </div>
               <div className="footerFlex">
-                <AiOutlineRight />
-                And a fifth one
+             <Link  className="textNone" to='servisqurasdirma'>
+             <AiOutlineRight />
+                Servis 
+             </Link>
               </div>
               <div className="footerFlex">
+                <Link  className="textNone" to='questions'>
                 <AiOutlineRight />
-                And a fifth one
+               Suallar
+                </Link>
+             
               </div>
             </div>
           </div>
@@ -91,7 +94,7 @@ function Footer2() {
                 <GrLocation size={20} />
                 Bakı şəhəri, Xətai r. Süleyman vəzirov küç. 33
               </p>
-              <p className="footerFlex3">
+              <p className="footerFlex3 textsize">
                 <BsTelephonePlusFill size={20} />
                 012 555 33 65 - 050 400 33 55 - 055 633 28 88
               </p>
@@ -114,16 +117,22 @@ function Footer2() {
 
             <div className="footerFlex4 mt-2">
               <p>
-                <BsFacebook size={20} />
+                <a  href="https://www.facebook.com/bakudoors.mmc/">
+                  <span>
+                  <BsFacebook color="blue" size={20} />
+                  </span>
+             
+                </a>
+                
               </p>
               <p>
-                <BsTwitter size={20} />
+                <BsTwitter color="yellow" size={20} />
               </p>
               <p>
-                <LiaGoogle size={20} />
+                <LiaGoogle color="brown" size={20} />
               </p>
               <p>
-                <BsSkype size={20} />{" "}
+                <BsSkype color="blue" size={20} />{" "}
               </p>
             </div>
           </div>

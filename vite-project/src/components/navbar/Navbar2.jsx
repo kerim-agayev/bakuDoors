@@ -2,6 +2,10 @@ import { Outlet, Link, useLocation } from "react-router-dom";
 import Logo from "../../assets/logo.png";
 import { useTranslation } from "react-i18next";
 import { useState, useEffect } from "react";
+import {BsFillEnvelopeCheckFill, BsPhone} from 'react-icons/bs'
+
+
+
 
 function Navbar2() {
   const handleLanguageChange = (event) => {
@@ -13,7 +17,7 @@ function Navbar2() {
   const { t, i18n } = useTranslation();
   const location = useLocation();
   const [selectedLanguage, setSelectedLanguage] = useState("aze");
-  // classNamName={location.pathname === '/' ? 'active-link' : ''}>
+ 
 
   useEffect(() => {
     const savedLanguage = localStorage.getItem("selectedLanguage");
@@ -59,7 +63,7 @@ function Navbar2() {
                 </Link>
               </li>
 
-              <li className="nav-item dropdown">
+               <li className="nav-item dropdown">
                 <Link
                   to="/"
                   className="nav-link dropdown-toggle hover"
@@ -98,14 +102,14 @@ function Navbar2() {
                     </li>
                     <li>
                       <Link
-                        to="servisqurasdirma"
+                        to="yuklemerampasi"
                         className={
-                          location.pathname === "/servisqurasdirma"
+                          location.pathname === "/yuklemerampasi"
                             ? "dropdown-item activeNavbar"
                             : "dropdown-item hoverimportant"
                         }
                       >
-                        {t("c")}
+                        {t("j")}
                       </Link>
                     </li>
                   </ul>
@@ -186,7 +190,10 @@ function Navbar2() {
                     </li>
                   </ul>
                 </div>
-              </li>
+              </li> 
+   
+
+
               <li className="nav-item">
                 <Link
                   to="about"
@@ -263,11 +270,13 @@ function Navbar2() {
                 </div>
               </div>
             </div>
-            <div className="contact-info">
-              <p>012 555 33 65 | 055 633 28 88 </p>
-              <p>
-                <a href="mailto:"> info@bakudoors.com</a>
+            <div className="contact-info ">
+              <p className="flexNavbar"><BsFillEnvelopeCheckFill size={15}/>Təklif almaq üçün:</p>
+            <p>
+                <a className="flexNavbar" href="mailto:"> info@bakudoors.com</a>
               </p>
+              <p className="flexNavbar"><BsPhone size={15}/>012 555 33 65 | 055 633 28 88 </p>
+            
               <p>
                 <select
                   value={selectedLanguage}

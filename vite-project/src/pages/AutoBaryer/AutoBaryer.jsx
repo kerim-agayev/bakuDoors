@@ -1,7 +1,7 @@
-
-import { Outlet } from 'react-router-dom';
-import SidebarMain from '../../components/sidebar/SidebarMain';
+import Slaqbaumlar2 from "/slaqbaumlar2.jpg";
+import VesorPhoto from '/vesor.jpg'
 import { useTranslation } from 'react-i18next';
+import Main from '../../components/main/Main';
 function AutoBaryer() {
   const {t} = useTranslation()
 
@@ -19,17 +19,18 @@ const bLink = 'vesor'
     aLink: aLink,
     bLink: bLink,
   };
-
+  const imgPhoto = {
+    img1: Slaqbaumlar2,
+    img2: VesorPhoto,
+  };
 
 
 
   return (
-    <div className="content-container"> {/* Wrap both SidebarMain and Outlet */}
-      <SidebarMain text={text} link = {link} />
-      <main>
-        <Outlet />
-      </main>
-    </div>
+
+    <>
+<Main text={text} link = {link} imgPhoto={imgPhoto}/>
+    </>
   );
 }
 

@@ -1,7 +1,7 @@
-
-import {  Outlet } from "react-router-dom"
-import SidebarMain from '../../components/sidebar/SidebarMain'
+import Pergole2 from '/pergoleTent/pergoleTent2.jpg'
+import Pergole3 from '/pergoleTent/pergoleTent3.jpg'
 import { useTranslation } from 'react-i18next';
+import Main from "../../components/main/Main";
 
 
 function PergoleTentBar() {
@@ -23,15 +23,17 @@ function PergoleTentBar() {
     };
 
 
+    const imgPhoto = {
+      img1: Pergole2,
+      img2: Pergole3,
+    };
+
 
   return (
     <>
     
-    <div className="content-container"> {/* Wrap both SidebarMain and Outlet */}
-        <SidebarMain text={text} link={link} />
-        <main><Outlet /></main>
-      </div>
-    
+   
+      <Main text={text} link = {link} imgPhoto={imgPhoto}/>
     
     
     </>

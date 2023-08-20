@@ -1,7 +1,7 @@
-
-import { Outlet } from "react-router-dom"
-import SidebarMain from '../../components/sidebar/SidebarMain'
+import BakudoorSeksional from '/autoSenayeQapi/autoSenayeQapi5.jpg'
+import BakudoorSeksional2 from '/autoQarajQapilari/autoQarajQapi9.jpg'
 import { useTranslation } from 'react-i18next';
+import Main from "../../components/main/Main";
 function AutoSeksiyonalQapi() {
   const {t} = useTranslation()
 
@@ -21,16 +21,17 @@ const bLink = 'autosenaye'
     aLink: aLink,
     bLink: bLink,
   };
-
+  const imgPhoto = {
+    img1: BakudoorSeksional2,
+    img2: BakudoorSeksional,
+  };
 
 
   return (
     <>
   
-      <div className="content-container"> {/* Wrap both SidebarMain and Outlet */}
-      <SidebarMain text={text} link = {link} />
-      <main><Outlet/></main>
-      </div>
+     
+      <Main text={text} link = {link} imgPhoto={imgPhoto}/>
     </>
   )
 }

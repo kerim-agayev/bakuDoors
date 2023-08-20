@@ -1,5 +1,5 @@
-import Card from "react-bootstrap/Card";
-import { Link, NavLink } from "react-router-dom";
+
+import { Link} from "react-router-dom";
 import SliderComp from "../../../components/SliderComp";
 import { AiFillRightCircle } from "react-icons/ai";
 import BakuDoorSseksional from "/bakudoorsseksional.jpg";
@@ -10,8 +10,7 @@ import CamBalkon from "/cambalkon.jpg";
 import Pergole from "/pergole.jpg";
 import Slaqbaumlar2 from "/slaqbaumlar2.jpg";
 import Saunalar from "/saunalar.jpg";
-import Servis from "/servis.jpg";
-
+import YuklemeRampasiPhoto from '/yuklemerampasi.jpg'
 import ProductTitle from "../about/ProductTitle";
 import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
@@ -129,13 +128,13 @@ function Home() {
     },
     {
       id: 9,
-      title: Servis,
-      text: t("c"),
-      link: "servisqurasdirma",
+      title: YuklemeRampasiPhoto,
+      text: t("l"),
+      link: "yuklemerampasi",
       hovera: t("doorservicehover"),
-      hoverb: t("barrierservicehover"),
-      linkhovera: "servisqurasdirma/qapiservisqurasdirma",
-      linkhoverb: "servisqurasdirma/slaqbaumservisqurasdirma",
+      hoverb: t("works"),
+      linkhovera: "yuklemerampasi/yuklememain",
+      linkhoverb: "yuklemerampasi/yuklemeworks",
     },
   ];
 
@@ -148,61 +147,10 @@ function Home() {
         // animate="visible"
         // variants={container}
       >
-        {/* <div className="row">
-          {photoLinks.map((photo) => (
-            <motion.div
-              key={photo.id}
-              className="col-12 text-center col-md-6 col-lg-4"
-              variants={item}
-            >
-              <Card className="my-3 border border-primary rounded-5 p-3 ">
-                <div className="position-relative">
-                  <img
-                    className="m-auto homeCards rounded scale"
-                    src={photo.title}
-                    alt=""
-                    style={{ width: "18rem", height: "18rem" }}
-                  />
-                   {photo.hoverc ? (
-                      
-                  <div className="image-overlayb textOverlay">
-                    <Link to={photo.linkhovera} ><AiFillRightCircle/>{photo.hovera}</Link>
-                    <Link to={photo.linkhoverb} ><AiFillRightCircle/>{photo.hoverb}</Link>
-                   <Link to={photo.linkhoverc} ><AiFillRightCircle/>{photo.hoverc}</Link>
-                    <Link to={photo.linkhoverd} ><AiFillRightCircle/>{photo.hoverd}</Link>
-                  </div>
-                  ):(
-                    <>
-                      <div className="image-overlay textOverlay">
-                    <Link to={photo.linkhovera} ><AiFillRightCircle/>{photo.hovera}</Link>
-                    <Link to={photo.linkhoverb} ><AiFillRightCircle/>{photo.hoverb}</Link>
-                 
-                  </div>
-                    </>
-                  )}
-
-
-                </div>
-
-                <Card.Body className="">
-                  <Card.Title>{photo.text}</Card.Title>
-
-                  <NavLink
-                    className="d-inline-flex align-items-center text-decoration-none  mx-3 my-2 bg-primary rounded p-3 text-white"
-                    to={photo.link}
-                  >
-                    {" "}
-                    {t("seeproducts")}
-                  </NavLink>
-                </Card.Body>
-              </Card>
-            </motion.div>
-          ))}
-        </div> */}
 
         <div className="flex">
           {photoLinks.map((photo) => (
-            <>
+           
               <div key={photo.id} className="contain ">
                 <div className="img objFit position-relative">
                   <img
@@ -258,7 +206,7 @@ function Home() {
                   )}
                 </div>
               </div>
-            </>
+           
           ))}
         </div>
       </motion.div>

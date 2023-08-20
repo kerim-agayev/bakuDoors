@@ -3,7 +3,7 @@ import ProductTitle from '../mainPages/about/ProductTitle';
 import Data from "../../datas/Data.json";
 import { motion , useInView, useAnimation} from 'framer-motion'
 import { useTranslation } from 'react-i18next';
-import { LazyLoadImage } from 'react-lazy-load-image-component';
+import LazyImage from '../../components/LazyImage';
 function PanoramaUstunluk() {
   const {t} = useTranslation()
   const ref = useRef(null)
@@ -27,7 +27,7 @@ function PanoramaUstunluk() {
   const container = {
     visible: {
       transition: {
-        //delayChildren: 0.3,
+       
         staggerChildren: 0.2
       }
     }
@@ -51,9 +51,9 @@ function PanoramaUstunluk() {
       <div className="container">
         <div className="row">
           <motion.div
-            initial={{ opacity: 0, translateX: -300 }}
-            animate={{ opacity: 1, translateX: 0 }}
-            transition={{ duration: 1 }}
+            // initial={{ opacity: 0, translateX: -300 }}
+            // animate={{ opacity: 1, translateX: 0 }}
+            // transition={{ duration: 1 }}
             className='all-ourworks mt-5 m-auto'
           >
 
@@ -62,11 +62,11 @@ function PanoramaUstunluk() {
 
 
         </div>
-      </div>
-      <motion.div ref={ref} className="container mt-5"
-        initial='hidden'
-        animate={maincontrols}
-        variants={container}
+    
+      <motion.div ref={ref} className="container mt-5 mb-5"
+        // initial='hidden'
+        // animate={maincontrols}
+        // variants={container}
 
 
       >
@@ -75,13 +75,13 @@ function PanoramaUstunluk() {
 
           {
             panorama.map((pan) => (
-              <motion.div ref={ref} key={pan.id} className="col-4 col-xl-3  shadow mb-3 rounded "
-                variants={item}
+              <motion.div ref={ref} key={pan.id} className="col-4  shadow mb-3 rounded "
+                // variants={item}
 
               >
                 <div className="card  p-md-2" >
-                  <LazyLoadImage  src={pan.imgUrl} className="card-img-top objectFit responsiveImg rounded" alt="..." />
-
+             
+    <LazyImage src={pan.imgUrl}  id={pan.id}/>
                 </div>
 
               </motion.div>
@@ -94,6 +94,8 @@ function PanoramaUstunluk() {
 
         </div>
       </motion.div>
+      <hr />
+      </div>
     </>
   )
 }

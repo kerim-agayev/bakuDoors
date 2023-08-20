@@ -1,9 +1,12 @@
-
-import {  Outlet } from "react-router-dom"
-import SidebarMain from '../../components/sidebar/SidebarMain'
+import YuklemeRampasiPhoto from '/yuklemerampasi.jpg'
+import YuklemeRampasiPhoto4 from '/ramp4.jpg'
+import { useTranslation } from 'react-i18next';
+import Main from "../../components/main/Main"
 function YuklemeRampasiBar() {
-    const a = "Yükləmə Rampası"
-    const b = "Gördüyümüz İşlər"
+
+  const {t} = useTranslation()
+    const a = t('j')
+    const b = t('works')
   const aLink = 'yuklememain'
   const bLink = 'yuklemeworks'
   
@@ -16,16 +19,15 @@ function YuklemeRampasiBar() {
       aLink: aLink,
       bLink: bLink,
     };
+    const imgPhoto = {
+      img1: YuklemeRampasiPhoto,
+      img2: YuklemeRampasiPhoto4,
+    };
   return (
     <>
 
-<div className="content-container"> {/* Wrap both SidebarMain and Outlet */}
-      <SidebarMain text={text} link = {link} />
-      <main>
-        <Outlet />
-      </main>
-    </div>
 
+<Main text={text} link = {link} imgPhoto={imgPhoto}/>
 
     </>
   )

@@ -1,7 +1,7 @@
-
-import {  Outlet } from "react-router-dom"
-import SidebarMain from '../../components/sidebar/SidebarMain'
+import JaluzSistemleri from '/jaluzsistemleri.jpg'
+import JaluzSistemleri2 from '/autoJaluzQapilar/autoJaluzQapi7.jpg'
 import { useTranslation } from 'react-i18next';
+import Main from "../../components/main/Main";
 function AutoJaluzQapi() {
   const {t} = useTranslation()
 
@@ -19,14 +19,14 @@ const bLink = 'autojaluzdarvaza'
     aLink: aLink,
     bLink: bLink,
   };
+  const imgPhoto = {
+    img1: JaluzSistemleri,
+    img2: JaluzSistemleri2,
+  };
   return (
     <>
-         <div className="content-container"> {/* Wrap both SidebarMain and Outlet */}
-      <SidebarMain text={text} link = {link} />
-      <main>
-        <Outlet />
-      </main>
-      </div>
+    
+      <Main text={text} link = {link} imgPhoto={imgPhoto}/>
     </>
   )
 }

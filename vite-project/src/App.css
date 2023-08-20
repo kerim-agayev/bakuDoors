@@ -1,3 +1,12 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body, html{
+  font-family: 'Roboto', sans-serif !important;
+}
+body {
+  overflow-x: hidden;
+}  
 /* saunabesetka.jsx */
 .margin-x {
   margin-top: 20px;
@@ -251,6 +260,8 @@ main {
   width: 18rem;
   height: 18rem;
 }
+
+
 @media only screen and (max-width: 768px) {
   .all-card {
     width: 20rem !important;
@@ -627,15 +638,19 @@ font-size: 17px;
     .dropdown-menu.show {
       flex-wrap: wrap;
       max-height: 350px;
+    
       overflow-y: scroll;
     }
   }
+
+
   @media only screen and (min-width: 992px) and (max-width: 1140px) {
     .dropdown:hover .dropdown-menu {
       width: 40vw;
       flex-wrap: wrap;
     }
   }
+
 
 
 
@@ -671,7 +686,12 @@ border-radius: 10px;
     position: sticky !important;
     top: 0;
   }
-
+.flexNavbar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px !important;
+}
 
 
   /* image overlay-home */
@@ -867,3 +887,265 @@ height: 300px;
 .logofooter img{
   margin-top: -20px !important;
 }
+
+/* slaqbaum2.jsx */
+.fslaqbaumsize{
+  font-size: 1.3rem;
+}
+
+.borderslaq{
+border-right: 0.4rem solid #0056b3;
+padding-right: 1.5rem;
+}
+
+.fontSizeSlaq{
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+
+
+ .head {
+  width: 100% !important;
+  height: 20rem !important;
+  object-fit: contain;
+  
+ }
+ .headText{
+font-size: 1.3rem !important;
+ }
+@media only screen and (max-width: 1200px) {
+  .head {
+    width: 100% !important;
+    height: 18rem;
+  }
+  .headText{
+    font-size: 1.1rem !important;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .head {
+    width: 100% !important;
+    height: 18 !important;
+  }
+  .headText{
+    font-size: 1rem !important;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .head {
+    width: 100% !important;
+    height: 20rem !important;
+ 
+  }
+  .headText{
+    font-size: 1rem !important;
+  }
+}
+
+/* slaqbaum2 */
+.productHead{
+  font-size: 1.9rem;
+  font-weight: 600;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+  .productHead{
+    font-size: 1.4rem;
+    font-weight: 600;
+    text-align: center;
+   
+    
+  }
+  }
+
+
+
+.p2{
+  padding: 0.8rem;
+}
+
+.objCover{
+  object-fit: cover;
+}
+.objContain{
+  object-fit: contain;
+}
+
+/* yanasurusendarvaza */
+.bordercircle{
+  border-style: dotted ;
+}
+.colorred{
+  color: #ff4500;
+
+}
+
+
+
+.listText{
+font-size: 1rem;
+}
+
+  @media only screen and (max-width: 1200px) {
+    .listText{
+      font-size: 1rem;
+      }
+  }
+  
+  @media only screen and (max-width: 992px) {
+    .listText{
+      font-size: 0.9rem;
+      }
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .listText{
+      font-size: 0.7rem !important;
+      }
+  }
+
+
+
+/* all */
+
+@media only screen and (min-width: 1201px) {
+  .responsiveImgAll{
+    width: 100%;
+    height: 18rem !important;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .responsiveImgAll{
+    width: 100%;
+    height: 18rem !important;
+  }
+}
+
+
+@media only screen and (max-width: 768px) {
+  .responsiveImgAll{
+width: 100%;
+height: 100%;
+  }
+}
+
+
+/* main */
+
+@media only screen and (max-width: 768px) {
+  .cardimg{
+width: 100%;
+height: 15rem !important;
+object-fit: cover;
+
+  }
+} 
+.cardimg{
+  width: 100%;
+  height: 15rem !important;
+  object-fit: cover;
+  
+    }
+/* @media only screen and (min-width: 768px) {
+  .cardimg{
+width: 100%;
+height: 15rem !important;
+  }
+}  */
+
+
+
+
+.main a{
+  display: flex;
+  justify-content: center;
+}
+
+
+.textLink{
+
+
+font-size: 0.7rem !important; 
+
+}
+
+/* doxsandereceacilanqapilar */
+.ninetywh{
+width: 100% ;
+height: 8rem ;
+}
+/* 
+pergola */
+
+
+
+
+@media only screen and (min-width: 768px) {
+  .pergolacard{
+width: 100%;
+height: 9rem !important;
+  }
+  .pergolacard h4{
+    font-size: 1rem;
+  }
+  .pergolacard p{
+    font-size: 0.8rem;
+  }
+} 
+
+/* xacilandarvaza */
+.fs-darvaza{
+  font-size: 0.8rem !important;
+}
+.fs-darvazamain{
+  font-size: 1.2rem !important;
+}
+@media only screen and (min-width: 768px) {
+  .fs-darvaza{
+    font-size: 1rem !important;
+  }
+  .fs-darvazamain{
+    font-size: 1.5rem !important;
+  }
+  }
+
+
+/* all */
+
+  @media only screen and (min-width: 768px) {
+    .vheight{
+      height: 70vh;
+    }
+    }
+ 
+
+    .objfill{
+      object-fit: fill;
+    }
+/* all */
+    .pointer{
+      cursor: pointer;
+    }
+
+
+
+    /* footer */
+    .textNone{
+      text-decoration: none;
+      color: black;
+    }
+    .textsize{
+      font-size: 0.6rem;
+    }
+
+    .flexspinner{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }

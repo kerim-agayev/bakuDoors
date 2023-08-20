@@ -63,24 +63,26 @@ function AutoJaluzDarvaza() {
 
         </div>
       </div>
-      <motion.div ref={ref} className="container mt-5"
+      <motion.div ref={ref} className="container mt-5 "
         initial='hidden'
         animate={maincontrols}
         variants={container}
 
 
       >
-        <div className="row m-auto">
+        <div className="row m-auto mb-5">
 
 
           {
             autojaluzqapi.map((auto) => (
-              <motion.div ref={ref} key={auto.id} className="col-4 col-xl-3  shadow mb-3 rounded"
+              <motion.div ref={ref} key={auto.id} className="col-4  shadow mb-3 rounded"
                 variants={item}
 
               >
                 <div className="card  p-md-2" >
-                  <LazyLoadImage src={auto.imgUrl} className="card-img-top objectFit responsiveImg rounded" alt="..." />
+                  <LazyLoadImage
+                  effect='blur'
+                  src={auto.imgUrl} className="card-img-top objectFit responsiveImg rounded" alt="..." />
 
                 </div>
 
@@ -93,6 +95,7 @@ function AutoJaluzDarvaza() {
 
 
         </div>
+        <hr />
       </motion.div>
 
 

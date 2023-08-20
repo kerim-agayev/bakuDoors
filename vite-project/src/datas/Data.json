@@ -75,19 +75,6 @@
     ],
     "panorama": [
       {
-        "id": 1,
-        "imgUrl": "/panorama/panorama.jpg"
-      },
-     
-      {
-        "id": 3,
-        "imgUrl": "/panorama/panorama3.jpg"
-      },
-      {
-        "id": 4,
-        "imgUrl": "/panorama/panorama4.jpg"
-      },
-      {
         "id": 5,
         "imgUrl": "/panorama/panorama5.jpg"
       },
@@ -130,66 +117,6 @@
       {
         "id": 15,
         "imgUrl": "/panorama/panorama15.jpg"
-      },
-      {
-        "id": 16,
-        "imgUrl": "/panorama/panorama16.jpg"
-      },
-      {
-        "id": 17,
-        "imgUrl": "/panorama/panorama17.jpg"
-      },
-      {
-        "id": 18,
-        "imgUrl": "/panorama/panorama18.jpg"
-      },
-      {
-        "id": 19,
-        "imgUrl": "/panorama/panorama19.jpg"
-      },
-      {
-        "id": 20,
-        "imgUrl": "/panorama/panorama20.jpg"
-      },
-      {
-        "id": 21,
-        "imgUrl": "/panorama/panorama21.jpg"
-      },
-      {
-        "id": 22,
-        "imgUrl": "/panorama/panorama22.jpg"
-      },
-      {
-        "id": 23,
-        "imgUrl": "/panorama/panorama23.jpg"
-      },
-      {
-        "id": 24,
-        "imgUrl": "/panorama/panorama24.jpg"
-      },
-      {
-        "id": 25,
-        "imgUrl": "/panorama/panorama25.jpg"
-      },
-      {
-        "id": 26,
-        "imgUrl": "/panorama/panorama26.jpg"
-      },
-      {
-        "id": 27,
-        "imgUrl": "/panorama/panorama27.jpg"
-      },
-      {
-        "id": 28,
-        "imgUrl": "/panorama/panorama28.jpg"
-      },
-      {
-        "id": 29,
-        "imgUrl": "/panorama/panorama29.jpg"
-      },
-      {
-        "id": 30,
-        "imgUrl": "/panorama/panorama30.jpg"
       }
     ],
     "pergole": [
@@ -1174,94 +1101,6 @@
       {
         "id": 77,
         "imgUrl": "/demirDarvazalar/demirDarvazalar77.jpg"
-      },
-      {
-        "id": 78,
-        "imgUrl": "/demirDarvazalar/demirDarvazalar78.jpg"
-      },
-      {
-        "id": 79,
-        "imgUrl": "/demirDarvazalar/demirDarvazalar79.jpg"
-      },
-      {
-        "id": 80,
-        "imgUrl": "/demirDarvazalar/demirDarvazalar80.jpg"
-      },
-      {
-        "id": 81,
-        "imgUrl": "/demirDarvazalar/demirDarvazalar81.jpg"
-      },
-      {
-        "id": 82,
-        "imgUrl": "/demirDarvazalar/demirDarvazalar82.jpg"
-      },
-      {
-        "id": 83,
-        "imgUrl": "/demirDarvazalar/demirDarvazalar83.jpg"
-      },
-      {
-        "id": 84,
-        "imgUrl": "/demirDarvazalar/demirDarvazalar84.jpg"
-      },
-      {
-        "id": 85,
-        "imgUrl": "/demirDarvazalar/demirDarvazalar85.jpg"
-      },
-      {
-        "id": 86,
-        "imgUrl": "/demirDarvazalar/demirDarvazalar86.jpg"
-      },
-      {
-        "id": 87,
-        "imgUrl": "/demirDarvazalar/demirDarvazalar87.jpg"
-      },
-      {
-        "id": 88,
-        "imgUrl": "/demirDarvazalar/demirDarvazalar88.jpg"
-      },
-      {
-        "id": 89,
-        "imgUrl": "/demirDarvazalar/demirDarvazalar89.jpg"
-      },
-      {
-        "id": 90,
-        "imgUrl": "/demirDarvazalar/demirDarvazalar90.jpg"
-      },
-      {
-        "id": 91,
-        "imgUrl": "/demirDarvazalar/demirDarvazalar91.jpg"
-      },
-      {
-        "id": 92,
-        "imgUrl": "/demirDarvazalar/demirDarvazalar92.jpg"
-      },
-      {
-        "id": 93,
-        "imgUrl": "/demirDarvazalar/demirDarvazalar93.jpg"
-      },
-      {
-        "id": 94,
-        "imgUrl": "/demirDarvazalar/demirDarvazalar94.jpg"
-      },
-      {
-        "id": 95,
-        "imgUrl": "/demirDarvazalar/demirDarvazalar95.jpg"
-      },
-      {
-        "id": 96,
-        "imgUrl": "/demirDarvazalar/demirDarvazalar96.jpg"
-      },
-      {
-        "id": 97,
-        "imgUrl": "/demirDarvazalar/demirDarvazalar97.jpg"
-      },
-      {
-        "id": 98,
-        "imgUrl": "/demirDarvazalar/demirDarvazalar98.jpg"
-      },
-      {
-        "id": 99,
-        "imgUrl": "/demirDarvazalar/demirDarvazalar99.jpg"
       }
     ],
     "autoqarajdata":[
@@ -1318,7 +1157,7 @@
       },
       {
         "id": 6,
-        "imgUrl": "./yuklemeRampasi/yuklemerampasi6.jpg"
+        "imgUrl": "/yuklemeRampasi/yuklemerampasi6.jpg"
     
       },
       {

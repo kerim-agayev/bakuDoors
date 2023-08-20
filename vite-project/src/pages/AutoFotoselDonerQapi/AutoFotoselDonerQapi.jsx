@@ -1,7 +1,9 @@
-
-import { Outlet } from "react-router-dom"
-import SidebarMain from '../../components/sidebar/SidebarMain'
+import AutoDonerPhoto from '/revolving.jpg'
+import AutoFotosel1 from "/fotoselQapi/fotoselQapi8.jpg";
+import YarimDairevi from "/yarimdairevi.png";
+import Hermetic2 from '/hermetic2.png'
 import { useTranslation } from 'react-i18next';
+import Main from "../../components/main/Main";
 
 
 
@@ -30,69 +32,20 @@ const dLink = 'hermetikxestexanaqapi'
     cLink:cLink,
     dLink:dLink
   };
+  const imgPhoto = {
+    img1:  AutoFotosel1 ,
+    img2: AutoDonerPhoto,
+    img3: YarimDairevi,
+    img4:  Hermetic2
+  };
 
   return (
     <>
-     {/* <div className="margin-x">
-        <div className="container">
+    
+ 
 
+<Main text={text} link = {link} imgPhoto={imgPhoto}/>
 
-
-          <div className="row">
-            <div className="col-sm-6 mb-3 mb-sm-0">
-              <div className="card">
-                <div className="card-body">
-                  <h5 className="card-title">AVTOMATİK FOTOSEL QAPILAR</h5>
-
-                  <NavLink to='autofotosel' className="tdeco btn btn-primary hover">Fotosel qapilar</NavLink>
-                </div>
-              </div>
-            </div>
-            <div className="col-sm-6 mb-5">
-              <div className="card">
-                <div className="card-body">
-                  <h5 className="card-title">Avtomatik Dönər Qapılar</h5>
-
-                  <NavLink to='autodoner' className="tdeco  btn btn-primary hover">Doner qapilar</NavLink>
-                </div>
-              </div>
-            </div>
-            <div className="col-sm-6 mb-5">
-              <div className="card">
-                <div className="card-body">
-                  <h5 className="card-title">YARIM DAİRƏVİ FOTOSEL QAPILAR</h5>
-
-                  <NavLink to='autoyarimdaireviqapi' className="tdeco  btn btn-primary hover">fotosel qapilar</NavLink>
-                </div>
-              </div>
-            </div>
-            <div className="col-sm-6 mb-5">
-              <div className="card">
-                <div className="card-body">
-                  <h5 className="card-title">HERMETİK XƏSTƏXANA QAPILARI</h5>
-
-                  <NavLink to='hermetikxestexanaqapi' className="tdeco  btn btn-primary hover">Xestexana qapilari</NavLink>
-                </div>
-              </div>
-            </div>
-          </div>
-
-
-
-
-
-
-
-          <Outlet />
-
-        </div>
-      </div> */}
-   <div className="content-container"> {/* Wrap both SidebarMain and Outlet */}
-      <SidebarMain text={text} link = {link} />
-      <main>
-        <Outlet />
-      </main>
-    </div>
   </>
   )
 }
