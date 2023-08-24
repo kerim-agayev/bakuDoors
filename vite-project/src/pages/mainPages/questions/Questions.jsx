@@ -40,7 +40,8 @@ function Questions() {
 
   return (
     <>
-    <motion.div className="motion vh"
+    <div className="container">
+    <motion.div className="motion vh mb-5"
    initial={{opacity:0 , scale:0.5}}
    animate={{opacity:1, scale:1}}
 
@@ -50,7 +51,7 @@ function Questions() {
     <div>
         <ProductTitle title={t('frquestions')} />
       </div>
-      <div className="container bg-primary text-white rounded p-3 ">
+      <div className="container bg-primary text-white rounded p-3 mb-5">
         {questions.map((q, index) => (
           <div key={index} className="my-4">
             <h4
@@ -79,7 +80,10 @@ function Questions() {
 
 
     </motion.div>
+    <hr />
+    </div>
  
+
     </>
   );
 }
