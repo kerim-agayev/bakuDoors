@@ -1,5 +1,5 @@
 
-import Saunalar2 from "/sauna.webp";
+import Saunalar2 from "/saunaFile/saunaPhoto.jpg";
 import Pavillion2 from "/besetka.jpg";
 import { useTranslation } from "react-i18next";
 import Main from "../../components/main/Main";

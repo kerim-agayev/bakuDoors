@@ -1,6 +1,6 @@
 import Saunalar1 from "/sauna23.jpg";
 import Saunalar3 from "/sauna24.jpg";
-import Saunalar2 from "/sauna.webp";
+import Saunalar2 from "/saunaFile/saunaPhoto10.jpg";
 import { motion, useInView, useAnimation } from "framer-motion";
 import ProductTitle from "../mainPages/about/ProductTitle";
 import { useEffect, useRef } from "react";

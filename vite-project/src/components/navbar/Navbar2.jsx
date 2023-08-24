@@ -1,5 +1,5 @@
 import { Outlet, Link, useLocation } from "react-router-dom";
-import Logo from "../../assets/logo.png";
+import Logo from "/logo.png";
 import { useTranslation } from "react-i18next";
 import { useState, useEffect } from "react";
 import {BsFillEnvelopeCheckFill, BsPhone} from 'react-icons/bs'

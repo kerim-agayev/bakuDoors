@@ -1,17 +1,17 @@
 
 import Slider from "react-slick";
-import Bond from '../assets/brend/bond.png'
-import Beninca from '../assets/brend/beninca.png'
-import Cab from '../assets/brend/cab.png'
-import Came from '../assets/brend/CAME.png'
-import Ditec from '../assets/brend/ditec.png'
-import Doco from '../assets/brend/doco.png'
-import Dorma from '../assets/brend/dorma.png'
-import FacLogo from '../assets/brend/FAAC_LOGO.jpg'
-import FlexiForce from '../assets/brend/flexiforce.png'
-import Geze from '../assets/brend/GEZE.jpg'
-import Somfy from '../assets/brend/SOMFY.png'
-import Winsa from '../assets/brend/winsa.png'
+import Bond from '/brend/bond.png'
+import Beninca from '/brend/beninca.png'
+import Cab from '/brend/cab.png'
+import Came from '/brend/CAME.png'
+import Ditec from '/brend/ditec.png'
+import Doco from '/brend/doco.png'
+import Dorma from '/brend/dorma.png'
+import FacLogo from '/brend/FAAC_LOGO.jpg'
+import FlexiForce from '/brend/flexiforce.png'
+import Geze from '/brend/GEZE.jpg'
+import Somfy from '/brend/SOMFY.png'
+import Winsa from '/brend/winsa.png'
 import { IoIosArrowForward } from "react-icons/io";
 import { useTranslation } from "react-i18next";
 import ProductTitle from "../pages/mainPages/about/ProductTitle";
