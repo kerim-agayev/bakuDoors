@@ -1,5 +1,5 @@
 import { useEffect, useRef } from "react";
-import JaluzSistemleri from "/jaluzsistemleri.jpg";
+import JaluzSistemleri from "/autoJaluzQapilar/autoJaluzQapi10.jpg";
 import JaluzSistemleri6 from "/autoJaluzQapilar/autoJaluzQapi13.jpg";
 import JaluzSistemleri7 from "/autoJaluzQapilar/autoJaluzQapi14.jpg";
 import Data from "../../datas/Data.json";
