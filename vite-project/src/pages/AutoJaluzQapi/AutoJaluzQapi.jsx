@@ -1,4 +1,4 @@
-import JaluzSistemleri from '/jaluzsistemleri.jpg'
+import JaluzSistemleri from '/autoJaluzQapilar/autoJaluzQapi10.jpg'
 import JaluzSistemleri2 from '/autoJaluzQapilar/autoJaluzQapi7.jpg'
 import { useTranslation } from 'react-i18next';
 import Main from "../../components/main/Main";
